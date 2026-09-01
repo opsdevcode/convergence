@@ -87,6 +87,10 @@ See [Conceptual model](docs/00-foundations/conceptual-model.md).
 > Your organizational structure should not become your software delivery API.
 >
 > Encode what is repeatable. Collaborate on what is novel.
+>
+> Convergence removes accidental complexity while preserving intentional constraint.
+
+See [Design doctrine](docs/00-foundations/design-doctrine.md).
 
 Converged Engineering optimizes the engineering system's ability to move
 intent to outcome, not the local efficiency of one function.
@@ -109,7 +113,7 @@ has prior uses in systems engineering. See
 
 | Group | Section | Contents |
 | --- | --- | --- |
-| Core | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, problem, terminology |
+| Core | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology |
 | Core | [01 Principles](docs/01-principles/README.md) | Major Principle 1; working notes |
 | Core | [02 Capabilities](docs/02-capabilities/README.md) | Intent, capability, experience, realization, contracts, graph |
 | Core | [03 Architecture](docs/03-architecture/README.md) | Conceptual architecture |
