@@ -20,6 +20,8 @@ is not a Major Principle lives in
 **Mechanisms** (capabilities, contracts, graphs, encoding) are ways the
 model can be realized conceptually.
 **Patterns** are repeatable approaches (later).
+**Method** ([12 Method](../12-method/README.md)) is how to do the work.
+It applies the principles; it does not extend them.
 **Implementations** are specific technologies and orgs. Convergence must
 not require a specific implementation to satisfy a principle.
 

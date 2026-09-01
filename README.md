@@ -127,6 +127,7 @@ has prior uses in systems engineering. See
 | Core | [04 Operating model](docs/04-operating-model/README.md) | What changes in existing disciplines |
 | Core | [05 AI-native engineering](docs/05-ai-native-engineering/README.md) | Agents as consumers |
 | Core | [11 Adoption](docs/11-adoption/README.md) | Startup through brownfield sketches |
+| Core | [12 Method](docs/12-method/README.md) | How to do the work: trace, evaluate, encode, design, evolve |
 | Core | [Diagrams](diagrams/README.md) | Conceptual diagrams |
 | Later | [06 Maturity](docs/06-maturity-model/README.md) | Characteristics, not scores |
 | Later | [07 Patterns](docs/07-patterns/README.md) | Placeholder |
