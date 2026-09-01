@@ -59,6 +59,11 @@ handoff-as-API, not adoption of a branded platform or a new job family.
 Document recurring designs and failure modes. Promote only patterns that
 have been argued in the open, not invented to fill a chapter.
 
+A first set exists in [Patterns](docs/07-patterns/README.md) and
+[Anti-patterns](docs/08-anti-patterns/README.md). Both are expected to
+change as they meet practice. Patterns without a stated cost do not
+belong there.
+
 ## v0.8 - Reference Architecture
 
 A vendor-neutral conceptual reference: discovery, composition, governance,
