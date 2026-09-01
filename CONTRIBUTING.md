@@ -20,7 +20,8 @@ Open a pull request. Keep the diff small.
 ### Examples (usually no RFC)
 
 - Additional illustrations of an existing idea (for example, another
-  capability composition similar to `DeployApplication`)
+  composition similar to `DeployApplication`, or a human-realized
+  capability similar to `AssessNovelSecurityArchitecture`)
 - Operating-model vignettes that do not introduce new terms
 
 If an example quietly redefines a term, it needs an RFC.

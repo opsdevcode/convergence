@@ -1,25 +1,39 @@
 # Capabilities
 
-Capabilities are a **primary technical mechanism** of
-[Converged Engineering](../00-foundations/converged-engineering.md). They
-are not a second discipline, not a replacement for SRE or platform
-engineering, and not claimed to be the only way Convergence can occur.
+Capabilities are a **primary mechanism** of
+[Converged Engineering](../00-foundations/converged-engineering.md).
+They are not a second discipline, not Platform Engineering, and not the
+whole of Convergence.
 
-A **capability** is a reusable expression of engineering expertise that
-exposes a defined contract and can be consumed or composed without
-requiring the consumer to navigate the organizational structure that
-produced it.
+**A capability is an organization's ability to satisfy a class of intent
+through the application of expertise, resources, and systems.**
 
-Do not treat the lists in this section as a schema you must fill to be
-"doing Converged Engineering." Rigor is proportional. A pile of undocumented
-scripts is not a capability. A thin, honest contract can be.
+It describes **what** the engineering system can accomplish. It is not
+inherently an API, service, automation, workflow, platform feature,
+product, team, or person. Those may participate in experience or
+realization.
+
+A capability does **not** require a formal contract to exist. A
+human-realized, fragile capability is still a capability.
 
 | Document | Purpose |
 | --- | --- |
-| [Capability model](capability-model.md) | Position of the model; lifecycle; consumers |
-| [Anatomy of a capability](anatomy-of-a-capability.md) | Facets and the `DeployApplication` example |
-| [Capability contract](capability-contract.md) | Consumer-facing truth and proportional rigor |
-| [Capability graph](capability-graph.md) | Composition, policy, telemetry, consumers |
+| [Intent](intent.md) | Result the consumer is trying to cause |
+| [Capability](capability.md) | What the system can accomplish |
+| [Experience](experience.md) | How it is consumed |
+| [Realization](realization.md) | How it is fulfilled |
+| [Composite capabilities](composite-capabilities.md) | Composition is relative |
+| [Capability contract](capability-contract.md) | Explicit expectations; not the capability |
+| [Output and outcome](output-and-outcome.md) | Produced vs resulting state |
+| [Learning](learning.md) | Evidence that changes the system |
+| [Expertise encoding](expertise-encoding.md) | Repeatable vs novel |
+| [Capability characteristics](capability-characteristics.md) | Not automation maturity |
+| [Organizational independence](organizational-independence.md) | Use without org routing |
+| [Ownership and authority](ownership-and-authority.md) | Domain, capability, outcome |
+| [Coordination and collaboration](coordination-and-collaboration.md) | Routing vs solving |
+| [Capability graph](capability-graph.md) | Conceptual relations |
+| [Worked examples](worked-examples.md) | Storage vs novel security assessment |
+| [Anatomy](anatomy-of-a-capability.md) | Optional facets; not a required schema |
 
-Related: [Converged architecture](../03-architecture/converged-architecture.md),
+Related: [Conceptual model](../00-foundations/conceptual-model.md),
 [Terminology](../00-foundations/terminology.md).

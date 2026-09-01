@@ -54,6 +54,9 @@ Major Principles yet.
 
 #### Self-service is the default interface
 
+This fragment predates Major Principle 1. It is **not** a Major Principle.
+Principle 1 states that not every interaction must become self-service.
+
 **Statement:** The normal way to use expertise is to invoke a governed
 capability, not to open a request with the providing team.
 
@@ -166,9 +169,9 @@ ripples.
 **Statement:** Outcomes, incidents, cost, and usage should change
 capabilities, not only produce reports.
 
-**Explanation:** Intent → Capability → Experience → Outcome → Learning.
-If production learning never becomes contract tests, policy, or a paved
-path, the loop is fictional.
+**Explanation:** Intent → Capability → Experience / Realization → Outcome
+→ Learning. If production learning never changes the system, the loop is
+fictional.
 
 **Implications:** Time must be reserved to encode learning.
 

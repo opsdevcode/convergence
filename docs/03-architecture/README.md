@@ -1,21 +1,17 @@
 # Architecture
 
-This section is **conceptual** architecture for Converged Engineering: how
-specialized expertise feeds shared capabilities, how those are consumed,
-and how learning returns. It is not a technology architecture.
-
-The [capability graph](../02-capabilities/capability-graph.md) is specified
-with the capability mechanism. This section places that graph in the
-broader model.
-
-Implementation architecture belongs in
-[Reference architecture](../09-reference-architecture/README.md) later, and
-even then should stay vendor-neutral.
+Conceptual architecture only: how specialized expertise contributes to
+capabilities, how experience and realization sit beside the capability,
+and how learning returns. Not a technology architecture.
 
 | Document | Purpose |
 | --- | --- |
-| [Converged architecture](converged-architecture.md) | Specialties remain visible; capabilities sit on the path to outcomes |
+| [Converged architecture](converged-architecture.md) | Specialties remain; the loop includes experience and realization |
 
-Diagrams: [traditional delivery](../../diagrams/traditional-delivery-model.md),
+Diagrams: [core model](../../diagrams/core-conceptual-model.md),
+[traditional delivery](../../diagrams/traditional-delivery-model.md),
 [converged model](../../diagrams/converged-engineering-model.md),
-[consumers](../../diagrams/capability-consumers.md).
+[consumer vs teams](../../diagrams/consumer-capability-realization.md).
+
+Implementation architecture belongs in
+[Reference architecture](../09-reference-architecture/README.md) later.

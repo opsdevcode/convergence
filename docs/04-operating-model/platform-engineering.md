@@ -12,10 +12,10 @@ experience, and shared systems are how many capabilities are made usable.
 
 ## What changes
 
-The platform should be understood as an **enabling system for
-capabilities**: discovery, composition, governance, and consumption. It is
-not the final destination of software delivery and not the organizational
-center of gravity.
+The platform may participate in **experience** (discovery, request) or
+**realization** (how a capability is fulfilled). It is an enabler, not
+the definition of Convergence, not the final destination of delivery, and
+not the organizational center of gravity.
 
 A portal that routes the same tickets to the same queues is not Converged
 Engineering. It is a skin on the supply chain.

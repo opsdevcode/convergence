@@ -1,8 +1,8 @@
 # Converged Engineering conceptual model
 
 Specialized disciplines remain separate. They contribute expertise into
-shared capabilities. Capabilities are consumed through experiences.
-Experiences produce outcomes. Learning returns to capabilities.
+shared capabilities. Capabilities have experiences and realizations.
+Outcomes produce learning that feeds the system.
 
 This is not a merger into one generic engineering role.
 
@@ -19,8 +19,9 @@ flowchart TB
     DataAI["Data / AI"]
   end
 
-  Caps["Shared capabilities"]
-  Exp["Experiences"]
+  Caps["Capabilities"]
+  Exp["Experience"]
+  Real["Realization"]
   Out["Outcomes"]
   Learn["Learning"]
 
@@ -32,7 +33,9 @@ flowchart TB
   Net --> Caps
   DataAI --> Caps
   Caps --> Exp
+  Caps --> Real
   Exp --> Out
+  Real --> Out
   Out --> Learn
   Learn -->|"feeds back"| Caps
 ```

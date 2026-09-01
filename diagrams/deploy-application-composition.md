@@ -1,34 +1,27 @@
 # DeployApplication composition
 
-Illustrative only. Names are examples, not a catalog standard.
-
-The consumer invokes `DeployApplication`. That capability composes others.
-The consumer of the high-level capability does not have to consume each
-provider's process.
+Illustrative names, not a catalog standard. Composition is relative;
+these components are not objectively atomic.
 
 ```mermaid
 flowchart TB
-  Consumer["Consumer: human, product, software, automation, or agent"]
+  Consumer["Consumer"]
   Deploy["DeployApplication"]
 
-  Compute["Compute"]
-  Net["Networking"]
-  Id["Identity"]
-  Secrets["Secrets"]
-  Sec["Security"]
-  Obs["Observability"]
-  Dep["Deployment"]
-  Rel["Reliability"]
+  Run["RunWorkload"]
+  Id["EstablishIdentity"]
+  Net["ProvideConnectivity"]
+  Secrets["ManageSecrets"]
+  Obs["ObserveService"]
+  Rel["EstablishReliability"]
 
   Consumer --> Deploy
-  Deploy --> Compute
-  Deploy --> Net
+  Deploy --> Run
   Deploy --> Id
+  Deploy --> Net
   Deploy --> Secrets
-  Deploy --> Sec
   Deploy --> Obs
-  Deploy --> Dep
   Deploy --> Rel
 ```
 
-See [Anatomy of a capability](../docs/02-capabilities/anatomy-of-a-capability.md).
+See [Composite capabilities](../docs/02-capabilities/composite-capabilities.md).

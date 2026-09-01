@@ -14,9 +14,9 @@ product teams speak in intents.
 
 ## What changes
 
-Infrastructure should increasingly become an **implementation detail of
-higher-level capabilities** rather than something application teams request
-directly.
+Infrastructure should increasingly appear as **realization of
+higher-level capabilities** rather than something application teams
+request directly as a team hop.
 
 Infrastructure and cloud engineers should spend more of their time
 engineering reusable capabilities (and the lower-level capabilities those

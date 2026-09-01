@@ -12,9 +12,11 @@ Security expertise remains. Threats do not care that you composed a graph.
 
 ## What changes
 
-Governance and security controls should increasingly live in **capability
-contracts**, policy, automation, and continuous verification rather than
-existing only as approval gates.
+Governance and security controls should increasingly live in capability
+**contracts and realizations** (policy, automation, continuous
+verification) rather than existing only as approval gates. Novel
+assessment remains a capability even when it is human-realized
+(`AssessNovelSecurityArchitecture`).
 
 Security engineers should help specify what compositions are allowed, what
 evidence is required, and how verification runs as part of consumption.

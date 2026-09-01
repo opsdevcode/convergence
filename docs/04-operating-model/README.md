@@ -6,9 +6,10 @@ they are asked to optimize**.
 
 Nobody is asked to become "full stack" in the sense of holding production
 identity, threat modeling, and product discovery in one head. Specialists
-remain. They can each practice Converged Engineering: encode expertise,
-share outcome responsibility, stop using the specialty as the default
-delivery API.
+remain. They can each practice Converged Engineering: contribute
+expertise through capabilities, keep domain authority, stop using the
+specialty as the default delivery API. Shared contribution does not
+require shared accountability.
 
 This section is v0.1 framing. v0.3 should add staffing, funding, and
 planning implications with more care, still without prescribing a
