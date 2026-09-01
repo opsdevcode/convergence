@@ -1,0 +1,34 @@
+# Product engineering
+
+Product engineers remain responsible for customer-facing experiences and
+for product judgment: what to build, for whom, and whether it worked.
+
+## What does not disappear
+
+- Product discovery and design
+- Application architecture and domain logic
+- Accountability for customer outcomes
+- The need to understand constraints (latency, data class, regions) that
+  affect the product
+
+## What changes
+
+Product engineers should compose **governed organizational capabilities**
+instead of treating the company as a set of teams to negotiate.
+
+They are part of the product value chain, not the internal customer of a
+platform in the sense that the business exists to delight developers. A
+good capability experience still matters because it is on the path to
+customer outcomes.
+
+Intent-level interfaces (`DeployApplication`, data access, workflow
+triggers) should be the default. Dropping to raw compute or filing four
+coordinated requests should be the exception that feeds the platform and
+infrastructure backlogs.
+
+## What this is not
+
+Product engineers do not absorb SRE, security, and infrastructure as a
+personality type. When a capability is missing or wrong, the move is to
+extend the capability with the specialists who own it, not to pretend the
+product team can recreate that expertise under deadline.
