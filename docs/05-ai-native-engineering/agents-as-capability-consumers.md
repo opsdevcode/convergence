@@ -19,7 +19,7 @@ This section assumes:
 - Humans remain responsible for novel intent, for accepting residual risk,
   and for capability design.
 
-## Five consumer classes, one graph
+## Five consumer classes, one conceptual set
 
 | Consumer | Typical need |
 | --- | --- |
@@ -29,10 +29,13 @@ This section assumes:
 | Automation | Determinism, idempotency, no hidden prompts |
 | AI agent | Tool schemas, tight authorization, blast-radius limits, traces of why a tool was called |
 
-The [capability graph](../02-capabilities/capability-graph.md) should be
-the same set of capabilities. Experiences differ. Policy may restrict
+The [capability graph](../02-capabilities/capability-graph.md) names the
+same conceptual set of capabilities. Experiences differ. Policy may restrict
 agents more than humans for the same capability. That is a contract choice,
-not a second org.
+not a second org and not a required single graph product.
+
+Invoking a capability does not grant authority. Agents still act under a
+principal and privilege that the organization already decided.
 
 See [Capability consumers](../../diagrams/capability-consumers.md).
 

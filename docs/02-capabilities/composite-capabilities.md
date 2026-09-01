@@ -36,3 +36,19 @@ See [DeployApplication composition](../../diagrams/deploy-application-compositio
 `EstablishReliability`. Security expertise can contribute across several
 of those without "Security Team" appearing as a delivery stage. See
 [Capability graph](capability-graph.md).
+
+## Composition guardrails
+
+The safety or correctness of individual capabilities does not guarantee
+the safety or correctness of their composition.
+
+Composition must not silently expand authority.
+
+Composition is valid only when the contracts, constraints, and relevant
+authorities of contributing capabilities can coexist.
+
+Reuse creates leverage and concentration risk simultaneously. Leverage
+amplifies correctness, error, and compromise.
+
+v0.1 does not define dependency scores or a systemic-risk algorithm.
+See [Open questions](../00-foundations/open-questions.md).

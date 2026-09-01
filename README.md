@@ -4,7 +4,7 @@ One product. Many specialties. One engineering system.
 
 | | |
 | --- | --- |
-| Status | Early draft / v0.1 |
+| Status | Early draft / v0.1 (conceptual core frozen) |
 | Kind | Working body of knowledge, not a product or standard |
 
 > Specialization remains. Silos don't.
@@ -25,8 +25,8 @@ remains essential. What converges is delivery.
 
 > Converged Engineering does not eliminate specialization. It eliminates specialization as a delivery boundary.
 
-It is not a new specialty, team, or job family. Creating a "Convergence
-Engineering" silo would recreate the problem.
+It is not a new specialty, team, or job family.
+**Convergence cannot be delegated to a Convergence function.**
 
 ## The problem
 
@@ -89,11 +89,16 @@ See [Conceptual model](docs/00-foundations/conceptual-model.md).
 > Encode what is repeatable. Collaborate on what is novel.
 >
 > Convergence removes accidental complexity while preserving intentional constraint.
+>
+> Convergence seeks appropriate leverage, not maximum abstraction, automation, standardization, reuse, or self-service.
 
-See [Design doctrine](docs/00-foundations/design-doctrine.md).
+See [Design doctrine](docs/00-foundations/design-doctrine.md) and
+[Major Principles](docs/01-principles/README.md).
 
 Converged Engineering optimizes the engineering system's ability to move
-intent to outcome, not the local efficiency of one function.
+intent to outcome, not the local efficiency of one function. That system
+may be local or federated. Convergence does not require one homogeneous
+enterprise implementation.
 
 ## What this is not
 
@@ -103,6 +108,8 @@ intent to outcome, not the local efficiency of one function.
 - Not an IDP, service catalog, graph database, or agent framework
 - Not vendor-owned; no product defines the model
 - Not a requirement to buy or build "Convergence infrastructure"
+- Not organizational consolidation or a mandated platform
+- Not measured by catalogs, automation percentage, or ticket volume
 
 This repository once used "Capability Engineering" as the name of the
 discipline. That work remains as the capability *mechanism*. The phrase also
@@ -113,8 +120,8 @@ has prior uses in systems engineering. See
 
 | Group | Section | Contents |
 | --- | --- | --- |
-| Core | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology |
-| Core | [01 Principles](docs/01-principles/README.md) | Major Principle 1; working notes |
+| Core | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology, open questions |
+| Core | [01 Principles](docs/01-principles/README.md) | Six Major Principles |
 | Core | [02 Capabilities](docs/02-capabilities/README.md) | Intent, capability, experience, realization, contracts, graph |
 | Core | [03 Architecture](docs/03-architecture/README.md) | Conceptual architecture |
 | Core | [04 Operating model](docs/04-operating-model/README.md) | What changes in existing disciplines |
@@ -123,7 +130,7 @@ has prior uses in systems engineering. See
 | Core | [Diagrams](diagrams/README.md) | Conceptual diagrams |
 | Later | [06 Maturity](docs/06-maturity-model/README.md) | Characteristics, not scores |
 | Later | [07 Patterns](docs/07-patterns/README.md) | Placeholder |
-| Later | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Placeholder |
+| Later | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Named failure modes; full write-ups later |
 | Later | [09 Reference architecture](docs/09-reference-architecture/README.md) | Placeholder |
 | Later | [10 Implementations](docs/10-reference-implementations/README.md) | Non-canonical examples |
 | Process | [RFCs](rfcs/README.md) | Conceptual change |

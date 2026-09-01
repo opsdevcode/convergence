@@ -5,10 +5,12 @@ level of responsibility that consumer owns.
 
 > Intent should be expressed at the highest level of abstraction the consumer can responsibly own.
 
-Higher abstraction is not always better. A network engineer may
-legitimately express technical networking intent because that is the
-level they own. The rule exists to stop consumers being forced into
-implementation details **outside** their responsibility.
+Abstraction should be available where it removes irrelevant
+responsibility, not imposed where the consumer legitimately owns that
+responsibility. Higher abstraction is not automatically better. Shared
+capability reuse is not automatically preferable. Seek **appropriate
+leverage, not maximum reuse.** A network engineer may still express
+technical networking intent because that is the level they own.
 
 ## Conceptual levels (not a mandatory taxonomy)
 

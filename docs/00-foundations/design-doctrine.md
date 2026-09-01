@@ -12,6 +12,11 @@ constraint.**
 Necessary boundaries should be designed into the engineering system.
 Accidental boundaries should not define it.
 
+**Convergence seeks appropriate leverage, not maximum abstraction,
+automation, standardization, reuse, or self-service.**
+
+Convergence is not optimized by maximizing any mechanism.
+
 ## A reasoning lens
 
 The distinction between accidental and intentional is **contextual, not
@@ -47,8 +52,9 @@ A boundary or control is not accidental simply because it slows delivery.
 | Context | Intent is expressed at a level the consumer can own |
 
 Also preserve useful organizational boundaries, separation of duties, risk
-controls, deliberate review, and deliberate friction when they provide
-that kind of value.
+containment, regulatory obligations, meaningful human interaction,
+deliberate review, and deliberate friction when they provide that kind of
+value.
 
 See [Specialization remains. Silos don't.](../01-principles/01-specialization-remains-silos-dont.md),
 [Ownership and authority](../02-capabilities/ownership-and-authority.md),
@@ -62,12 +68,13 @@ and [Expertise encoding](../02-capabilities/expertise-encoding.md).
 | Coordination | Work spent finding which team owns the next step |
 | Repetition | Applying already-understood expertise, ticket by ticket |
 | Unnecessary cognitive load | Consumers reconstructing tribal process |
+| Inherited process | Ritual that adds no engineering or governance value |
 | Accidental friction | Friction caused only by organizational shape |
 
 Convergence is trying to reduce organizational routing, unnecessary
 coordination, repeated application of already-understood expertise,
-duplicated interpretation, and inherited process that adds no engineering
-or governance value.
+duplicated interpretation, irrelevant cognitive load, inherited process,
+and accidental friction.
 
 See [Coordination and collaboration](../02-capabilities/coordination-and-collaboration.md)
 and [Organizational independence](../02-capabilities/organizational-independence.md).
@@ -113,6 +120,7 @@ five teams owns a routine request is not.
 - Self-service is always preferable.
 - Convergence requires a platform.
 - Convergence requires organizational restructuring.
+- Maximum reuse, standardization, or abstraction is the goal.
 
 Boundaries may be intentional because they provide independent authority,
 separation of duties, risk containment, human judgment, regulatory
@@ -122,15 +130,14 @@ necessary expertise boundaries.
 ## How not to measure Convergence
 
 Convergence is not measured by number of capabilities, automation
-percentage, self-service adoption, ticket reduction, or elimination of
-human interaction. Those can be **signals**. They are not the score.
+percentage, self-service adoption, platform adoption, ticket reduction,
+cross-team interaction reduction, capability catalog completeness, or
+elimination of human interaction. Those can be **signals**. They are not
+the score.
 
-[Converged Engineering](converged-engineering.md) optimizes the
-engineering system's ability to move intent to outcome, through
-[capability](../02-capabilities/capability.md),
-[experience](../02-capabilities/experience.md), and
-[realization](../02-capabilities/realization.md), then
-[learning](../02-capabilities/learning.md).
+Judge the engineering system by how effectively it converts intent into
+outcomes while preserving necessary expertise, authority, judgment,
+accountability, context, constraints, and learning.
 
-Judge the system by how well that loop works while preserving necessary
-expertise, authority, judgment, accountability, context, and learning.
+See [Converged Engineering](converged-engineering.md) and
+[Learning](../02-capabilities/learning.md).

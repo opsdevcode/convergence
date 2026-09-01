@@ -13,7 +13,8 @@ outcomes.
 
 ## Contribution upward (not a mandatory taxonomy)
 
-> Own the outcome you can control. Trace the outcomes you contribute to.
+> Own the outcome you can control. Trace the outcomes you meaningfully
+> contribute to.
 
 ```mermaid
 flowchart TB

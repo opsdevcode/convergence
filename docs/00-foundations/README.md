@@ -8,6 +8,7 @@
 | Doctrine | [Design doctrine](design-doctrine.md) | Accidental complexity vs intentional constraint |
 | Why | [The problem](problem.md) | Why specialization became a delivery API |
 | Words | [Terminology](terminology.md) | Canonical vocabulary |
+| Parked | [Open questions](open-questions.md) | Hostile-test topics not solved in v0.1 |
 
 Capabilities, contracts, and the capability graph are specified under
 [02 Capabilities](../02-capabilities/README.md). They are mechanisms, not a

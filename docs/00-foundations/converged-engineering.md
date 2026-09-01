@@ -67,6 +67,8 @@ Do not create a Convergence Engineering team, a Converged Engineering
 silo, a job whose only purpose is to replace Platform Engineering, or
 another layer product teams must petition.
 
+**Convergence cannot be delegated to a Convergence function.**
+
 A Platform Engineer, SRE, infrastructure engineer, product engineer, or
 security engineer can practice Converged Engineering. The model is a way
 of working, not a department.
@@ -132,3 +134,4 @@ See [AI-native engineering](../05-ai-native-engineering/README.md).
 - "Automation equals maturity."
 - The claim that the model is already an industry standard.
 - A new silo named after the model.
+- Maximum abstraction, automation, reuse, or self-service as the goal.

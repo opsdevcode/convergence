@@ -24,9 +24,10 @@ good capability experience still matters because it is on the path to
 customer outcomes.
 
 Intent-level interfaces (`DeployApplication`, data access, workflow
-triggers) should be the default. Dropping to raw compute or filing four
-coordinated requests should be the exception that feeds the platform and
-infrastructure backlogs.
+triggers) are usually the right consumer interface when the consumer can
+responsibly own that intent. Dropping to raw compute or filing four
+coordinated requests should be exceptional for understood work, and that
+exception should feed encoding, not become the architecture.
 
 ## What this is not
 

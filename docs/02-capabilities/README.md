@@ -29,7 +29,7 @@ human-realized, fragile capability is still a capability.
 | | [Ownership and authority](ownership-and-authority.md) | Domain, capability, outcome |
 | | [Organizational independence](organizational-independence.md) | Use without org routing |
 | Results | [Output and outcome](output-and-outcome.md) | Produced vs resulting state |
-| | [Learning](learning.md) | Evidence that changes the system |
+| | [Learning](learning.md) | Evidence capable of changing what the system believes |
 | | [Expertise encoding](expertise-encoding.md) | Repeatable vs novel |
 | | [Capability characteristics](capability-characteristics.md) | Not automation maturity |
 | | [Coordination and collaboration](coordination-and-collaboration.md) | Routing vs solving |

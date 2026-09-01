@@ -41,8 +41,21 @@ is the capability.
 A platform may host discovery or compose realizations. It is not the
 architecture by itself.
 
-See [Conceptual model](../00-foundations/conceptual-model.md) and
-[Capability graph](../02-capabilities/capability-graph.md).
+## Federation
+
+Convergence does not require one homogeneous enterprise engineering
+system. It can exist as a federation of engineering systems that become
+coherent at the boundaries where they must interact. Convergence is
+recursively applicable.
+
+**Converge where outcomes require coherence. Preserve autonomy where they
+don't.**
+
+**Standardize obligations before standardizing realizations.**
+**Shared intent and constraints do not require shared realization.**
+
+See [Capability graph](../02-capabilities/capability-graph.md) and
+[Major Principle 2](../01-principles/02-design-the-engineering-system.md).
 
 Conceptual vs implementation (examples only, not requirements):
 
