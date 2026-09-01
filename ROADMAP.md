@@ -20,6 +20,10 @@ Applied guidance is not frozen. [Method](docs/12-method/README.md)
 describes how to do the work and is expected to improve with practice. It
 applies the frozen principles rather than extending them.
 
+[Open questions](docs/00-foundations/open-questions.md) sorts the parked
+topics into those with practice guidance, those that would need an RFC,
+and those waiting on field evidence.
+
 ## v0.2 - Capabilities
 
 Tighten the anatomy of a capability and the capability contract. Decide

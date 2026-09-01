@@ -46,6 +46,11 @@ The v0.1 conceptual core is treated as frozen unless a contradiction is
 found. Prefer [Open questions](docs/00-foundations/open-questions.md)
 over new principles or lifecycle nodes.
 
+Four topics are already named there as RFC candidates: evidence and
+evidence independence, uncertainty representation, knowledge provenance,
+and trust across federation boundaries. An RFC on any of them should say
+what breaks without it.
+
 ## How to work
 
 1. Prefer a pull request against the default branch.
