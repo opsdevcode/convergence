@@ -1,181 +1,180 @@
 # Terminology
 
-These terms are the working vocabulary for this repository. Prefer them over
-near-synonyms unless an RFC replaces them.
-
-Use the hierarchy consistently:
+Working vocabulary. Prefer these terms unless an RFC replaces them.
 
 | If you mean | Say |
 | --- | --- |
-| The broader shift away from delivery-by-org-boundary | **Convergence** |
-| The proposed engineering model for operating in that shift | **Converged Engineering** |
-| Encoded expertise under a contract | **capability** (and Capability Model, contract, graph) |
-| Historical or systems-engineering uses of a similar phrase | **Capability Engineering** (see below); do not use this as the name of *this* body of work |
+| The shift from functions-as-delivery to an engineering system | **Convergence** |
+| The proposed design of that system | **Converged Engineering** |
+| What the engineering system can accomplish | **capability** |
+| How it is currently fulfilled | **realization** |
+| How a consumer interacts with it | **experience** |
+| Historical / systems-engineering phrase | **Capability Engineering** (not the name of this model) |
 
 ## Convergence
 
-The shift from software delivery through organizational boundaries toward
-an engineering system in which specialized disciplines contribute to
-shared capabilities and outcomes. A working name for a phenomenon, not a
-team and not an established industry definition. See
-[Convergence](convergence.md).
+The evolution of software delivery from an organization of engineering
+functions into an integrated engineering system. Working name, not an
+established industry definition. See [Convergence](convergence.md).
 
 ## Converged Engineering
 
-A proposed engineering model in which specialized disciplines contribute
-expertise through shared, reusable, governed capabilities and share
-responsibility for the outcomes those capabilities enable. A way existing
-roles can work; not a new specialty. See
-[Converged Engineering](converged-engineering.md).
-
-## Capability
-
-A reusable expression of engineering expertise that exposes a defined
-contract and can be consumed or composed without requiring the consumer to
-navigate the organizational structure that produced it. A capability may
-compose other capabilities. It is not a team, a ticket category, or a cloud
-product name, though those may implement or provide it.
-
-Capabilities are a primary mechanism of Converged Engineering, not the
-only conceivable mechanism of Convergence.
-
-## Capability consumer
-
-Any actor that invokes a capability: a human, a product, a software
-system, automation, an AI agent, or another capability. Consumers differ
-in how they discover, authorize, and observe. They should not need to know
-the providing team's org chart.
-
-## Capability contract
-
-The stated interface of a capability: how to invoke it, what it accepts and
-returns, and the commitments and limits that come with use (policy,
-security, reliability, cost, and similar). Not every field must be equally
-rigorous for every capability. See
-[Capability contract](../02-capabilities/capability-contract.md).
-
-## Capability provider
-
-The owner responsible for offering, operating, and evolving a capability.
-Often a specialist team (SRE, security, infrastructure, platform, data).
-Provider is an ownership role, not a job title that replaces those
-disciplines.
-
-## Capability graph
-
-The web of capabilities, their composition relationships, consumers, and
-attached policy and telemetry. A conceptual model, not a requirement to
-deploy a particular graph database. See
-[Capability graph](../02-capabilities/capability-graph.md).
+Designs that engineering system so specialized expertise can participate
+in delivery through capabilities without requiring consumers to navigate
+the organizational structures behind them. A way existing roles can work;
+not a new specialty. See [Converged Engineering](converged-engineering.md).
 
 ## Intent
 
-A consumer's goal expressed at the level the consumer should have to care
-about (for example, "deploy this application in the production environment
-for team X under the standard service policies"). Intent is the preferred
-interface. Implementation details belong below the contract.
+The result a consumer is trying to cause, expressed at the level of
+responsibility that consumer owns. Higher abstraction is not always
+better. See [Intent](../02-capabilities/intent.md).
 
-## Outcome
+## Capability
 
-A measurable result for a customer or for the business (and, internally, for
-the health of the capability itself). Outputs (a cluster exists, a ticket
-closed) are not outcomes.
+An organization's ability to satisfy a class of intent through the
+application of expertise, resources, and systems. Describes **what** the
+engineering system can accomplish. Not inherently an API, service,
+workflow, platform feature, product, team, or person. Need not have a
+formal contract to exist. See [Capability](../02-capabilities/capability.md).
+
+## Expertise
+
+What someone (or a specialist group) knows. Distinct from capability:
+expertise is knowledge; capability is what the engineering system can
+accomplish with that knowledge.
 
 ## Experience
 
-How a consumer encounters a capability: CLI, API, IDE, product UI, workflow
-engine, or agent tool-calling. Experience should not be the place where
-governance is reinvented as a side process.
+The means by which a consumer discovers, understands, requests, uses,
+observes, and interacts with a capability. Broader than UI. See
+[Experience](../02-capabilities/experience.md).
 
-## Policy
+## Realization
 
-Rules that constrain how a capability may be used or how it may behave:
-who, what, where, when, at what risk, at what cost. Policy should be part
-of the capability's encoded governance, not only a meeting after the fact.
+The people, processes, technologies, policies, services, and mechanisms
+through which a capability is fulfilled. Describes **how** it is currently
+accomplished. The capability may stay stable while realization changes.
+See [Realization](../02-capabilities/realization.md).
 
-## Composition
+## Output
 
-Building a higher-level capability or experience from other capabilities,
-through their contracts, without exposing every underlying implementation
-to the consumer.
+Something produced (a database exists, a ticket closed, a report written).
+Not the same as an outcome.
 
-## Capability lifecycle
+## Outcome
 
-The stages of a capability as an engineered artifact: proposed, available,
-deprecated, retired, and the versioning of its contract. Distinct from an
-application's release lifecycle, though they interact.
+A resulting state that satisfies or advances intent. Outcomes can
+contribute upward (capability → engineering → product → customer →
+business) without the lower capability owning the business result. See
+[Output and outcome](../02-capabilities/output-and-outcome.md).
 
-## Feedback
+## Learning
 
-Telemetry, traces, incidents, cost, usage, and qualitative learning that
-should change the capability. Feedback is how the lifecycle loop closes.
+Evidence produced by capability use and outcomes that changes the
+engineering system (definitions, contracts, experiences, realizations,
+composition, policy, ownership). See
+[Learning](../02-capabilities/learning.md).
 
-## Specialization
+## Capability contract
 
-Concentrated engineering expertise in a domain (infrastructure, security,
-reliability, networking, identity, data, product, platform, and others).
-Specialization is not a silo. See
-[Specialization remains. Silos don't.](../01-principles/01-specialization-remains-silos-dont.md).
+The explicit description of expectations and constraints governing
+consumption and fulfillment of a capability. Not the capability itself.
+Rigor is proportional. See
+[Capability contract](../02-capabilities/capability-contract.md).
 
-## Silo
+## Composite capability
 
-A restriction of access to expertise such that routine delivery must go
-through that group's people and process. A team with healthy ownership is
-not automatically a silo.
+A capability that satisfies intent by composing other capabilities.
+Composition is recursive and relative to the abstraction being modeled.
+Lower-level capabilities are not objectively "atomic." See
+[Composite capabilities](../02-capabilities/composite-capabilities.md).
 
-## Organizational boundary
+## Capability graph
 
-A line of ownership, accountability, domain authority, or separation of
-concerns. Boundaries can be healthy. Routine execution that depends on
-traversing a boundary (tickets, queues, meetings, tribal knowledge) is
-what Convergence challenges.
+A conceptual representation of what the engineering system can accomplish,
+how those capabilities relate and compose, what constrains them, and which
+outcomes they contribute to. Not inherently a graph database, CMDB,
+catalog, org chart, platform, or control plane. See
+[Capability graph](../02-capabilities/capability-graph.md).
 
-## Repeatable work
+## Organizational independence
 
-Understood, predictable engineering interactions. Repeatability is a
-signal that expertise may be ready to encode. It is not a rule that every
-repeated interaction must be automated or self-service.
+The degree to which consumers can discover and use a capability without
+understanding the organizational structure responsible for its
+realization. A spectrum, not a binary. Ownership remains. See
+[Organizational independence](../02-capabilities/organizational-independence.md).
 
-## Novel work
+## Domain authority
 
-Exceptions, unusual risk, architectural decisions, and judgment not yet
-covered by an encoding. Novel work remains collaborative.
+Accountable for what is correct within a specialized domain.
 
-The specialized knowledge held in disciplines such as product, platform,
-SRE, infrastructure, cloud, networking, identity, security, data, and AI
-engineering. Converged Engineering treats this expertise as the source
-material to encode, not as a problem to eliminate.
+## Capability ownership
+
+Accountable for whether a capability fulfills its expectations (and
+contract, if any) and evolves appropriately.
+
+## Outcome ownership
+
+Accountable for the result closest to the intent being pursued.
+
+Shared contribution does not require shared accountability. See
+[Ownership and authority](../02-capabilities/ownership-and-authority.md).
+
+## Coordination
+
+Work required primarily to route execution through organizational
+structure (which form, which queue, which channel).
+
+## Collaboration
+
+Work required to solve a problem whose answer is not yet sufficiently
+encoded or understood.
+
+See [Coordination and collaboration](../02-capabilities/coordination-and-collaboration.md).
+
+## Capability consumer
+
+Any actor that uses a capability: a human, product, software system,
+automation, authorized AI agent, or another capability.
+
+## Specialization, silo, organizational boundary
+
+A **specialization** concentrates expertise. A **silo** restricts access
+so routine delivery must go through that group's people and process. An
+**organizational boundary** can be healthy (ownership, authority, risk).
+See [Specialization remains. Silos don't.](../01-principles/01-specialization-remains-silos-dont.md).
+
+## Repeatable work and novel work
+
+**Repeatable** interactions are understood and predictable enough that
+encoding may be warranted. **Novel** work remains collaborative.
+Repeatability is a signal, not a rule to automate everything.
 
 ## Related phrases
 
 | Phrase | Meaning here |
 | --- | --- |
-| Encoded expertise | Knowledge made reusable through a capability and its contract, not only stored in people and tickets |
-| Self-service | The default *interface* is invocation of a capability, not a request to a queue. Self-service does not mean ungoverned. |
-| Paved path | A recommended composition of capabilities for a common intent. A path is not a substitute for a contract. |
-| Delivery boundary | A point where work must wait on another specialty's queue, approval, or tribal process in order to proceed |
+| Encoded expertise | Repeatable knowledge represented in reusable mechanisms (not only in people and tickets) |
+| Self-service | One possible experience; not required for a capability to exist |
+| Delivery boundary | A point where work waits on another specialty's queue, approval, or tribal process |
+| Paved path | A recommended composition; not a substitute for distinguishing capability, experience, and realization |
 
-Avoid using "platform," "service," "capability," "Convergence," and
-"Converged Engineering" interchangeably. If you mean the internal developer
-platform, say platform. If you mean encoded expertise under contract, say
-capability. If you mean the industry shift, say Convergence. If you mean
-the operating model, say Converged Engineering.
+Do not use "platform," "service," "capability," "experience,"
+"realization," "Convergence," and "Converged Engineering"
+interchangeably.
 
 ## Note on "Capability Engineering"
 
-This repository originally used **Capability Engineering** as the name of
-the overarching discipline. That framing was revised: capabilities are the
-mechanism; Converged Engineering is the model; Convergence is the broader
-shift.
+This repository originally used that phrase as the name of the
+overarching discipline. Capabilities are now a mechanism. The phrase also
+appears in systems engineering and related fields.
 
-The phrase "Capability Engineering" also appears in other fields, including
-systems engineering and defense-related capability development, where it
-often means eliciting, specifying, and delivering operational capabilities
-for a system-of-systems. This repository does not claim to have coined the
-phrase and does not replace those bodies of work.
+**TODO:** Add researched citations after a literature pass.
 
-**TODO:** Add researched citations and a short comparison to established
-systems-engineering uses of "capability" after a proper literature pass.
+Do not revive "Capability Engineering" as the title of this model unless
+an RFC does so.
 
-Do not revive "Capability Engineering" as the title of *this* model unless
-an RFC explicitly does so.
+"Capability provider" appeared in earlier drafts as the offering owner.
+Prefer **capability ownership** unless discussing a specific provider
+role in an example.

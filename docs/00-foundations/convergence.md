@@ -1,16 +1,19 @@
 # Convergence
 
-**Working definition:** Convergence is the shift from software delivery
-through organizational boundaries toward an engineering system in which
-specialized disciplines contribute to shared capabilities and outcomes.
+**Working definition:** Convergence is the evolution of software delivery
+from an organization of engineering functions into an integrated
+engineering system.
 
-This is a proposed name for an observed pressure on software organizations,
+This is a proposed name for an observed pressure and a proposed framing,
 not an established industry term and not a new engineering specialty.
 
-The definition mentions capabilities because this repository develops that
-mechanism in detail. Convergence as a *shift* could, in principle, include
-other ways of collapsing delivery boundaries (staffing, funding, process).
-Do not read the definition as "Convergence equals a capability catalog."
+Convergence is not the convergence of expertise. It is the convergence of
+**delivery**.
+
+The engineering system may use [capabilities](../02-capabilities/capability.md)
+as a primary mechanism. Convergence is not identical to a capability
+catalog. Staffing, funding, and process also shape whether delivery is an
+org walk or a system.
 
 ## What is shifting
 
@@ -20,57 +23,47 @@ related functions. Those specialties continue to exist. Their expertise
 remains valuable.
 
 What is under pressure is **specialization as a delivery boundary**: the
-habit of requiring a customer outcome to traverse tickets, queues,
-approvals, and meetings that mirror the org chart.
+habit of requiring an outcome to traverse tickets, queues, approvals, and
+meetings that mirror the org chart.
 
 The customer still experiences one product. Convergence is the claim that
 the *engineering system* should look more like that product: many kinds of
 expertise, fewer delivery seams.
 
-Convergence does **not** mean the disciplines are becoming identical. A
-threat model is not a capacity plan. An SLO is not a product hypothesis.
-The claim is that those kinds of work should contribute to shared
-capabilities and shared outcomes instead of forming a supply chain the
-product must climb.
+A threat model is not a capacity plan. An SLO is not a product hypothesis.
+Those kinds of work should contribute to shared capabilities and outcomes
+instead of forming a supply chain the product must climb.
 
-## Forces
+## Forces (none of these *is* Convergence)
 
-Several technical and organizational developments make delivery-by-handoff
-less tenable. None of them "is" Convergence by itself.
+Several developments make delivery-by-handoff less tenable:
 
-**Cloud abstraction** moved a large amount of substrate behind APIs. Teams
-can still wrap those APIs in a request process. The existence of the API
-makes an organizational queue a choice, not a physics.
+Cloud abstraction, infrastructure as code, platform engineering and
+developer platforms, self-service interfaces, policy as code,
+observability, APIs and automation, AI-assisted and agentic engineering.
 
-**Infrastructure as code** made change reviewable and repeatable. It also
-made it easy to copy the same ticket-shaped workflow into Git.
+These can be used to *automate a supply chain*. Convergence is the
+hypothesis that they should collapse **delivery boundaries** while leaving
+**expertise** intact.
 
-**Platform engineering and developer platforms** productized internal
-paths. They reduce undifferentiated work. They also fail when the platform
-is a nicer front door to the same specialist queues.
+**AI does not create the need for Convergence. It exposes the cost of not
+having it.**
 
-**Self-service** (when it is a real interface, not a form that opens a
-ticket) is how encoded expertise is consumed.
+## Prior art
 
-**Policy as code** makes governance executable. That is a prerequisite for
-removing appended approval as the main control, not a guarantee that anyone
-did so.
+Convergence builds on ideas that already exist. It does not claim they are
+new. The differentiation is how they are integrated: delivery as a system,
+capabilities as what the system can do, experience and realization kept
+distinct, specialization preserved.
 
-**Observability** makes production a shared fact rather than a tribal
-story. Feedback can close a loop only if someone encodes it.
+Related practices and ideas include DevOps, SRE, Platform Engineering,
+Team Topologies, continuous delivery, infrastructure as code, cloud
+computing, sociotechnical systems, domain-driven design, policy as code,
+and developer experience.
 
-**APIs and automation** are how software systems consume other systems. If
-the only API is a team, automation stops at the org chart.
-
-**AI-assisted engineering and agentic systems** make the same failure
-obvious: an agent should not need to know which team owns networking, who
-approves identity, which Slack channel owns Kubernetes, or which queue
-provisions databases. Agents need authorized capabilities. Humans already
-needed that; agents do not forgive the absence.
-
-These forces can be used to *automate a supply chain*. Convergence is the
-hypothesis that they should instead collapse **delivery boundaries** while
-leaving **expertise** intact.
+**TODO:** Add researched citations after a literature pass. Do not treat
+this list as complete or as endorsement of any framework as equivalent to
+Convergence.
 
 ## What Convergence is not
 
@@ -78,16 +71,10 @@ leaving **expertise** intact.
 - Not a mandate to dissolve SRE, security, or infrastructure groups.
 - Not DevOps renamed. DevOps addressed the development/operations split.
   Convergence is about the many specialist splits that remain after that
-  wall is lowered, including platform, security, identity, and
-  infrastructure as request APIs.
+  wall is lowered.
+- Not Platform Engineering 2.0, an IDP architecture, a service catalog, a
+  graph database, an agent framework, or a reorg methodology.
 - Not something you staff by hiring a Convergence team.
-
-## Relationship to the rest of this repository
-
-**Converged Engineering** is the proposed model for *how* to operate during
-this shift. **Capabilities** are a primary mechanism that model uses.
-Other mechanisms (culture, staffing, funding, product process) matter and
-are not fully specified here.
 
 See [Converged Engineering](converged-engineering.md) and
 [The problem](problem.md).

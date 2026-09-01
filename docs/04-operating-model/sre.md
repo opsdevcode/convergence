@@ -10,7 +10,8 @@ engineering become a faster way to ship fragile compositions.
 - Incident response and learning
 - Production empiricism
 - Toil reduction as engineering work
-- The judgment to know when a system is not ready to be a capability
+- The judgment to know when a path is not ready to encode, or when
+  realization must stay human
 
 ## What changes
 

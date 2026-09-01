@@ -62,8 +62,10 @@ token into a chat tool.
 
 ## Humans still encode the expertise
 
-Agents do not create SRE knowledge by consuming it. Specialists encode
-capabilities; agents (and humans) consume them. If you skip encoding and
-hope the agent will "figure out Kubernetes like our platform team," you
-have reconstructed tribal knowledge inside a model context window. That
-does not survive the next incident.
+Agents do not create SRE knowledge by consuming it. Specialists hold
+expertise; the organization holds capabilities. If you skip making
+capabilities explicit and hope the agent will "figure out Kubernetes like
+our platform team," you have reconstructed tribal knowledge inside a
+model context window. That does not survive the next incident.
+
+Do not imply autonomous agents should bypass governance.

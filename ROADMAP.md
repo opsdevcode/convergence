@@ -6,8 +6,9 @@ stage are coherent enough to criticize, not when they are finished forever.
 
 ## v0.1 - Foundations
 
-Working definitions of Convergence and Converged Engineering, problem
-statement, terminology, grouped principles, capability mechanism outline,
+Working definitions of Convergence and Converged Engineering, conceptual
+model (intent, capability, experience, realization, outcome, learning),
+problem statement, terminology, Major Principle 1, capability mechanism,
 and repository structure. This is the current stage.
 
 ## v0.2 - Capabilities

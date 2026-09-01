@@ -1,59 +1,45 @@
 # Capability contract
 
-A **capability contract** is the consumer-facing truth of a capability: how
-to use it, what it promises, and what it refuses.
+**A capability contract is the explicit description of expectations and
+constraints governing the consumption and fulfillment of a capability.**
 
-It is closer to an API plus operational and policy commitments than to a
-legal contract. It should be specific enough that a human, a product, and an
-agent can decide whether they are allowed to call it and what "success"
-means.
+A contract is **not** the capability itself. A capability can exist
+without a formal contract (documentation, convention, or a known person
+may be enough at small scale).
 
-## Why contracts exist
+## Potential facets (not a mandatory schema)
 
-Without a contract, a "capability" is a team with a reputation. Consumers
-learn by being burned. Agents cannot learn that way at organizational scale.
+- intent served
+- inputs
+- expected outcomes
+- constraints
+- policies
+- eligibility
+- reliability characteristics
+- cost characteristics
+- ownership
+- exceptions
+- lifecycle expectations
 
-With a contract, composition is possible. `DeployApplication` can depend on
-`Identity` without embedding the identity team's process.
+Do not treat this list as a form that must be filled to "have" a
+capability.
 
-## What a contract may include
+## Proportional rigor
 
-Mapped from the [anatomy](anatomy-of-a-capability.md):
+Contract rigor should match complexity, risk, reuse, and organizational
+scale.
 
-- Intent and applicability (when *not* to use this capability)
-- Interface (API, CLI, events, agent tool definition)
-- Inputs and outputs, including errors
-- Authentication of the consumer and authorization model
-- Policy bindings (always-on and input-dependent)
-- Reliability and idempotency expectations
-- Observability hooks the consumer is entitled to
-- Cost and quota behavior
-- Version and deprecation rules
-- Ownership and escalation for out-of-contract situations
+A small startup may use documentation and conventions. A regulated
+enterprise may require machine-readable contracts, policy, auditability,
+and formal governance. Both can practice Converged Engineering.
 
-## Rigor is proportional
+A contract that lies is worse than a short honest one.
 
-Not every capability needs a full reliability story on day one. A contract
-that lies is worse than a short contract that is honest ("no SLO; beta;
-expect breakage").
+## Governance
 
-A useful test: could a new engineer or a constrained agent use this
-capability without a hallway conversation? If not, the contract is not the
-interface yet. The org chart still is.
+Encoded governance means expectations are stated and, where appropriate,
+enforced in realization. Review and escalation remain for exceptions and
+novel risk. They should not be the only way a standard intent gets a yes.
 
-## Governance in the contract
-
-Encoded governance means the contract states the rules and the
-implementation enforces them (admission, policy engines, continuous
-verification). Review boards can still exist for exceptions and novel
-systems. They should not be the only way a standard intent gets a yes.
-
-## Change
-
-Contract changes are capability lifecycle events. Breaking changes need
-versioning. Silent changes teach consumers to bypass the capability.
-
-**TODO:** In v0.2, decide whether this repository should recommend a minimum
-contract profile (for example, identity of consumer, idempotency, and
-declared policies) versus leaving minima entirely to adopting
-organizations.
+**TODO:** Whether this repository should ever recommend a *minimum*
+contract profile remains open. v0.1 does not.

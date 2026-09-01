@@ -13,8 +13,10 @@ for product judgment: what to build, for whom, and whether it worked.
 
 ## What changes
 
-Product engineers should compose **governed organizational capabilities**
-instead of treating the company as a set of teams to negotiate.
+Product engineers should consume **capabilities** (and compose them where
+that is the right abstraction) instead of treating the company as a set
+of teams to negotiate. Governance belongs in contracts and realizations
+where the risk warrants it, not as a tour of the org.
 
 They are part of the product value chain, not the internal customer of a
 platform in the sense that the business exists to delight developers. A

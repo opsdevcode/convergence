@@ -15,6 +15,8 @@ Failure modes already named elsewhere, to expand later:
 - Treating a capability catalog as a complete solution to organizational
   problems
 - Claiming specialists are no longer needed
+- Treating human-realized capabilities as immature and automation as mature
+- Requiring a platform, catalog, or graph database to "do Convergence"
 
 An anti-pattern page should describe why the move is tempting, what it
 costs, and what to do instead, without mocking the people who did the

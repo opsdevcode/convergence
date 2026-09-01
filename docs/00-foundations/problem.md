@@ -137,10 +137,11 @@ new front door to the same queues: more buttons, same supply chain.
 ## Expertise is the asset
 
 The argument of this body of work is not that specialists should stop
-specializing. It is that their expertise should be **encoded into
-capabilities**, not institutionalized as handoffs: reusable, composable,
-governed units that humans, products, software systems, automation, and
-agents can consume without impersonating an org-chart walk.
+specializing. It is that routine delivery should consume **capabilities**
+(what the system can accomplish) rather than impersonating an org-chart
+walk. Repeatable expertise should be encoded into realizations and
+experiences. Novel work remains collaboration. See
+[Coordination and collaboration](../02-capabilities/coordination-and-collaboration.md).
 
 Infrastructure engineers should spend more of their time making compute,
 network, and identity consumable under contract, and less time fulfilling
@@ -161,11 +162,11 @@ and contracts dissolve every political or staffing problem.
 ## What would count as progress
 
 Progress is not "we bought a portal," "we renamed the DevOps team," or "we
-staffed Convergence Engineering." Progress is when a stated intent (deploy
-this application under these policies; grant this class of access; run this
-workflow in this region) can be fulfilled by composing capabilities whose
-contracts already include governance, reliability, and observation, and when
-learning from outcomes changes those capabilities.
+staffed Convergence Engineering." Progress is when intent can move to
+outcome through capabilities without the consumer assembling the
+organization for routine work, governance is a property of the system
+where it can be, and learning changes realizations and encodings. Not
+every capability needs a formal contract or automation.
 
 Until then, specialization remains valuable, and silos remain the delivery
 architecture.

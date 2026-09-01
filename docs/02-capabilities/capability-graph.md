@@ -1,61 +1,46 @@
 # Capability graph
 
-A **capability graph** is the conceptual web of capabilities and their
-relationships.
+**A Capability Graph represents what the engineering system can
+accomplish, how those capabilities relate and compose, what constrains
+them, and which outcomes they contribute to.**
 
-A capability can:
+It is **not** inherently a graph database, a CMDB, a service catalog, an
+org chart, a platform, or a runtime control plane. This repository does
+not prescribe implementation.
 
-- consume other capabilities (composition / dependency)
-- expose a contract
-- have policies bound to it or to particular edges
-- produce telemetry
-- be consumed by people
-- be consumed by products
-- be consumed by software systems
-- be consumed by automation
-- be consumed by AI agents
-- be consumed by other capabilities
+An org chart describes who exists. A service catalog typically describes
+available services. A capability graph describes **what the engineering
+system can accomplish** and how those abilities relate.
 
-Nodes are capabilities (and, optionally, consumer classes). Edges are
-"composes," "authorized to consume," or "emits feedback to." This is a
-model for thinking and for discovery, not a mandate to render a giant
-org-chart replacement in a GUI.
+## Potential relationships (not standardized)
 
-## Why a graph
+Relationships may eventually include ideas such as composes, requires,
+constrains, governs, observes, contributes-to. **Do not treat this as an
+edge vocabulary standard.**
 
-Lists of "platform services" hide coupling. A graph makes it visible that
-`DeployApplication` is only as strong as the identity and policy
-capabilities it composes. It also makes blast radius discussable: a
-breaking change in `Secrets` is not a local ticket storm; it is a graph
-event.
+## Example
 
-## Consumers on the graph
+```
+LaunchRegulatedAPI
+        |
+        +-- RunWorkload
+        +-- EstablishIdentity
+        +-- ProvideConnectivity
+        +-- ProtectSensitiveData
+        +-- ObserveService
+        +-- EstablishReliability
+```
 
-Humans, products, software systems, automation, and agents are different
-entry points into the same graph. They should not each get a private shadow org process. They
-may get different *experiences* and different authorization.
+Security expertise may contribute across several of these without
+"Security Team" being a delivery stage.
 
-Your organizational structure should not become your software delivery API.
-The graph is the API-shaped view of delivery. The org chart is how you
-staff providers.
+See [Composite capabilities](composite-capabilities.md) and
+[Converged architecture](../03-architecture/converged-architecture.md).
 
-See [Capability consumers](../../diagrams/capability-consumers.md).
+Consumers (humans, products, software, automation, authorized agents) are
+entry points into the same conceptual graph with different experiences
+and authorization. They should not each get a private org-routing
+process.
 
-Related architecture: [Converged architecture](../03-architecture/converged-architecture.md).
-
-## Policy and telemetry
-
-Policy can sit on a capability ("this capability is not available in
-production without data-class X") or on a composition ("this product may
-compose `DeployApplication` but not raw `Compute`"). Telemetry should be
-attributable to capability and consumer so learning has somewhere to go.
-
-## What the graph is not
-
-It is not a CMDB by another name, though CMDBs may overlap. It is not a
-requirement that every script be a node. Start with capabilities that
-encode scarce expertise and sit on customer paths.
-
-**TODO:** Later architecture work should discuss versioning of the graph, cyclic composition,
-and how to represent paved paths as distinguished subgraphs without turning
-the path into another silo.
+**TODO:** Graph versioning, cycles, and paved paths as distinguished
+subgraphs remain later architecture work.
