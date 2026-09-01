@@ -28,15 +28,15 @@ simple at one level may itself be composed of others.
 
 ## Example: human-realized capability
 
-If Sarah is the only security architect who can perform a novel security
-architecture assessment, the organization possesses:
+If one security architect is the only person who can perform a novel
+security architecture assessment, the organization possesses:
 
 `AssessNovelSecurityArchitecture`
 
-Sarah possesses expertise. The organization possesses the capability
-because it can use that expertise to satisfy the intent. The capability
-is currently human-realized and organizationally fragile. It is still a
-capability.
+That architect possesses expertise. The organization possesses the
+capability because it can use that expertise to satisfy the intent. The
+capability is currently human-realized and organizationally fragile. It
+is still a capability.
 
 See [Worked examples](worked-examples.md) and
 [Human-realized capability](../../diagrams/assess-novel-security-architecture.md).

@@ -45,7 +45,7 @@ flowchart TB
   Intent(["Intent<br/>assess a design not shipped before"]):::intent
   Cap["AssessNovelSecurityArchitecture"]:::cap
   Exp["Request, collaborate, findings, exceptions"]:::exp
-  Real["Sarah + standards + threat-modeling practice"]:::real
+  Real["Security architect + standards + practice"]:::real
   Out(["Residual risk explicit enough to decide"]):::out
 
   Intent --> Cap
@@ -66,13 +66,13 @@ flowchart TB
 | Intent | Security architecture assessment of a new design |
 | Capability | The organization can satisfy that class of intent |
 | Experience | Request, context, collaboration, findings, exceptions |
-| Realization | Sarah (expertise), standards, practice. Fragile if only Sarah. Still a capability. |
+| Realization | Security architect (expertise), standards, practice. Fragile if only one person. Still a capability. |
 | Output | Written assessment, meeting, findings list |
 | Outcome | Design assessed; residual risk explicit for outcome owners |
-| Learning | Repeated "novel" requests get encoded; Sarah returns to remaining novel work |
+| Learning | Repeated "novel" requests get encoded; the architect returns to remaining novel work |
 
-If Sarah is replaced by Alex, consumers still use the capability, not
-Sarah's calendar. See
+If a successor replaces that architect, consumers still use the
+capability, not one person's calendar. See
 [Organizational independence](organizational-independence.md) and
 [diagram](../../diagrams/assess-novel-security-architecture.md).
 

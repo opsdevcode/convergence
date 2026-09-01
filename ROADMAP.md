@@ -16,6 +16,10 @@ is discovered. Do not add lifecycle stages, maturity levels, required
 schemas, or prescribed implementations to "complete" v0.1. Park further
 theory in [Open questions](docs/00-foundations/open-questions.md).
 
+Applied guidance is not frozen. [Method](docs/12-method/README.md)
+describes how to do the work and is expected to improve with practice. It
+applies the frozen principles rather than extending them.
+
 ## v0.2 - Capabilities
 
 Tighten the anatomy of a capability and the capability contract. Decide

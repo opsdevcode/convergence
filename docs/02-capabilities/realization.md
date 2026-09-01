@@ -33,8 +33,9 @@ and capability ownership.
 
 ## Human realization
 
-`AssessNovelSecurityArchitecture` may be realized as Sarah, security
-standards, threat-modeling practice, and organizational knowledge. If
-Alex later becomes the realization, the capability can remain.
+`AssessNovelSecurityArchitecture` may be realized as a named security
+architect, security standards, threat-modeling practice, and
+organizational knowledge. If a successor later becomes the realization,
+the capability can remain.
 
 See [Organizational independence](organizational-independence.md).

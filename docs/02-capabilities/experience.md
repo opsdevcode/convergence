@@ -21,8 +21,8 @@ made the capability organizationally independent. Experience and
 **Experience:** Request an assessment, provide context, collaborate with
 a security architect, receive findings, discuss exceptions.
 
-**Realization:** Sarah (or a successor), security standards,
-threat-modeling practices, organizational knowledge.
+**Realization:** A security architect (or a successor), security
+standards, threat-modeling practices, organizational knowledge.
 
 The experience can change (a form, a Slack workflow, an agent-mediated
 request) without the capability ceasing to exist.
