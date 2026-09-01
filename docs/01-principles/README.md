@@ -8,20 +8,17 @@ with capability implementation guidance or architecture notes.
 
 ## How this section is organized
 
-**Major Principles of Convergence** are the small set of claims about the
-shift itself. Expect roughly five to eight as they are developed. Only
-principles that have been written through are listed here. Empty stubs are
-not created in advance.
-
-**Capability-specific principles** (contracts, composition, learning loops)
-belong with the capability mechanism. They are not Major Principles.
-
-**Architecture-specific principles** belong with conceptual architecture
-once that work is developed. None are promoted yet.
+| Kind | Status |
+| --- | --- |
+| **Major Principles of Convergence** | Written through before listing. Expect roughly five to eight. No empty stubs. |
+| **Capability-specific principles** | Stay with the capability mechanism. Not Major Principles. |
+| **Architecture-specific principles** | None promoted yet. |
 
 ## Major Principles of Convergence
 
-1. [Specialization remains. Silos don't.](01-specialization-remains-silos-dont.md)
+| # | Principle |
+| --- | --- |
+| 1 | [Specialization remains. Silos don't.](01-specialization-remains-silos-dont.md) |
 
 ---
 

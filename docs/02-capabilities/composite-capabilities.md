@@ -4,12 +4,19 @@ Capabilities may compose other capabilities.
 
 `DeployApplication` may compose, for example:
 
-- `RunWorkload`
-- `EstablishIdentity`
-- `ProvideConnectivity`
-- `ManageSecrets`
-- `ObserveService`
-- `EstablishReliability`
+```mermaid
+flowchart TB
+  D["DeployApplication"]:::cap
+  D --> Run["RunWorkload"]:::comp
+  D --> Id["EstablishIdentity"]:::comp
+  D --> Net["ProvideConnectivity"]:::comp
+  D --> Secrets["ManageSecrets"]:::comp
+  D --> Obs["ObserveService"]:::comp
+  D --> Rel["EstablishReliability"]:::comp
+
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef comp fill:#EEF4E8,stroke:#5A7A3A,color:#1B2838
+```
 
 `DeployApplication` is then a **composite capability**.
 

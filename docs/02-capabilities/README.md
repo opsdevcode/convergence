@@ -16,24 +16,24 @@ realization.
 A capability does **not** require a formal contract to exist. A
 human-realized, fragile capability is still a capability.
 
-| Document | Purpose |
-| --- | --- |
-| [Intent](intent.md) | Result the consumer is trying to cause |
-| [Capability](capability.md) | What the system can accomplish |
-| [Experience](experience.md) | How it is consumed |
-| [Realization](realization.md) | How it is fulfilled |
-| [Composite capabilities](composite-capabilities.md) | Composition is relative |
-| [Capability contract](capability-contract.md) | Explicit expectations; not the capability |
-| [Output and outcome](output-and-outcome.md) | Produced vs resulting state |
-| [Learning](learning.md) | Evidence that changes the system |
-| [Expertise encoding](expertise-encoding.md) | Repeatable vs novel |
-| [Capability characteristics](capability-characteristics.md) | Not automation maturity |
-| [Organizational independence](organizational-independence.md) | Use without org routing |
-| [Ownership and authority](ownership-and-authority.md) | Domain, capability, outcome |
-| [Coordination and collaboration](coordination-and-collaboration.md) | Routing vs solving |
-| [Capability graph](capability-graph.md) | Conceptual relations |
-| [Worked examples](worked-examples.md) | Storage vs novel security assessment |
-| [Anatomy](anatomy-of-a-capability.md) | Optional facets; not a required schema |
+| Layer | Document | Purpose |
+| --- | --- | --- |
+| Core | [Intent](intent.md) | Result the consumer is trying to cause |
+| | [Capability](capability.md) | What the system can accomplish |
+| | [Experience](experience.md) | How it is consumed |
+| | [Realization](realization.md) | How it is fulfilled |
+| Composition | [Composite capabilities](composite-capabilities.md) | Composition is relative |
+| | [Capability graph](capability-graph.md) | Conceptual relations |
+| | [Anatomy](anatomy-of-a-capability.md) | Optional facets |
+| Governance | [Capability contract](capability-contract.md) | Explicit expectations; not the capability |
+| | [Ownership and authority](ownership-and-authority.md) | Domain, capability, outcome |
+| | [Organizational independence](organizational-independence.md) | Use without org routing |
+| Results | [Output and outcome](output-and-outcome.md) | Produced vs resulting state |
+| | [Learning](learning.md) | Evidence that changes the system |
+| | [Expertise encoding](expertise-encoding.md) | Repeatable vs novel |
+| | [Capability characteristics](capability-characteristics.md) | Not automation maturity |
+| | [Coordination and collaboration](coordination-and-collaboration.md) | Routing vs solving |
+| Examples | [Worked examples](worked-examples.md) | Storage vs novel security assessment |
 
 Related: [Conceptual model](../00-foundations/conceptual-model.md),
 [Terminology](../00-foundations/terminology.md).

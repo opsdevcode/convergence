@@ -8,10 +8,10 @@ tooling.
 **Convergence must not require a specific implementation to satisfy a
 principle.**
 
-| Context | File |
-| --- | --- |
-| ~10–30 engineers | [Startup](startup.md) |
-| Hundreds of engineers, named functions | [Scaling organization](scaling-organization.md) |
-| Large specialized enterprise | [Enterprise](enterprise.md) |
-| Audit, risk, change control | [Regulated enterprise](regulated-enterprise.md) |
-| Existing org, no greenfield | [Brownfield](brownfield.md) |
+| Scale | Context | File |
+| --- | --- | --- |
+| 10–30 engineers | Little or no platform org | [Startup](startup.md) |
+| Hundreds | Named Product, Platform, SRE, Security | [Scaling organization](scaling-organization.md) |
+| Large enterprise | Specialized functions, no assumed reorg | [Enterprise](enterprise.md) |
+| Regulated | Audit, risk, change control | [Regulated enterprise](regulated-enterprise.md) |
+| Existing estate | No greenfield transformation | [Brownfield](brownfield.md) |

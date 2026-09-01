@@ -2,34 +2,28 @@
 
 One product. Many specialties. One engineering system.
 
-**Status:** Early Draft / v0.1
+| | |
+| --- | --- |
+| Status | Early draft / v0.1 |
+| Kind | Working body of knowledge, not a product or standard |
 
-This repository is a working body of knowledge about an emerging software
-engineering model. It is not a product, a vendor specification, or an
-industry standard. The problem it names is real. The model it sketches is
-under development.
-
-**Specialization remains. Silos don't.**
-
-Convergence is not the convergence of expertise. It is the convergence of
-delivery.
+> Specialization remains. Silos don't.
+>
+> Convergence is not the convergence of expertise. It is the convergence of delivery.
 
 ## Working definitions
 
-**Convergence** is the evolution of software delivery from an organization
-of engineering functions into an integrated engineering system.
-
-**Converged Engineering** designs that system so specialized expertise can
-participate in delivery through capabilities without requiring consumers to
-navigate the organizational structures behind them.
+| Term | Working definition |
+| --- | --- |
+| **Convergence** | The evolution of software delivery from an organization of engineering functions into an integrated engineering system. |
+| **Converged Engineering** | Designs that system so specialized expertise can participate in delivery through capabilities without requiring consumers to navigate the organizational structures behind them. |
 
 These are working definitions, not established industry definitions.
 
 Expertise remains specialized. Ownership remains explicit. Human judgment
 remains essential. What converges is delivery.
 
-**Converged Engineering does not eliminate specialization. It eliminates
-specialization as a delivery boundary.**
+> Converged Engineering does not eliminate specialization. It eliminates specialization as a delivery boundary.
 
 It is not a new specialty, team, or job family. Creating a "Convergence
 Engineering" silo would recreate the problem.
@@ -51,54 +45,60 @@ See [The problem](docs/00-foundations/problem.md).
 
 ## Conceptual model
 
-A conceptual loop, not a mandatory runtime:
+A conceptual loop, not a mandatory runtime.
 
+```mermaid
+flowchart TB
+  Intent(["Intent"]):::intent
+  Cap["Capability"]:::cap
+  Exp["Experience<br/>how consumed"]:::exp
+  Real["Realization<br/>how fulfilled"]:::real
+  Out(["Outcome"]):::out
+  Learn["Learning"]:::learn
+
+  Intent --> Cap
+  Cap --> Exp
+  Cap --> Real
+  Exp --> Out
+  Real --> Out
+  Out --> Learn
+  Learn -.->|feedback into the system| Cap
+
+  classDef intent fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef exp fill:#F4EFE4,stroke:#8A6A2F,color:#1B2838
+  classDef real fill:#EEE8F6,stroke:#5B4B8A,color:#1B2838
+  classDef out fill:#F6E8EE,stroke:#8A4B63,color:#1B2838
+  classDef learn fill:#EEF4E8,stroke:#5A7A3A,color:#1B2838
 ```
-                    INTENT
-                      |
-                      v
-                 CAPABILITY
-                /          \
-               v            v
-         EXPERIENCE    REALIZATION
-         how consumed  how fulfilled
-                \          /
-                 v        v
-                   OUTCOME
-                      |
-                      v
-                   LEARNING
-                      |
-                      +-----> feedback into the system
-```
 
-A capability is what the engineering system can accomplish. Experience is
-how a consumer interacts with it. Realization is how the organization
-currently fulfills it. Those three must stay distinct.
+| | |
+| --- | --- |
+| Capability | What the engineering system can accomplish |
+| Experience | How a consumer interacts with it |
+| Realization | How the organization currently fulfills it |
 
-A capability does not have to be an API, a platform feature, or a formal
-contract. A human-realized security assessment and an automated database
-path can both be capabilities.
+Those three must stay distinct. A capability does not have to be an API, a
+platform feature, or a formal contract. A human-realized security assessment
+and an automated database path can both be capabilities.
 
 See [Conceptual model](docs/00-foundations/conceptual-model.md).
 
-**Your organizational structure should not become your software delivery
-API.**
-
-**Encode what is repeatable. Collaborate on what is novel.**
+> Your organizational structure should not become your software delivery API.
+>
+> Encode what is repeatable. Collaborate on what is novel.
 
 Converged Engineering optimizes the engineering system's ability to move
 intent to outcome, not the local efficiency of one function.
 
 ## What this is not
 
-- Not the elimination of SRE, infrastructure, security, platform, or product
-  engineering.
-- Not "everyone is full stack."
-- Not a rename of DevOps or Platform Engineering.
-- Not an IDP, service catalog, graph database, or agent framework.
-- Not vendor-owned. No product defines the model.
-- Not a requirement to buy or build "Convergence infrastructure."
+- Not the elimination of SRE, infrastructure, security, platform, or product engineering
+- Not "everyone is full stack"
+- Not a rename of DevOps or Platform Engineering
+- Not an IDP, service catalog, graph database, or agent framework
+- Not vendor-owned; no product defines the model
+- Not a requirement to buy or build "Convergence infrastructure"
 
 This repository once used "Capability Engineering" as the name of the
 discipline. That work remains as the capability *mechanism*. The phrase also
@@ -107,22 +107,22 @@ has prior uses in systems engineering. See
 
 ## Documentation
 
-| Section | Contents |
-| --- | --- |
-| [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, problem, terminology |
-| [01 Principles](docs/01-principles/README.md) | Major Principle 1; working notes |
-| [02 Capabilities](docs/02-capabilities/README.md) | Mechanism: intent, capability, experience, realization, contracts, graph |
-| [03 Architecture](docs/03-architecture/README.md) | Conceptual architecture |
-| [04 Operating model](docs/04-operating-model/README.md) | How existing disciplines change and what remains |
-| [05 AI-native engineering](docs/05-ai-native-engineering/README.md) | Agents as consumers; AI does not create the need |
-| [06 Maturity model](docs/06-maturity-model/README.md) | Characteristics, not automation scores |
-| [07 Patterns](docs/07-patterns/README.md) | Placeholder |
-| [08 Anti-patterns](docs/08-anti-patterns/README.md) | Placeholder |
-| [09 Reference architecture](docs/09-reference-architecture/README.md) | Placeholder |
-| [10 Reference implementations](docs/10-reference-implementations/README.md) | Non-canonical examples |
-| [11 Adoption](docs/11-adoption/README.md) | Illustrative contexts; not prescribed orgs |
-| [Diagrams](diagrams/README.md) | Conceptual diagrams |
-| [RFCs](rfcs/README.md) | Process for conceptual change |
+| Group | Section | Contents |
+| --- | --- | --- |
+| Core | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, problem, terminology |
+| Core | [01 Principles](docs/01-principles/README.md) | Major Principle 1; working notes |
+| Core | [02 Capabilities](docs/02-capabilities/README.md) | Intent, capability, experience, realization, contracts, graph |
+| Core | [03 Architecture](docs/03-architecture/README.md) | Conceptual architecture |
+| Core | [04 Operating model](docs/04-operating-model/README.md) | What changes in existing disciplines |
+| Core | [05 AI-native engineering](docs/05-ai-native-engineering/README.md) | Agents as consumers |
+| Core | [11 Adoption](docs/11-adoption/README.md) | Startup through brownfield sketches |
+| Core | [Diagrams](diagrams/README.md) | Conceptual diagrams |
+| Later | [06 Maturity](docs/06-maturity-model/README.md) | Characteristics, not scores |
+| Later | [07 Patterns](docs/07-patterns/README.md) | Placeholder |
+| Later | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Placeholder |
+| Later | [09 Reference architecture](docs/09-reference-architecture/README.md) | Placeholder |
+| Later | [10 Implementations](docs/10-reference-implementations/README.md) | Non-canonical examples |
+| Process | [RFCs](rfcs/README.md) | Conceptual change |
 
 ## Contribution
 

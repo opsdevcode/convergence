@@ -3,49 +3,32 @@
 **An output is something produced. An outcome is a resulting state that
 satisfies or advances intent.**
 
-Example: a database provisioned is an **output**. The application has
-usable, compliant, resilient relational persistence that satisfies the
-requested intent: that is an **outcome**.
+| | Output | Outcome |
+| --- | --- | --- |
+| Relational storage | Database instance exists | Application has usable, compliant, resilient persistence for the intent |
+| Security assessment | A written report | Residual risk is explicit enough to decide |
 
 Do not force every engineering capability to claim direct business
 outcomes.
 
-## Contribution upward (conceptual levels, not mandatory taxonomy)
+## Contribution upward (not a mandatory taxonomy)
 
-```
-Capability outcome
-        |
-        v
-Engineering outcome
-        |
-        v
-Product outcome
-        |
-        v
-Customer outcome
-        |
-        v
-Business outcome
-```
+> Own the outcome you can control. Trace the outcomes you contribute to.
 
-**Own the outcome you can control. Trace the outcomes you contribute to.**
+```mermaid
+flowchart TB
+  C["Capability outcome<br/>ProvideRelationalStorage"]:::cap
+  E["Engineering outcome<br/>Application persists claim state reliably"]:::real
+  P["Product outcome"]:::exp
+  Cu["Customer outcome<br/>Completes claim submission"]:::out
+  B["Business outcome<br/>Fewer abandoned claims; lower processing cost"]:::intent
+  C --> E --> P --> Cu --> B
 
-Example:
-
-```
-ProvideRelationalStorage
-        |
-        v
-Application persists claim state reliably
-        |
-        v
-Customer completes claim submission
-        |
-        v
-Fewer abandoned digital claims
-        |
-        v
-Reduced claim processing cost
+  classDef intent fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef exp fill:#F4EFE4,stroke:#8A6A2F,color:#1B2838
+  classDef real fill:#EEE8F6,stroke:#5B4B8A,color:#1B2838
+  classDef out fill:#F6E8EE,stroke:#8A4B63,color:#1B2838
 ```
 
 The relational-storage capability contributes to broader outcomes. It

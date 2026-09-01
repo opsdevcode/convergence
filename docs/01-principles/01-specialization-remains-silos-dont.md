@@ -13,14 +13,15 @@ API.**
 
 ## Specialization is not a silo
 
-A **specialization** concentrates expertise. Complex systems require depth.
+| Specialization | Silo |
+| --- | --- |
+| Concentrates expertise | Restricts access to that expertise |
+| Required by complex systems | Makes the team the only interface |
+| Keeps domain authority | Makes routine work an org-chart walk |
+
 Infrastructure, security, reliability, networking, identity, data, product,
 platform, and related domains retain their expertise, authority, and
 ownership.
-
-A **silo** restricts access to that expertise through organizational
-boundaries so that the only practical way to use it is to go through the
-people and process of that group, every time.
 
 Convergence is not the convergence of expertise. It is the convergence of
 **delivery**. Specialties stay. The routine path to an outcome should not
@@ -46,18 +47,16 @@ solve.
 
 ## Repeatable vs novel
 
-**Repeatable** engineering interactions are those the organization already
-understands: the intent is familiar, the risk is characterized, the
-outcome is predictable enough to describe in a contract or standard.
-Repeatability is a **signal** that expertise may be ready to become a
-capability or another reusable mechanism. It is not an absolute rule. Not
-every repeated interaction must become automated or self-service. Some
-repetition is still cheaper or safer as a conversation.
+| Repeatable | Novel |
+| --- | --- |
+| Intent is familiar | Exception, unusual risk, new architecture |
+| Risk is characterized | Judgment the encoding does not cover |
+| Outcome predictable enough to describe | Collaboration with specialists |
+| **Signal** that encoding may be warranted | Not a failure of the model |
 
-**Novel** work remains collaborative: exceptions, unusual risk,
-architectural decisions, and judgment that the encoding does not yet
-cover. Specialists stay in that work. Encoding should make that work more
-visible, not pretend it does not exist.
+Repeatability is not an absolute rule. Not every repeated interaction must
+become automated or self-service. Some repetition is still cheaper or safer
+as a conversation.
 
 **Make exceptional work exceptional again.** Routine, understood work
 should flow through reusable engineering mechanisms. Novel work should
@@ -94,12 +93,32 @@ part of the software delivery interface.
 
 Intent: "My application needs persistent relational storage."
 
-In a traditional supply chain, a product engineer may have to interact
-separately with infrastructure or cloud, networking, identity, security,
-database or data specialists, and observability or SRE. Each of those
-groups may be highly competent. Competence is not the issue. The consumer
-should not have to understand and traverse that structure to satisfy a
-standard intent.
+```mermaid
+flowchart TB
+  subgraph trad["Traditional: consumer walks the org"]
+    PE["Product engineer"]:::actor
+    PE --> I["Infra / cloud"]:::team
+    PE --> N["Networking"]:::team
+    PE --> Id["Identity"]:::team
+    PE --> S["Security"]:::team
+    PE --> D["Database / data"]:::team
+    PE --> O["Observability / SRE"]:::team
+  end
+
+  subgraph conv["Converged: consumer uses the capability"]
+    PE2["Product engineer"]:::actor --> Cap["ProvideRelationalStorage"]:::cap
+    Cap --> R["Realization<br/>specialists retain domain authority"]:::real
+  end
+
+  classDef actor fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
+  classDef team fill:#F3F4F6,stroke:#6B7280,color:#111827
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef real fill:#EEE8F6,stroke:#5B4B8A,color:#1B2838
+```
+
+Each specialist group may be highly competent. Competence is not the issue.
+The consumer should not have to understand and traverse that structure to
+satisfy a standard intent.
 
 A database capability can encode appropriate expertise from those domains
 behind a stable contract: allowed engines and sizes, network placement,
