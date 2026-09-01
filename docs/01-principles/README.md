@@ -5,6 +5,8 @@ requires an [RFC](../../rfcs/README.md).
 
 This section is organized so Major Principles of Convergence are not mixed
 with capability implementation guidance or architecture notes.
+Foundational reasoning that is **not** a Major Principle is in
+[Design doctrine](../00-foundations/design-doctrine.md).
 
 ## How this section is organized
 

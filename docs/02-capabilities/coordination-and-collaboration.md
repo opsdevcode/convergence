@@ -24,5 +24,6 @@ involve people.
 **The goal is minimum unnecessary coordination**, not maximum
 self-service.
 
-See [Major Principle 1](../01-principles/01-specialization-remains-silos-dont.md)
+See [Major Principle 1](../01-principles/01-specialization-remains-silos-dont.md),
+[Design doctrine](../00-foundations/design-doctrine.md),
 and [Brownfield adoption](../11-adoption/brownfield.md).

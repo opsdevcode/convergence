@@ -35,7 +35,8 @@ intent to outcome.**
 
 Relevant system characteristics may include flow, reliability, quality,
 risk, cost, consumer experience, and learning speed. Formal metrics are
-not defined here.
+not defined here. Ticket volume, automation percentage, and capability
+counts are not the measure; see [Design doctrine](design-doctrine.md).
 
 The developer is not the platform team's customer as the purpose of the
 firm. The developer is part of the product value chain.

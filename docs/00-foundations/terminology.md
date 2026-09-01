@@ -159,6 +159,8 @@ Repeatability is a signal, not a rule to automate everything.
 | Self-service | One possible experience; not required for a capability to exist |
 | Delivery boundary | A point where work waits on another specialty's queue, approval, or tribal process |
 | Paved path | A recommended composition; not a substitute for distinguishing capability, experience, and realization |
+| Accidental complexity | Friction or process that mainly reflects organizational shape, not engineering or governance value. See [Design doctrine](design-doctrine.md). |
+| Intentional constraint | A designed boundary or source of friction that provides authority, judgment, safety, risk, or similar value. Same document. |
 
 Do not use "platform," "service," "capability," "experience,"
 "realization," "Convergence," and "Converged Engineering"
