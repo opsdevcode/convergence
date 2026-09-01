@@ -1,24 +1,27 @@
 # Consumer, capability, realization
 
-Preferred conceptual path (left) versus organizational routing (right).
+Same consumer, two interfaces. Ownership stays discoverable. It should
+not be required for routine routing.
 
 ```mermaid
-flowchart LR
-  subgraph preferred["Depend on the capability"]
-    C1["Consumer"] --> Cap["Capability"]
-    Cap --> R["Realization\n(people, process, tech)"]
+flowchart TB
+  subgraph good["Depend on the capability"]
+    direction LR
+    C1["Consumer"]:::actor --> Cap["Capability"]:::cap
+    Cap --> R["Realization<br/>people, process, technology"]:::real
   end
+
+  subgraph bad["Org chart as delivery API"]
+    direction LR
+    C2["Consumer"]:::actor --> T1["Team"]:::team
+    T1 -->|"ticket / queue"| T2["Team"]:::team
+    T2 -->|"ticket / queue"| T3["Team"]:::team
+  end
+
+  classDef actor fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef real fill:#EEE8F6,stroke:#5B4B8A,color:#1B2838
+  classDef team fill:#F3F4F6,stroke:#6B7280,color:#111827
 ```
 
-```mermaid
-flowchart LR
-  subgraph routing["Org chart as delivery API"]
-    C2["Consumer"] --> T1["Team"]
-    T1 --> T2["Team"]
-    T2 --> T3["Team"]
-  end
-```
-
-Ownership stays discoverable. It should not be required for routine
-routing. See
-[Organizational independence](../docs/02-capabilities/organizational-independence.md).
+See [Organizational independence](../docs/02-capabilities/organizational-independence.md).

@@ -1,20 +1,21 @@
 # Capability consumers
 
-Humans, products, software systems, automation, and AI agents consume the
-same capability layer. Other capabilities may compose that layer as well.
-Underlying engineering systems remain implementation.
+Different consumers. Same capability layer. Authorization may differ.
+The graph should not.
 
 ```mermaid
 flowchart TB
-  Human["Human"]
-  Product["Product"]
-  Soft["Software system"]
-  Auto["Automation"]
-  Agent["AI Agent"]
+  subgraph consumers["Consumers"]
+    direction LR
+    Human["Human"]:::actor
+    Product["Product"]:::actor
+    Soft["Software"]:::actor
+    Auto["Automation"]:::actor
+    Agent["AI agent"]:::actor
+  end
 
-  Graph["Capability layer / Capability graph"]
-
-  Systems["Underlying engineering systems"]
+  Graph["Capability layer"]:::cap
+  Systems["Underlying engineering systems<br/>realization"]:::real
 
   Human --> Graph
   Product --> Graph
@@ -22,10 +23,10 @@ flowchart TB
   Auto --> Graph
   Agent --> Graph
   Graph --> Systems
-```
 
-Authorization and experience may differ by consumer class. The graph should
-not. Agents should invoke authorized capabilities rather than discover
-which team owns networking or which queue provisions databases.
+  classDef actor fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef real fill:#EEE8F6,stroke:#5B4B8A,color:#1B2838
+```
 
 See [Agents as capability consumers](../docs/05-ai-native-engineering/agents-as-capability-consumers.md).

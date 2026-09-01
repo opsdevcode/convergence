@@ -1,12 +1,12 @@
 # Foundations
 
-| Document | Purpose |
-| --- | --- |
-| [Convergence](convergence.md) | The shift: from functions as delivery architecture to an engineering system |
-| [Converged Engineering](converged-engineering.md) | How that system is designed |
-| [Conceptual model](conceptual-model.md) | Intent, capability, experience, realization, outcome, learning |
-| [The problem](problem.md) | Why specialization became a delivery API |
-| [Terminology](terminology.md) | Canonical vocabulary |
+| Layer | Document | Purpose |
+| --- | --- | --- |
+| Shift | [Convergence](convergence.md) | From functions as delivery architecture to an engineering system |
+| Model | [Converged Engineering](converged-engineering.md) | How that system is designed |
+| Loop | [Conceptual model](conceptual-model.md) | Intent, capability, experience, realization, outcome, learning |
+| Why | [The problem](problem.md) | Why specialization became a delivery API |
+| Words | [Terminology](terminology.md) | Canonical vocabulary |
 
 Capabilities, contracts, and the capability graph are specified under
 [02 Capabilities](../02-capabilities/README.md). They are mechanisms, not a

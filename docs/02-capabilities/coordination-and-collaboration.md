@@ -6,10 +6,11 @@ organizational structure.
 **Collaboration** is work required to solve a problem whose answer is not
 yet sufficiently encoded or understood.
 
-"Which firewall form do I submit?" is coordination.
-
-"We have a new zero-trust connectivity problem we have never solved
-before." is collaboration.
+| Coordination | Collaboration |
+| --- | --- |
+| Routing through structure | Solving what is not yet encoded |
+| "Which firewall form do I submit?" | "We have a zero-trust problem we have never solved" |
+| Reduce when it is unnecessary | Preserve when it is valuable |
 
 Convergence seeks to reduce **unnecessary** coordination while preserving
 valuable collaboration.

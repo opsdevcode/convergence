@@ -3,28 +3,30 @@
 This is a **conceptual** model of Converged Engineering. It is not a
 mandatory runtime, control plane, catalog, portal, or graph database.
 
-```
-                            INTENT
-                              |
-                              v
-                         CAPABILITY
-                        /          \
-                       /            \
-                      v              v
-                EXPERIENCE       REALIZATION
-               how consumed      how fulfilled
-                      \              /
-                       \            /
-                        v          v
-                           OUTCOME
-                              |
-                              v
-                           LEARNING
-                              |
-                              +-----------> feedback into the system
-```
+```mermaid
+flowchart TB
+  Intent(["Intent"]):::intent
+  Cap["Capability"]:::cap
+  Exp["Experience<br/>how consumed"]:::exp
+  Real["Realization<br/>how fulfilled"]:::real
+  Out(["Outcome"]):::out
+  Learn["Learning"]:::learn
 
-See [Core conceptual model](../../diagrams/core-conceptual-model.md).
+  Intent --> Cap
+  Cap --> Exp
+  Cap --> Real
+  Exp --> Out
+  Real --> Out
+  Out --> Learn
+  Learn -.->|feedback into the system| Cap
+
+  classDef intent fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef exp fill:#F4EFE4,stroke:#8A6A2F,color:#1B2838
+  classDef real fill:#EEE8F6,stroke:#5B4B8A,color:#1B2838
+  classDef out fill:#F6E8EE,stroke:#8A4B63,color:#1B2838
+  classDef learn fill:#EEF4E8,stroke:#5A7A3A,color:#1B2838
+```
 
 | Concept | Question it answers |
 | --- | --- |
@@ -35,28 +37,26 @@ See [Core conceptual model](../../diagrams/core-conceptual-model.md).
 | [Outcome](../02-capabilities/output-and-outcome.md) | What resulting state satisfies or advances intent? |
 | [Learning](../02-capabilities/learning.md) | What evidence should change the system? |
 
-Related: [composite capabilities](../02-capabilities/composite-capabilities.md),
-[contracts](../02-capabilities/capability-contract.md),
-[capability graph](../02-capabilities/capability-graph.md),
-[ownership](../02-capabilities/ownership-and-authority.md),
-[organizational independence](../02-capabilities/organizational-independence.md),
-[coordination and collaboration](../02-capabilities/coordination-and-collaboration.md).
+Related: [composite capabilities](../02-capabilities/composite-capabilities.md) ·
+[contracts](../02-capabilities/capability-contract.md) ·
+[capability graph](../02-capabilities/capability-graph.md) ·
+[ownership](../02-capabilities/ownership-and-authority.md) ·
+[organizational independence](../02-capabilities/organizational-independence.md) ·
+[coordination and collaboration](../02-capabilities/coordination-and-collaboration.md)
 
-Worked examples: [ProvideRelationalStorage and AssessNovelSecurityArchitecture](../02-capabilities/worked-examples.md).
+Worked examples: [ProvideRelationalStorage and AssessNovelSecurityArchitecture](../02-capabilities/worked-examples.md)
+
+Same diagram: [diagrams/core-conceptual-model.md](../../diagrams/core-conceptual-model.md)
 
 ## Distinctions that must not collapse
 
-If something describes **what** the engineering system can accomplish, it
-may be a capability.
-
-If it describes **how a consumer interacts** with that ability, it belongs
-to experience.
-
-If it describes **how the organization fulfills** that ability, it belongs
-to realization.
-
-An output is something produced. An outcome is a resulting state that
-satisfies or advances intent.
+| If it describes | It belongs to |
+| --- | --- |
+| **What** the engineering system can accomplish | Capability |
+| **How a consumer interacts** with that ability | Experience |
+| **How the organization fulfills** that ability | Realization |
+| Something **produced** | Output |
+| A **resulting state** that advances intent | Outcome |
 
 A capability can exist without a formal contract, without automation, and
 without a dedicated platform. Encoding repeatable expertise changes

@@ -20,15 +20,18 @@ edge vocabulary standard.**
 
 ## Example
 
-```
-LaunchRegulatedAPI
-        |
-        +-- RunWorkload
-        +-- EstablishIdentity
-        +-- ProvideConnectivity
-        +-- ProtectSensitiveData
-        +-- ObserveService
-        +-- EstablishReliability
+```mermaid
+flowchart TB
+  L["LaunchRegulatedAPI"]:::cap
+  L --> Run["RunWorkload"]:::comp
+  L --> Id["EstablishIdentity"]:::comp
+  L --> Net["ProvideConnectivity"]:::comp
+  L --> Prot["ProtectSensitiveData"]:::comp
+  L --> Obs["ObserveService"]:::comp
+  L --> Rel["EstablishReliability"]:::comp
+
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef comp fill:#EEF4E8,stroke:#5A7A3A,color:#1B2838
 ```
 
 Security expertise may contribute across several of these without

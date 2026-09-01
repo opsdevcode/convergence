@@ -41,16 +41,20 @@ interface to their expertise is the organization itself.
 A customer need is simple to state. Inside the company it is often
 decomposed into an organizational supply chain:
 
-```text
-customer need
-    → product
-    → platform
-    → SRE
-    → infrastructure
-    → networking
-    → identity
-    → security
-    → …
+```mermaid
+flowchart LR
+  Need(["Customer need"]):::out
+  P["Product"]:::team
+  Pl["Platform"]:::team
+  S["SRE"]:::team
+  I["Infrastructure"]:::team
+  N["Networking"]:::team
+  Id["Identity"]:::team
+  Sec["Security"]:::team
+  Need --> P --> Pl --> S --> I --> N --> Id --> Sec
+
+  classDef team fill:#F3F4F6,stroke:#6B7280,color:#111827
+  classDef out fill:#F6E8EE,stroke:#8A4B63,color:#1B2838
 ```
 
 The customer experiences none of these organizational boundaries. The
@@ -80,18 +84,22 @@ the outcome must traverse.
 Arrows in the traditional model are not "layers of the stack." They are
 potential organizational requests:
 
-```text
-Customer Outcome  (one product)
-        ↑
-Product Engineering
-        ↑
-Platform / DevOps
-        ↑
-SRE
-        ↑
-Cloud / Infrastructure
-        ↑
-Network / Identity / Security
+```mermaid
+flowchart BT
+  subgraph supply["Handoffs, not a stack"]
+    direction BT
+    Net["Network / Identity / Security"]:::team
+    Cloud["Cloud / Infrastructure"]:::team
+    SRE["SRE"]:::team
+    Plat["Platform / DevOps"]:::team
+    Product["Product Engineering"]:::team
+    Net --> Cloud --> SRE --> Plat --> Product
+  end
+  Outcome(["Customer outcome<br/>one product"]):::out
+  Product --> Outcome
+
+  classDef team fill:#F3F4F6,stroke:#6B7280,color:#111827
+  classDef out fill:#F6E8EE,stroke:#8A4B63,color:#1B2838
 ```
 
 See [Traditional organizational delivery model](../../diagrams/traditional-delivery-model.md).

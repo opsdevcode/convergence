@@ -1,74 +1,86 @@
 # Worked examples
 
-Two contrasting capabilities, same conceptual model. One is often
+Two contrasting capabilities. Same conceptual model. One is often
 technology-realized. One is often human-realized. Both are capabilities.
 
-Recurring names in this repository: `ProvideRelationalStorage`,
-`DeployApplication`, `AssessNovelSecurityArchitecture`,
-`LaunchRegulatedAPI`.
+Recurring names: `ProvideRelationalStorage` · `DeployApplication` ·
+`AssessNovelSecurityArchitecture` · `LaunchRegulatedAPI`
 
 ## ProvideRelationalStorage
 
-**Intent (product engineer):** My application needs persistent relational
-storage I am eligible to use. (Engineering-level intent they can own.
-Not "open the DBA queue.")
+```mermaid
+flowchart LR
+  I(["Intent"]):::intent --> C["Capability"]:::cap
+  C --> E["Experience"]:::exp
+  C --> R["Realization"]:::real
+  E --> O(["Outcome"]):::out
+  R --> O
+  O --> L["Learning"]:::learn
 
-**Capability:** The organization can satisfy a class of relational
-storage intent (`ProvideRelationalStorage`).
+  classDef intent fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef exp fill:#F4EFE4,stroke:#8A6A2F,color:#1B2838
+  classDef real fill:#EEE8F6,stroke:#5B4B8A,color:#1B2838
+  classDef out fill:#F6E8EE,stroke:#8A4B63,color:#1B2838
+  classDef learn fill:#EEF4E8,stroke:#5A7A3A,color:#1B2838
+```
 
-**Experience:** Documentation and a request path (PR, API, portal, or
-conversation) that states size class, data class, environment. Observation
-of whether storage is usable.
+| Facet | This example |
+| --- | --- |
+| Intent | Persistent relational storage the product engineer is eligible to use (not "open the DBA queue") |
+| Capability | `ProvideRelationalStorage` |
+| Experience | Handbook plus PR, API, portal, or conversation: size class, data class, environment |
+| Realization | DBA by hand; Terraform plus cloud SQL; platform plus managed PostgreSQL; approval plus automation |
+| Output | A database instance exists |
+| Outcome | The application has usable, policy-fitting relational persistence |
+| Learning | Repeated exceptions become policy; missing observability is added to realization |
 
-**Realization (examples):** DBA by hand; Terraform plus cloud SQL;
-platform plus managed PostgreSQL; human approval plus automation. The
-capability can outlast a change of realization.
-
-**Output:** A database instance exists.
-
-**Outcome:** The application has usable, policy-fitting relational
-persistence for the stated intent.
-
-**Learning:** Repeated exceptions for the same data class become policy
-in the contract; a missing observability default is added to realization.
-
-See [Output and outcome](output-and-outcome.md) for contribution upward
-to claim submission and cost (traced, not owned by this capability).
+The capability can outlast a change of realization. Contribution upward to
+claim submission and cost is [traced, not owned](output-and-outcome.md).
 
 ## AssessNovelSecurityArchitecture
 
-**Intent (product or engineering lead):** We need a security architecture
-assessment of a design we have not shipped before.
+```mermaid
+flowchart TB
+  Intent(["Intent<br/>assess a design not shipped before"]):::intent
+  Cap["AssessNovelSecurityArchitecture"]:::cap
+  Exp["Request, collaborate, findings, exceptions"]:::exp
+  Real["Sarah + standards + threat-modeling practice"]:::real
+  Out(["Residual risk explicit enough to decide"]):::out
 
-**Capability:** `AssessNovelSecurityArchitecture`. The organization can
-satisfy that class of intent.
+  Intent --> Cap
+  Cap --> Exp
+  Cap --> Real
+  Exp --> Out
+  Real --> Out
 
-**Experience:** Request an assessment, provide context, collaborate with
-a security architect, receive findings, discuss exceptions.
+  classDef intent fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef exp fill:#F4EFE4,stroke:#8A6A2F,color:#1B2838
+  classDef real fill:#EEE8F6,stroke:#5B4B8A,color:#1B2838
+  classDef out fill:#F6E8EE,stroke:#8A4B63,color:#1B2838
+```
 
-**Realization:** Sarah (expertise) plus standards, threat-modeling
-practice, and organizational knowledge. Fragile if only Sarah can do it.
-Still a capability.
-
-**Output:** A written assessment, a meeting, a list of findings.
-
-**Outcome:** The design has been assessed against the organization's
-security expectations; residual risk is explicit enough for outcome
-owners to decide.
-
-**Learning:** The same "novel" request repeats. Part of the judgment is
-encoded into standards or a narrower capability. Sarah's time moves back
-toward remaining novel work.
+| Facet | This example |
+| --- | --- |
+| Intent | Security architecture assessment of a new design |
+| Capability | The organization can satisfy that class of intent |
+| Experience | Request, context, collaboration, findings, exceptions |
+| Realization | Sarah (expertise), standards, practice. Fragile if only Sarah. Still a capability. |
+| Output | Written assessment, meeting, findings list |
+| Outcome | Design assessed; residual risk explicit for outcome owners |
+| Learning | Repeated "novel" requests get encoded; Sarah returns to remaining novel work |
 
 If Sarah is replaced by Alex, consumers still use the capability, not
-Sarah's calendar as the public API. See
-[Organizational independence](organizational-independence.md).
+Sarah's calendar. See
+[Organizational independence](organizational-independence.md) and
+[diagram](../../diagrams/assess-novel-security-architecture.md).
 
 ## DeployApplication and LaunchRegulatedAPI
 
-`DeployApplication` is a composite of workload, identity, connectivity,
-secrets, observability, and reliability capabilities.
-`LaunchRegulatedAPI` additionally depends on protecting sensitive data
-and meeting governance that may remain human for exceptions. See
-[Composite capabilities](composite-capabilities.md) and
+`DeployApplication` composes workload, identity, connectivity, secrets,
+observability, and reliability. `LaunchRegulatedAPI` additionally depends
+on protecting sensitive data and exception-time human governance.
+
+See [Composite capabilities](composite-capabilities.md) and
 [Regulated enterprise](../11-adoption/regulated-enterprise.md).

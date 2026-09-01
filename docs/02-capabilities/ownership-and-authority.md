@@ -1,25 +1,31 @@
 # Ownership and authority
 
-Three distinct accountabilities:
+Three distinct accountabilities. Shared contribution does not require
+shared accountability.
 
-**Domain authority:** accountable for what is correct within a
-specialized domain.
+| | Accountable for |
+| --- | --- |
+| **Domain authority** | What is correct within a specialized domain |
+| **Capability ownership** | Whether a capability fulfills its expectations and evolves |
+| **Outcome ownership** | The result closest to the intent being pursued |
 
-**Capability ownership:** accountable for whether a capability fulfills
-its expectations (and contract, if any) and evolves appropriately.
+```mermaid
+flowchart TB
+  Deploy["DeployApplication<br/>capability ownership"]:::cap
+  Deploy --> Sec["Security domain authority"]:::real
+  Deploy --> Id["Identity domain authority"]:::real
+  Deploy --> Rel["Reliability domain authority"]:::real
+  Deploy --> Net["Networking domain authority"]:::real
+  Out["Product outcome ownership"]:::out
+  Deploy -.-> Out
 
-**Outcome ownership:** accountable for the result closest to the intent
-being pursued.
-
-**Shared contribution does not require shared accountability.**
-
-`DeployApplication` may incorporate security, identity, reliability, and
-networking **domain authority** while another group holds **capability
-ownership** of the composite and a product team holds **outcome
-ownership** for the relevant product result.
+  classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
+  classDef real fill:#EEE8F6,stroke:#5B4B8A,color:#1B2838
+  classDef out fill:#F6E8EE,stroke:#8A4B63,color:#1B2838
+```
 
 This repository does not prescribe which team must own each layer.
 
-**Ownership should be discoverable without being required for routing.**
+> Ownership should be discoverable without being required for routing.
 
 See [Organizational independence](organizational-independence.md).
