@@ -16,9 +16,11 @@ completeness.**
 Formalism should scale with organizational distance, risk, consequence,
 reuse, and complexity.
 
-An org chart describes who exists. A service catalog typically describes
-available services. A capability graph describes **what the engineering
-system can accomplish** and how those abilities relate.
+| Artifact | Describes |
+| --- | --- |
+| Org chart | Who exists |
+| Service catalog | Which services are available |
+| Capability graph | **What the engineering system can accomplish**, and how those abilities relate |
 
 ## Potential relationships (not standardized)
 

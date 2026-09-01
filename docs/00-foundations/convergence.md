@@ -42,9 +42,16 @@ Cloud abstraction, infrastructure as code, platform engineering and
 developer platforms, self-service interfaces, policy as code,
 observability, APIs and automation, AI-assisted and agentic engineering.
 
-These can be used to *automate a supply chain*. Convergence is the
-hypothesis that they should collapse **delivery boundaries** while leaving
-**expertise** intact.
+The same developments support two very different responses.
+
+| Automating the supply chain | Convergence |
+| --- | --- |
+| The handoffs remain and get faster | The delivery boundary itself collapses |
+| Each queue gets a better interface | Routine intent stops traversing queues |
+| Expertise stays behind its counter | Expertise participates through capabilities |
+
+Convergence is the hypothesis that these forces should collapse **delivery
+boundaries** while leaving **expertise** intact.
 
 **AI does not create the need for Convergence. It exposes the cost of not
 having it.**

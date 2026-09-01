@@ -26,13 +26,17 @@ not navigate them to accomplish routine intent.
 [Organizational independence](../02-capabilities/organizational-independence.md)
 must not imply organizational opacity.
 
-Separation of duties, independent authority, human judgment, regulatory
-obligation, risk containment, legal entity separation, geographic or
-residency constraints, and domain responsibility can make a boundary
-intentional. Those boundaries should be designed into
-[experience](../02-capabilities/experience.md) and
-[realization](../02-capabilities/realization.md), not rediscovered as
-tribal routing.
+| Abstracted out of the execution path | Designed into the path |
+| --- | --- |
+| Which team owns the next step for routine intent | Separation of duties and independent authority |
+| The intake form, the queue, the re-explanation | Regulatory obligation and risk containment |
+| Discovering whom to ask | Legal entity separation, geographic or residency constraints |
+| Organizational sequence as the delivery interface | Human judgment and domain responsibility |
+
+Anything in the right column can make a boundary intentional, and belongs
+in [experience](../02-capabilities/experience.md) and
+[realization](../02-capabilities/realization.md) by design rather than
+rediscovered as tribal routing.
 
 ## What this principle does not mean
 

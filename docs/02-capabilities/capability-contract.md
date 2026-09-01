@@ -29,9 +29,14 @@ capability.
 Contract rigor should match complexity, risk, reuse, and organizational
 scale.
 
-A small startup may use documentation and conventions. A regulated
-enterprise may require machine-readable contracts, policy, auditability,
-and formal governance. Both can practice Converged Engineering.
+| Small startup | Regulated enterprise |
+| --- | --- |
+| Documentation and conventions | Machine-readable contracts |
+| A named owner in a channel | Policy, auditability, and formal governance |
+| Expectations agreed in conversation | Expectations versioned and retained |
+
+Both are contracts, and both organizations can practice Converged
+Engineering.
 
 A contract that lies is worse than a short honest one.
 

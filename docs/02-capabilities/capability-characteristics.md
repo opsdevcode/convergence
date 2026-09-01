@@ -21,4 +21,6 @@ This repository does not define numerical levels, an assessment
 framework, or certification.
 
 See also [Organizational independence](organizational-independence.md).
-Placeholder for later work: [Maturity model](../06-maturity-model/README.md).
+Each dimension is described as a spectrum, with what you would observe at
+either end, in
+[Maturity characteristics](../06-maturity-model/README.md).

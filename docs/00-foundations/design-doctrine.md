@@ -107,9 +107,17 @@ from [intent](../02-capabilities/intent.md) to
 [outcome](../02-capabilities/output-and-outcome.md), including a clear
 exception and break-glass path with explicit authority and evidence.
 
-A break-glass production path with named authority, logging, and later
-review is intentional constraint. Making every engineer discover which of
-five teams owns a routine request is not.
+The examples above resolve differently, and the difference is not how
+long they take.
+
+| Interaction | Reading |
+| --- | --- |
+| Independent approval for a high-risk change to a regulated production system | Intentional. Preserve it and design it into the path |
+| A break-glass path with named authority, logging, and later review | Intentional. Design it explicitly rather than leaving it improvised |
+| Discovering which of five teams owns a routine provisioning request | Accidental. Remove the discovery burden |
+| A security architect re-applying an already-settled rule on request | Accidental in its realization. Encode the rule, keep the authority |
+
+The last row is the common case: the value is real and the shape is not.
 
 ## What this doctrine does not mean
 

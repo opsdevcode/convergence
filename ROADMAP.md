@@ -20,6 +20,10 @@ Applied guidance is not frozen. [Method](docs/12-method/README.md)
 describes how to do the work and is expected to improve with practice. It
 applies the frozen principles rather than extending them.
 
+[Open questions](docs/00-foundations/open-questions.md) sorts the parked
+topics into those with practice guidance, those that would need an RFC,
+and those waiting on field evidence.
+
 ## v0.2 - Capabilities
 
 Tighten the anatomy of a capability and the capability contract. Decide
@@ -54,15 +58,30 @@ Describe stages of adoption that organizations can recognize. Avoid
 certification language. Measure encoding of expertise and reduction of
 handoff-as-API, not adoption of a branded platform or a new job family.
 
+[Maturity characteristics](docs/06-maturity-model/README.md) now describes
+seven dimensions as independent spectra. Whether recognizable stages can
+be described at all without producing a scoring system remains open. The
+current answer is that the dimensions must not be aggregated.
+
 ## v0.7 - Patterns and Anti-Patterns
 
 Document recurring designs and failure modes. Promote only patterns that
 have been argued in the open, not invented to fill a chapter.
 
+A first set exists in [Patterns](docs/07-patterns/README.md) and
+[Anti-patterns](docs/08-anti-patterns/README.md). Both are expected to
+change as they meet practice. Patterns without a stated cost do not
+belong there.
+
 ## v0.8 - Reference Architecture
 
 A vendor-neutral conceptual reference: discovery, composition, governance,
 consumption, and learning. Explicitly non-normative for any product.
+
+A first version exists in
+[Reference architecture](docs/09-reference-architecture/README.md). Each
+concern is paired with what satisfying it looks like at small scale, so
+the reference cannot be read as requiring a platform.
 
 ## v0.9 - Community Review
 
