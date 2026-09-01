@@ -6,7 +6,7 @@ and how learning returns. Not a technology architecture.
 
 | Document | Purpose |
 | --- | --- |
-| [Converged architecture](converged-architecture.md) | Specialties remain; the loop includes experience and realization |
+| [Converged architecture](converged-architecture.md) | Loop, specialties, federation as a boundary condition |
 
 Diagrams: [core model](../../diagrams/core-conceptual-model.md),
 [traditional delivery](../../diagrams/traditional-delivery-model.md),

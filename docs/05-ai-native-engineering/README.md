@@ -11,9 +11,8 @@ They do not have equal judgment or rights. They should not have to
 navigate equal org charts.
 
 Agentic engineering increases the value of **explicit** capabilities
-because agents cannot reliably depend on tribal routing: "Ask Bob,"
-"message this Slack channel," "Network handles that," "open this ticket
-type."
+because agents cannot reliably depend on tribal routing: hallway names,
+Slack channels, "that team handles this," or a ticket type.
 
 Agents benefit from capability discovery, explicit contracts where they
 exist, authorization, constraints, composition, and observable outcomes.

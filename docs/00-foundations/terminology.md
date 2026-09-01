@@ -71,9 +71,8 @@ business) without the lower capability owning the business result. See
 
 ## Learning
 
-Evidence produced by capability use and outcomes that changes the
-engineering system (definitions, contracts, experiences, realizations,
-composition, policy, ownership). See
+Evidence capable of changing what the engineering system believes. Not
+limited to telemetry. Informs change; does not mandate it. See
 [Learning](../02-capabilities/learning.md).
 
 ## Capability contract
@@ -95,14 +94,16 @@ Lower-level capabilities are not objectively "atomic." See
 A conceptual representation of what the engineering system can accomplish,
 how those capabilities relate and compose, what constrains them, and which
 outcomes they contribute to. Not inherently a graph database, CMDB,
-catalog, org chart, platform, or control plane. See
+catalog, org chart, platform, or control plane. May be partial or
+federated. Not a required enterprise graph. See
 [Capability graph](../02-capabilities/capability-graph.md).
 
 ## Organizational independence
 
 The degree to which consumers can discover and use a capability without
 understanding the organizational structure responsible for its
-realization. A spectrum, not a binary. Ownership remains. See
+realization. A spectrum, not a binary. Ownership remains. Must not imply
+opacity. See
 [Organizational independence](../02-capabilities/organizational-independence.md).
 
 ## Domain authority
@@ -111,8 +112,7 @@ Accountable for what is correct within a specialized domain.
 
 ## Capability ownership
 
-Accountable for whether a capability fulfills its expectations (and
-contract, if any) and evolves appropriately.
+Accountable for stewardship and continued fitness of a capability.
 
 ## Outcome ownership
 

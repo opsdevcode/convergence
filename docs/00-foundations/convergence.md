@@ -75,6 +75,15 @@ Convergence.
 - Not Platform Engineering 2.0, an IDP architecture, a service catalog, a
   graph database, an agent framework, or a reorg methodology.
 - Not something you staff by hiring a Convergence team.
+- Not organizational consolidation: eliminating Platform, SRE, or
+  Security; collapsing specialists into Product; universal full-stack
+  teams; one mandated platform or implementation.
+- Not a VP, office, or "Convergence Engineering" function that becomes
+  the routing layer.
+
+**Convergence cannot be delegated to a Convergence function.** A
+transformation effort may have stewardship. Converged Engineering is a
+property of the engineering system, not another delivery specialty.
 
 See [Converged Engineering](converged-engineering.md) and
 [The problem](problem.md).

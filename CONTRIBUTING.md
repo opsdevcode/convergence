@@ -42,6 +42,10 @@ Use an [RFC](rfcs/README.md) for:
 - New architecture concepts (including the capability graph)
 - Terminology changes that would force a rewrite of existing docs
 
+The v0.1 conceptual core is treated as frozen unless a contradiction is
+found. Prefer [Open questions](docs/00-foundations/open-questions.md)
+over new principles or lifecycle nodes.
+
 ## How to work
 
 1. Prefer a pull request against the default branch.

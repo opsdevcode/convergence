@@ -1,14 +1,20 @@
 # Learning
 
-**Learning is evidence produced by capability use and outcomes that
-changes the engineering system.**
+**Learning is evidence capable of changing what the engineering system
+believes.**
 
-Learning may come from usage, failures, exceptions, consumer friction,
-incidents, cost, reliability behavior, security findings, business
-results, human feedback, and repeated "novel" requests.
+It is not limited to telemetry. Sources may include capability usage,
+failures, incidents, exceptions, abandonment, consumer friction, cost,
+reliability, security findings, threat intelligence, audits, regulatory
+change, technology change, customer feedback, expert discovery, and
+external events.
 
 Learning may change capability definitions, contracts, experiences,
-realizations, composition, policy, and ownership.
+realizations, composition, policy, and ownership. It informs change; it
+does not automatically mandate change. It does not guarantee that an
+organization will act on the evidence.
+
+See [Major Principle 6](../01-principles/06-close-the-loop.md).
 
 ## Example
 

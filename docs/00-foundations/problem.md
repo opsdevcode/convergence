@@ -173,7 +173,7 @@ Progress is not "we bought a portal," "we renamed the DevOps team," or "we
 staffed Convergence Engineering." Progress is when intent can move to
 outcome through capabilities without the consumer assembling the
 organization for routine work, governance is a property of the system
-where it can be, and learning changes realizations and encodings. Not
+where it can be, and learning can change realizations and encodings. Not
 every capability needs a formal contract or automation.
 
 Until then, specialization remains valuable, and silos remain the delivery

@@ -35,7 +35,7 @@ flowchart TB
 | [Experience](../02-capabilities/experience.md) | How does a consumer discover, request, use, and observe it? |
 | [Realization](../02-capabilities/realization.md) | How is it currently fulfilled? |
 | [Outcome](../02-capabilities/output-and-outcome.md) | What resulting state satisfies or advances intent? |
-| [Learning](../02-capabilities/learning.md) | What evidence should change the system? |
+| [Learning](../02-capabilities/learning.md) | What evidence is capable of changing what the system believes? |
 
 Related: [composite capabilities](../02-capabilities/composite-capabilities.md) ·
 [contracts](../02-capabilities/capability-contract.md) ·
@@ -61,6 +61,27 @@ Same diagram: [diagrams/core-conceptual-model.md](../../diagrams/core-conceptual
 A capability can exist without a formal contract, without automation, and
 without a dedicated platform. Encoding repeatable expertise changes
 realization and leverage. It does not create the capability from nothing.
+
+The engineering system in this loop is the relevant system through which
+a class of intent moves toward outcome. It may be local, domain-scoped,
+enterprise, or federated. See
+[Converged architecture](../03-architecture/converged-architecture.md).
+
+## Representation is not reality
+
+Capabilities, contracts, policies, and models represent organizational
+knowledge; they are not perfect representations of reality.
+
+Abstraction must not manufacture false certainty.
+
+Abstract complexity. Expose consequence and uncertainty where they matter
+to responsible action.
+
+The more execution is delegated, the more uncertainty, consequence,
+authority, and recovery must become explicit.
+
+v0.1 does not add an uncertainty node, confidence schema, or risk score.
+See [Open questions](open-questions.md).
 
 ## What this model is not
 

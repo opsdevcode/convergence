@@ -8,18 +8,20 @@ repeatedly solving problems the organization already knows how to solve.
 
 When repeated capability fulfillment consistently requires the same
 expertise or judgment, evaluate whether that knowledge can be represented
-through reusable mechanisms (capabilities' realizations, contracts,
-policy, automation, standards, tooling, and other interfaces).
+through reusable mechanisms: documentation, standards, patterns,
+policies, decision guidance, contracts, workflows, libraries,
+infrastructure modules, software, automation, AI context, and other
+interfaces. Automation is only one form.
+
+Repeated work is a signal, not a rule to encode or automate.
+
+**Encoded expertise must remain challengeable.**
+**Encoded expertise without living expertise eventually becomes legacy.**
+The purpose is leverage, not elimination of specialists.
 
 This does **not** mean: automate everything; eliminate experts; eliminate
 human approvals; remove collaboration; convert all judgment into
-software; make every capability self-service.
+software; make every capability self-service; treat human realization as
+immature.
 
-Repeatability is a **signal**, not a rule.
-
-Experts should increasingly spend time on novel cases, exceptions,
-architecture, evolution, policy, difficult judgment, and improving
-capabilities. That is how Convergence increases the leverage of
-specialization.
-
-See [Major Principle 1](../01-principles/01-specialization-remains-silos-dont.md).
+See [Major Principle 4](../01-principles/04-encode-what-is-repeatable.md).

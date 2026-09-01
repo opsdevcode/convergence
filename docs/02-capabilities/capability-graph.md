@@ -6,7 +6,15 @@ them, and which outcomes they contribute to.**
 
 It is **not** inherently a graph database, a CMDB, a service catalog, an
 org chart, a platform, or a runtime control plane. This repository does
-not prescribe implementation.
+not prescribe implementation. It does not require a single enterprise
+graph, a registry, or a canonical global capability taxonomy.
+
+A graph may be partial, federated, scoped, or composed from multiple
+domain views. **Useful incompleteness is better than fictional
+completeness.**
+
+Formalism should scale with organizational distance, risk, consequence,
+reuse, and complexity.
 
 An org chart describes who exists. A service catalog typically describes
 available services. A capability graph describes **what the engineering
@@ -41,9 +49,9 @@ See [Composite capabilities](composite-capabilities.md) and
 [Converged architecture](../03-architecture/converged-architecture.md).
 
 Consumers (humans, products, software, automation, authorized agents) are
-entry points into the same conceptual graph with different experiences
-and authorization. They should not each get a private org-routing
-process.
+entry points into the same conceptual set of capabilities with different
+experiences and authorization. They should not each get a private
+org-routing process. That does not require one physical graph.
 
 **TODO:** Graph versioning, cycles, and paved paths as distinguished
 subgraphs remain later architecture work.

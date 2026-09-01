@@ -8,8 +8,13 @@ stage are coherent enough to criticize, not when they are finished forever.
 
 Working definitions of Convergence and Converged Engineering, conceptual
 model (intent, capability, experience, realization, outcome, learning),
-problem statement, terminology, Major Principle 1, capability mechanism,
-and repository structure. This is the current stage.
+problem statement, terminology, design doctrine, six Major Principles,
+capability mechanism, and repository structure.
+
+**Conceptual freeze:** treat this core as frozen unless a contradiction
+is discovered. Do not add lifecycle stages, maturity levels, required
+schemas, or prescribed implementations to "complete" v0.1. Park further
+theory in [Open questions](docs/00-foundations/open-questions.md).
 
 ## v0.2 - Capabilities
 
