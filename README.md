@@ -126,13 +126,13 @@ has prior uses in systems engineering. See
 | Core | [03 Architecture](docs/03-architecture/README.md) | Conceptual architecture |
 | Core | [04 Operating model](docs/04-operating-model/README.md) | What changes in existing disciplines |
 | Core | [05 AI-native engineering](docs/05-ai-native-engineering/README.md) | Agents as consumers |
+| Core | [06 Maturity](docs/06-maturity-model/README.md) | Characteristics as spectra, deliberately not a score |
 | Core | [07 Patterns](docs/07-patterns/README.md) | Recurring designs, with their costs |
 | Core | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Recurring failure modes |
+| Core | [09 Reference architecture](docs/09-reference-architecture/README.md) | Non-normative conceptual reference |
 | Core | [11 Adoption](docs/11-adoption/README.md) | Startup through brownfield sketches |
 | Core | [12 Method](docs/12-method/README.md) | How to do the work: trace, evaluate, encode, design, evolve |
 | Core | [Diagrams](diagrams/README.md) | Conceptual diagrams |
-| Later | [06 Maturity](docs/06-maturity-model/README.md) | Characteristics, not scores |
-| Later | [09 Reference architecture](docs/09-reference-architecture/README.md) | Placeholder |
 | Later | [10 Implementations](docs/10-reference-implementations/README.md) | Non-canonical examples |
 | Process | [RFCs](rfcs/README.md) | Conceptual change |
 

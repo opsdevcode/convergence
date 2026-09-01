@@ -54,6 +54,11 @@ Describe stages of adoption that organizations can recognize. Avoid
 certification language. Measure encoding of expertise and reduction of
 handoff-as-API, not adoption of a branded platform or a new job family.
 
+[Maturity characteristics](docs/06-maturity-model/README.md) now describes
+seven dimensions as independent spectra. Whether recognizable stages can
+be described at all without producing a scoring system remains open. The
+current answer is that the dimensions must not be aggregated.
+
 ## v0.7 - Patterns and Anti-Patterns
 
 Document recurring designs and failure modes. Promote only patterns that
@@ -68,6 +73,11 @@ belong there.
 
 A vendor-neutral conceptual reference: discovery, composition, governance,
 consumption, and learning. Explicitly non-normative for any product.
+
+A first version exists in
+[Reference architecture](docs/09-reference-architecture/README.md). Each
+concern is paired with what satisfying it looks like at small scale, so
+the reference cannot be read as requiring a platform.
 
 ## v0.9 - Community Review
 
