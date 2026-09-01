@@ -66,14 +66,15 @@ flow through human collaboration.
 
 Convergence does not claim that every organizational boundary is bad.
 
-Healthy boundaries may establish ownership, accountability, domain
-authority, risk management, separation of concerns, and specialized
-expertise. Teams can exist. Approvals can exist. Centralized expertise can
-be the right design.
+Teams can exist. Approvals can exist. Centralized expertise can be the
+right design. The difference is what the boundary is doing.
 
-The problem occurs when **routine delivery** repeatedly requires engineers
-to traverse those boundaries through tickets, queues, meetings, approvals,
-Slack messages, email, or tribal knowledge.
+| Healthy boundary | Silo |
+| --- | --- |
+| Establishes ownership, accountability, and domain authority | Becomes the interface for work the organization already knows how to do |
+| Manages risk and separates concerns | Requires routine delivery to traverse it by ticket, queue, meeting, or tribal knowledge |
+| Concentrates specialized expertise | Makes a team's availability the constraint on routine work |
+| Applies judgment to cases that need it | Re-applies a settled judgment on request |
 
 **Boundaries can be healthy. Dependency on a boundary for routine
 execution is what Convergence challenges.**

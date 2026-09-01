@@ -136,11 +136,13 @@ they did not design. A platform team is measured on portal tickets closed. A
 product team is measured on feature output. Each local optimum can be
 rational and still produce a slow, fragile path to a customer outcome.
 
-DevOps did not fail because automation is wrong. It often stalled because
-"you build it, you run it" collided with specialized controls that still had
-to be requested by ticket. Platform engineering did not fail because
-developer experience is wrong. It often stalled when the platform became a
-new front door to the same queues: more buttons, same supply chain.
+Neither of the two dominant responses failed for the reason usually
+given.
+
+| Response | It did not stall because | It often stalled because |
+| --- | --- | --- |
+| DevOps | Automation is wrong | "You build it, you run it" collided with specialized controls that still had to be requested by ticket |
+| Platform engineering | Developer experience is wrong | The platform became a new front door to the same queues: more buttons, same supply chain |
 
 ## Expertise is the asset
 
@@ -169,12 +171,13 @@ and contracts dissolve every political or staffing problem.
 
 ## What would count as progress
 
-Progress is not "we bought a portal," "we renamed the DevOps team," or "we
-staffed Convergence Engineering." Progress is when intent can move to
-outcome through capabilities without the consumer assembling the
-organization for routine work, governance is a property of the system
-where it can be, and learning can change realizations and encodings. Not
-every capability needs a formal contract or automation.
+| Not progress | Progress |
+| --- | --- |
+| "We bought a portal" | Intent moves to outcome through capabilities without the consumer assembling the organization for routine work |
+| "We renamed the DevOps team" | Governance is a property of the system, where it can be |
+| "We staffed Convergence Engineering" | Learning can change realizations and encodings |
+
+Not every capability needs a formal contract or automation.
 
 Until then, specialization remains valuable, and silos remain the delivery
 architecture.

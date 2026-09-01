@@ -26,30 +26,30 @@ assembled through organizational APIs.
 
 ## Unit of optimization
 
-Converged Engineering does **not** take the Platform team, the Product
-team, SRE, Infrastructure, Security, or any single function's local
-efficiency as the primary goal.
-
 **Converged Engineering optimizes the engineering system's ability to move
 intent to outcome.**
 
-Relevant system characteristics may include flow, reliability, quality,
-risk, cost, consumer experience, and learning speed. Formal metrics are
-not defined here. Ticket volume, automation percentage, and capability
-counts are not the measure; see [Design doctrine](design-doctrine.md).
+| Not the unit of optimization | The unit of optimization |
+| --- | --- |
+| Local efficiency of Platform, Product, SRE, Infrastructure, or Security | The system's ability to move intent to outcome |
+| Ticket volume, automation percentage, capability counts | Flow, reliability, quality, risk, cost, consumer experience, learning speed |
+
+Formal metrics are not defined here, and the right column is a set of
+characteristics rather than a scorecard. See
+[Design doctrine](design-doctrine.md).
 
 The developer is not the platform team's customer as the purpose of the
 firm. The developer is part of the product value chain.
 
 ## What converges and what does not
 
-What should converge is the path from [intent](../02-capabilities/intent.md)
-to [outcome](../02-capabilities/output-and-outcome.md): how expertise is
-exposed, composed, governed, learned from, and owned.
-
-What does not converge: deep domain expertise; ownership of hard systems;
-novel work; residual-risk judgment; the reality of layers in
-implementation.
+| Converges | Does not converge |
+| --- | --- |
+| The path from [intent](../02-capabilities/intent.md) to [outcome](../02-capabilities/output-and-outcome.md) | Deep domain expertise |
+| How expertise is exposed and composed | Ownership of hard systems |
+| How that path is governed | Novel work |
+| How the system learns from use | Residual-risk judgment |
+| How ownership is made discoverable | The reality of layers in implementation |
 
 If a diagram shows one generic "engineer" box, it is the wrong diagram.
 
@@ -94,37 +94,22 @@ See [Capabilities](../02-capabilities/README.md) and
 
 ## Distinctions
 
-### DevOps
+| Related model | What it addresses | Where Converged Engineering differs |
+| --- | --- | --- |
+| DevOps | The split between writing software and running it | Addresses a wider set of specialist boundaries. DevOps can exist inside a still-siloed delivery chain |
+| Platform Engineering | Undifferentiated work, through internal products | A platform may participate in [experience](../02-capabilities/experience.md) or [realization](../02-capabilities/realization.md), but is not the definition of Convergence |
+| SRE, infrastructure, product | Reliability, substrate, and product judgment | All remain, as expertise contributing to capabilities rather than as a generic role |
+| AI agents | Consumption of capabilities at machine speed | Agents are possible consumers. They do not create Convergence; they expose the cost of tribal routing |
 
-DevOps attacked the split between writing software and running it.
-Converged Engineering addresses a wider set of specialist boundaries.
 Automating tickets is not the model. Reducing unnecessary
-[coordination](../02-capabilities/coordination-and-collaboration.md)
-while preserving collaboration is closer. DevOps can exist inside a
-still-siloed delivery chain.
+[coordination](../02-capabilities/coordination-and-collaboration.md) while
+preserving collaboration is closer.
 
-### Platform Engineering
-
-Platform Engineering builds internal products that reduce
-undifferentiated work. A platform may participate in
-[experience](../02-capabilities/experience.md) or
-[realization](../02-capabilities/realization.md). It is not the
-definition of Convergence. A portal that routes the same tickets has not
-changed the model. A startup can practice Converged Engineering with
-little or no platform organization.
-
-### SRE, infrastructure, product
-
-SRE, infrastructure, and product engineering remain. Reliability,
-substrate, and product judgment are expertise that contribute to
-capabilities. They do not disappear into a generic role. Product engineers
-do not become substitutes for security or infrastructure expertise.
-
-### AI
-
-Agents are possible capability consumers. They do not create Convergence.
-They expose the cost of tribal routing. They must not bypass governance.
-See [AI-native engineering](../05-ai-native-engineering/README.md).
+A portal that routes the same tickets has not changed the model, and a
+startup can practice Converged Engineering with little or no platform
+organization. Product engineers do not become substitutes for security or
+infrastructure expertise. Agents must not bypass governance; see
+[AI-native engineering](../05-ai-native-engineering/README.md).
 
 ## What the model refuses
 
