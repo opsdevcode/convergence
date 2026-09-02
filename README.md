@@ -131,7 +131,7 @@ has prior uses in systems engineering. See
 | Core | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Recurring failure modes |
 | Core | [09 Reference architecture](docs/09-reference-architecture/README.md) | Non-normative conceptual reference |
 | Core | [11 Adoption](docs/11-adoption/README.md) | Startup through brownfield sketches |
-| Core | [12 Method](docs/12-method/README.md) | How to do the work: trace, evaluate, encode, design, evolve |
+| Core | [12 Method](docs/12-method/README.md) | How to do the work: trace, evaluate, identify, decide, design, operate |
 | Core | [Diagrams](diagrams/README.md) | Conceptual diagrams |
 | Later | [10 Implementations](docs/10-reference-implementations/README.md) | Non-canonical examples |
 | Process | [RFCs](rfcs/README.md) | Conceptual change |
