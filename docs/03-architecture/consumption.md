@@ -46,7 +46,7 @@ They differ in judgment, in rights, and in what they can be told.
 | Product | Stable expectations, versioning, notice of change | Silent capability changes labelled as realization changes |
 | Software system | Programmatic use with no hallway context | An interface that assumes a human will interpret it |
 | Automation | Determinism and idempotency | Ambiguity it will resolve by guessing |
-| Authorized agent | Parseable contracts, tight authorization, blast-radius limits, recorded intent | Authority derived from tool availability |
+| AI agent | Parseable contracts, tight authorization, blast-radius limits, recorded intent | Authority derived from tool availability |
 
 Serving all five does not require a second organization, a single
 enterprise graph, or a separate agent platform. It requires that

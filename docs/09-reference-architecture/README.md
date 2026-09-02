@@ -88,8 +88,8 @@ cases.
 
 ### Consumption by unequal consumers
 
-Humans, products, software systems, automation, and authorized agents all
-consume capabilities. They do not have equal judgment or equal rights.
+Humans, products, software systems, automation, and authorized AI agents
+all consume capabilities. They do not have equal judgment or equal rights.
 
 | Consumer | Needs the reference to support |
 | --- | --- |
@@ -97,7 +97,7 @@ consume capabilities. They do not have equal judgment or equal rights.
 | Product | Stable expectations and versioning |
 | Software system | Programmatic use with no hallway context |
 | Automation | Determinism and idempotency |
-| Authorized agent | Parseable contracts, tight authorization, blast-radius limits, recorded intent |
+| AI agent | Parseable contracts, tight authorization, blast-radius limits, recorded intent |
 
 Same capabilities, different experiences, different policy. Not a second
 organization and not a required single graph. Invocation is not authority.
