@@ -46,6 +46,11 @@ composition, policy attachment, telemetry, and consumption. Keep
 implementation architecture (control planes, catalogs, runtimes) in a later
 reference architecture, not here.
 
+[Architecture](docs/03-architecture/README.md) now covers composition,
+policy attachment, observation, consumption, graph structure, and
+federation. Telemetry is treated as observation, with no required schema
+or metric set. Implementation stayed out.
+
 ## v0.5 - AI-Native Consumption
 
 Specify what an agent-facing contract needs that a human portal does not:

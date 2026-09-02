@@ -51,8 +51,23 @@ recursively applicable.
 **Converge where outcomes require coherence. Preserve autonomy where they
 don't.**
 
-**Standardize obligations before standardizing realizations.**
-**Shared intent and constraints do not require shared realization.**
+Boundaries, what crosses them, and what stays local are developed in
+[Federation](federation.md).
+
+## Structure of this section
+
+The loop above says how the elements relate. The rest of the section says
+how capabilities relate to each other, to policy, to evidence, and to
+consumers.
+
+| Document | Question it answers |
+| --- | --- |
+| [Composition](composition.md) | What does one capability drawing on another transfer, and when is it valid? |
+| [Policy attachment](policy-attachment.md) | Where can a constraint bind, and what can each point express? |
+| [Observation](observation.md) | What must the structure make visible for the loop to close? |
+| [Consumption](consumption.md) | How do unequal consumers traverse the same capabilities? |
+| [Capability graph structure](capability-graph-structure.md) | What are the nodes and relations, and why is partiality fine? |
+| [Federation](federation.md) | What has to be true where two engineering systems meet? |
 
 See [Capability graph](../02-capabilities/capability-graph.md) and
 [Major Principle 2](../01-principles/02-design-the-engineering-system.md).
