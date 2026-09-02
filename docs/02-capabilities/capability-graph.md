@@ -28,6 +28,10 @@ Relationships may eventually include ideas such as composes, requires,
 constrains, governs, observes, contributes-to. **Do not treat this as an
 edge vocabulary standard.**
 
+Nodes, relations, views, and why partiality is a property rather than a
+gap are developed in
+[Capability graph structure](../03-architecture/capability-graph-structure.md).
+
 ## Example
 
 ```mermaid
