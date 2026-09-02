@@ -60,7 +60,7 @@ This is a structural allowance, not a licence to invent a lighter
 authorization story for agents. Agents act with a principal and under
 policy the organization already decided. **Invocation is not authority.**
 See
-[agents as capability consumers](../05-ai-native-engineering/agents-as-capability-consumers.md).
+[Authorization and principals](../05-ai-native-engineering/authorization-and-principals.md).
 
 ## Policy must not manufacture certainty
 

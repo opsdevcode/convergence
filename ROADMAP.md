@@ -57,6 +57,11 @@ Specify what an agent-facing contract needs that a human portal does not:
 discovery, authorization, idempotency, blast-radius limits, and observation.
 Stay within what current agents can actually do.
 
+[AI-native engineering](docs/05-ai-native-engineering/README.md) now covers
+agent-facing contracts against those five needs (plus escalation),
+authorization and principals, and a worked agent example. No required
+schema or protocol, and no separate agent graph or authorization story.
+
 ## v0.6 - Maturity Model
 
 Describe stages of adoption that organizations can recognize. Avoid
