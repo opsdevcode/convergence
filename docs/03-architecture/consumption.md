@@ -3,7 +3,9 @@
 How consumers traverse the structure to get from intent to outcome.
 
 The five consumer classes are named in
-[agents as capability consumers](../05-ai-native-engineering/agents-as-capability-consumers.md).
+[agents as capability consumers](../05-ai-native-engineering/agents-as-capability-consumers.md),
+and what an agent consumer needs beyond a human portal is developed in
+[agent-facing contracts](../05-ai-native-engineering/agent-facing-contracts.md).
 This document covers the structural consequences of serving all of them
 through one set of capabilities.
 

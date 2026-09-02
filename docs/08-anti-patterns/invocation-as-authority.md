@@ -54,7 +54,8 @@ Record the intent an agent was given, not only the calls it made.
 
 ## Related
 
-[Agents as capability consumers](../05-ai-native-engineering/agents-as-capability-consumers.md)
+[Agents as capability consumers](../05-ai-native-engineering/agents-as-capability-consumers.md),
+[Authorization and principals](../05-ai-native-engineering/authorization-and-principals.md),
 and [composite capabilities](../02-capabilities/composite-capabilities.md).
 This repository does not replace identity, access management, or security
 governance.

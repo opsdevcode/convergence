@@ -125,7 +125,7 @@ has prior uses in systems engineering. See
 | Core | [02 Capabilities](docs/02-capabilities/README.md) | Intent, capability, experience, realization, contracts, graph |
 | Core | [03 Architecture](docs/03-architecture/README.md) | Composition, policy attachment, observation, consumption, graph, federation |
 | Core | [04 Operating model](docs/04-operating-model/README.md) | What changes in existing disciplines |
-| Core | [05 AI-native engineering](docs/05-ai-native-engineering/README.md) | Agents as consumers |
+| Core | [05 AI-native engineering](docs/05-ai-native-engineering/README.md) | Agents as consumers, agent-facing contracts, authorization |
 | Core | [06 Maturity](docs/06-maturity-model/README.md) | Characteristics as spectra, deliberately not a score |
 | Core | [07 Patterns](docs/07-patterns/README.md) | Recurring designs, with their costs |
 | Core | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Recurring failure modes |
