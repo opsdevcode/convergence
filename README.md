@@ -4,7 +4,8 @@ One product. Many specialties. One engineering system.
 
 | | |
 | --- | --- |
-| Status | Early draft / v0.1 (conceptual core frozen) |
+| Status | v0.1 conceptual core frozen. First versions of applied guidance are in the tree. |
+| Stage | [v0.9 community review](ROADMAP.md). Invite structured critique; do not expand the frozen core. |
 | Kind | Working body of knowledge, not a product or standard |
 
 > Specialization remains. Silos don't.
@@ -131,31 +132,37 @@ has prior uses in systems engineering. See
    experience, realization, outcome, learning.
 5. [Method](docs/12-method/README.md) — how to actually do the work.
 
-Everything else (architecture, operating model, patterns, anti-patterns,
-adoption) is reference you can reach for once those five are clear.
+Architecture, operating model, patterns, anti-patterns, adoption, and
+the conceptual reference architecture are first versions of applied
+design. They are not extra principles. Read them after the path above.
 
 If you came to disagree, read
 [How to critique this](docs/00-foundations/how-to-critique.md) after that
 path. It separates frozen claims from applied guidance and from questions
 left parked on purpose.
 
+Versions of this body of work are described in [ROADMAP.md](ROADMAP.md).
+v0.1 through v0.8 now have documents coherent enough to criticize. v0.9
+is review, not another chapter.
+
 | Group | Section | Contents |
 | --- | --- | --- |
-| Core | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology, open questions, how to critique |
-| Core | [01 Principles](docs/01-principles/README.md) | Six Major Principles |
-| Core | [02 Capabilities](docs/02-capabilities/README.md) | Intent, capability, experience, realization, contracts, graph |
-| Core | [03 Architecture](docs/03-architecture/README.md) | Composition, policy attachment, observation, consumption, graph, federation |
-| Core | [04 Operating model](docs/04-operating-model/README.md) | What changes per discipline; planning, staffing, funding |
-| Core | [05 AI-native engineering](docs/05-ai-native-engineering/README.md) | Agents as consumers, agent-facing contracts, authorization |
-| Core | [06 Maturity](docs/06-maturity-model/README.md) | Characteristics as spectra, deliberately not a score |
-| Core | [07 Patterns](docs/07-patterns/README.md) | Recurring designs, with their costs |
-| Core | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Recurring failure modes |
-| Core | [09 Reference architecture](docs/09-reference-architecture/README.md) | Non-normative conceptual reference |
-| Core | [11 Adoption](docs/11-adoption/README.md) | Startup through brownfield sketches |
-| Core | [12 Method](docs/12-method/README.md) | How to do the work: trace, evaluate, identify, decide, design, operate |
-| Core | [Diagrams](diagrams/README.md) | Conceptual diagrams |
-| Later | [10 Implementations](docs/10-reference-implementations/README.md) | Non-canonical examples |
-| Process | [RFCs](rfcs/README.md) | Conceptual change |
+| Frozen | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology, open questions, how to critique |
+| Frozen | [01 Principles](docs/01-principles/README.md) | Six Major Principles |
+| Frozen | [02 Capabilities](docs/02-capabilities/README.md) | Intent, capability, experience, realization, contracts, graph |
+| Applied | [03 Architecture](docs/03-architecture/README.md) | Composition, policy attachment, observation, consumption, graph, federation |
+| Applied | [04 Operating model](docs/04-operating-model/README.md) | What changes per discipline; planning, staffing, funding |
+| Applied | [05 AI-native engineering](docs/05-ai-native-engineering/README.md) | Agents as consumers, agent-facing contracts, authorization |
+| Applied | [06 Maturity](docs/06-maturity-model/README.md) | Characteristics as spectra, deliberately not a score |
+| Applied | [07 Patterns](docs/07-patterns/README.md) | Recurring designs, with their costs |
+| Applied | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Recurring failure modes |
+| Applied | [09 Reference architecture](docs/09-reference-architecture/README.md) | Non-normative conceptual reference |
+| Applied | [11 Adoption](docs/11-adoption/README.md) | Startup through brownfield sketches |
+| Applied | [12 Method](docs/12-method/README.md) | How to do the work: trace, evaluate, identify, decide, design, operate |
+| Applied | [Diagrams](diagrams/README.md) | Conceptual diagrams |
+| Later | [10 Implementations](docs/10-reference-implementations/README.md) | Placeholder. No implementation defines the model. |
+| Process | [Roadmap](ROADMAP.md) | Snapshots v0.1–v1.0; current stage is v0.9 review |
+| Process | [RFCs](rfcs/README.md) | Required for changes to the frozen core |
 
 ## Contribution
 
