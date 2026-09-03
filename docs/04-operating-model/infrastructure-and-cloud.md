@@ -28,10 +28,11 @@ novel architectures. It should not be the default developer API.
 
 ## Networking and identity
 
-The same pattern applies. Networking and identity expertise is not
-"undifferentiated heavy lifting" to be ignored. It is scarce knowledge that
-should appear as composable capabilities (`Connectivity`, `WorkloadIdentity`)
-with contracts that security and product can rely on.
+The same pattern applies, and both now have their own pages:
+[Networking](networking.md) and [Identity](identity.md). Their expertise is
+not "undifferentiated heavy lifting" to be ignored. It is scarce knowledge
+that should appear as composable capabilities (`ProvideConnectivity`,
+`WorkloadIdentity`) with contracts that security and product can rely on.
 
 ## What this is not
 

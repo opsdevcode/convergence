@@ -39,6 +39,13 @@ and security. Add networking, identity, data, and AI engineering if the
 core framing holds. State what changes in planning, staffing, and funding
 without prescribing an org chart or a Convergence team.
 
+[Operating model](docs/04-operating-model/README.md) now has dedicated
+pages for networking, identity, data, and AI engineering, plus a
+planning, staffing, and funding page. AI engineering (the discipline) is
+kept distinct from [AI-native engineering](docs/05-ai-native-engineering/README.md)
+(AI as consumer). No budgeting, compensation, or org structure is
+prescribed.
+
 ## v0.4 - Architecture
 
 Develop conceptual converged architecture and the capability graph:

@@ -11,9 +11,11 @@ expertise through capabilities, keep domain authority, stop using the
 specialty as the default delivery API. Shared contribution does not
 require shared accountability.
 
-This section is v0.1 framing. v0.3 should add staffing, funding, and
-planning implications with more care, still without prescribing a
-"Convergence team."
+Every discipline page follows the same shape: what does not disappear,
+what changes, and what the change is not. The pattern is identical across
+all of them because that is the point: expertise remains; the default
+interface becomes a capability rather than a queue when the work is
+understood enough to encode.
 
 | Document | Discipline |
 | --- | --- |
@@ -21,12 +23,15 @@ planning implications with more care, still without prescribing a
 | [Platform engineering](platform-engineering.md) | Enabling systems for capabilities |
 | [SRE](sre.md) | Reliability expertise |
 | [Infrastructure and cloud](infrastructure-and-cloud.md) | Substrate expertise |
+| [Networking](networking.md) | Connectivity and trust boundaries |
+| [Identity](identity.md) | Workload and human identity, access policy |
+| [Data engineering](data-engineering.md) | Pipelines, storage, classification, lineage |
+| [AI engineering](ai-engineering.md) | Building AI and ML systems as capabilities |
 | [Security](security.md) | Security and encoded governance |
 
-Networking, identity, data, and AI engineering follow the same pattern:
-expertise remains; the default interface should become a capability, not a
-queue, when the work is understood enough to encode. Dedicated pages can
-wait for v0.3 if these five hold.
+| Cross-cutting | Purpose |
+| --- | --- |
+| [Planning, staffing, and funding](planning-staffing-funding.md) | What changes without prescribing an org chart or a Convergence team |
 
 ## Incentives
 
