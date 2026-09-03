@@ -106,6 +106,11 @@ Invite structured critique from practitioners in SRE, platform, security,
 infrastructure, and product engineering. Incorporate RFCs. Mark remaining
 disputed claims.
 
+[How to critique this](docs/00-foundations/how-to-critique.md) is the
+on-ramp for that review: frozen vs applied vs parked, discipline-shaped
+questions, and when an RFC is actually required. Marking disputed claims
+waits on external critique, not on another internal freeze pass.
+
 ## v1.0 - Initial Stable Body of Work
 
 A version that organizations can cite without expecting the core

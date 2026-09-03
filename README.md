@@ -134,9 +134,14 @@ has prior uses in systems engineering. See
 Everything else (architecture, operating model, patterns, anti-patterns,
 adoption) is reference you can reach for once those five are clear.
 
+If you came to disagree, read
+[How to critique this](docs/00-foundations/how-to-critique.md) after that
+path. It separates frozen claims from applied guidance and from questions
+left parked on purpose.
+
 | Group | Section | Contents |
 | --- | --- | --- |
-| Core | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology, open questions |
+| Core | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology, open questions, how to critique |
 | Core | [01 Principles](docs/01-principles/README.md) | Six Major Principles |
 | Core | [02 Capabilities](docs/02-capabilities/README.md) | Intent, capability, experience, realization, contracts, graph |
 | Core | [03 Architecture](docs/03-architecture/README.md) | Composition, policy attachment, observation, consumption, graph, federation |
@@ -158,7 +163,8 @@ Editorial fixes and examples are welcome. Changes to Convergence, Converged
 Engineering, principles, the conceptual model, terminology, or architecture
 go through an [RFC](rfcs/README.md).
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [GOVERNANCE.md](GOVERNANCE.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md),
+and [How to critique this](docs/00-foundations/how-to-critique.md).
 
 ## License
 

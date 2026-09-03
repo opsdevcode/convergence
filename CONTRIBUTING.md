@@ -6,6 +6,8 @@ They should not attach the work to a vendor, product, or internal platform
 brand.
 
 Read [GOVERNANCE.md](GOVERNANCE.md) before proposing conceptual changes.
+Practitioners who want to argue with the model, not just patch it, should
+start at [How to critique this](docs/00-foundations/how-to-critique.md).
 
 ## What to contribute
 
