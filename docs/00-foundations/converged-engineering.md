@@ -97,6 +97,7 @@ See [Capabilities](../02-capabilities/README.md) and
 | Related model | What it addresses | Where Converged Engineering differs |
 | --- | --- | --- |
 | DevOps | The split between writing software and running it | Addresses a wider set of specialist boundaries. DevOps can exist inside a still-siloed delivery chain |
+| Team Topologies | Team structures and interaction modes for fast flow | Restructures teams around streams. Converged Engineering leaves specialties intact and changes how their expertise is exposed and consumed, not primarily where team boundaries sit |
 | Platform Engineering | Undifferentiated work, through internal products | A platform may participate in [experience](../02-capabilities/experience.md) or [realization](../02-capabilities/realization.md), but is not the definition of Convergence |
 | SRE, infrastructure, product | Reliability, substrate, and product judgment | All remain, as expertise contributing to capabilities rather than as a generic role |
 | AI agents | Consumption of capabilities at machine speed | Agents are possible consumers. They do not create Convergence; they expose the cost of tribal routing |
