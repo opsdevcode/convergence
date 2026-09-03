@@ -118,6 +118,22 @@ has prior uses in systems engineering. See
 
 ## Documentation
 
+**Start here.** If you are new to this, read in this order:
+
+1. [The problem](docs/00-foundations/problem.md) and
+   [Design doctrine](docs/00-foundations/design-doctrine.md) — why this
+   exists and the reasoning lens it applies.
+2. [Foundations](docs/00-foundations/README.md) and
+   [Terminology](docs/00-foundations/terminology.md) — the definitions the
+   rest of the work depends on.
+3. [The six Major Principles](docs/01-principles/README.md).
+4. [Capabilities](docs/02-capabilities/README.md) — intent, capability,
+   experience, realization, outcome, learning.
+5. [Method](docs/12-method/README.md) — how to actually do the work.
+
+Everything else (architecture, operating model, patterns, anti-patterns,
+adoption) is reference you can reach for once those five are clear.
+
 | Group | Section | Contents |
 | --- | --- | --- |
 | Core | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology, open questions |

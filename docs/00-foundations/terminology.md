@@ -121,6 +121,13 @@ Accountable for the result closest to the intent being pursued.
 Shared contribution does not require shared accountability. See
 [Ownership and authority](../02-capabilities/ownership-and-authority.md).
 
+## Privilege
+
+What an actor is technically permitted to do. A separate concern from
+authority, ownership, and execution. Ownership is not itself a security
+boundary. See
+[Ownership and authority](../02-capabilities/ownership-and-authority.md).
+
 ## Coordination
 
 Work required primarily to route execution through organizational
@@ -137,6 +144,29 @@ See [Coordination and collaboration](../02-capabilities/coordination-and-collabo
 
 Any actor that uses a capability: a human, product, software system,
 automation, authorized AI agent, or another capability.
+
+## Principal
+
+A user, service account, or workflow identity that the organization has
+already reasoned about. An AI agent acts *for* a principal; invoking a
+capability does not by itself grant authority. See
+[Authorization and principals](../05-ai-native-engineering/authorization-and-principals.md).
+
+## Federation
+
+A boundary condition of Convergence, not a separate framework or a stage
+of maturity. Convergence can exist as a federation of engineering systems
+that become coherent at the boundaries where they must interact.
+Recursively applicable. See [Federation](../03-architecture/federation.md).
+
+## Stewardship
+
+Responsibility for a concern that no single capability owner is
+incentivized or authorized to correct. It should exist at the level where
+the concern exists (local, domain, cross-domain, enterprise, or
+federated). Not a prescribed council, office, board, or role, and its
+organizational implementation is an
+[open question](open-questions.md). Distinct from capability ownership.
 
 ## Specialization, silo, organizational boundary
 
@@ -161,6 +191,10 @@ Repeatability is a signal, not a rule to automate everything.
 | Paved path | A recommended composition; not a substitute for distinguishing capability, experience, and realization |
 | Accidental complexity | Friction or process that mainly reflects organizational shape, not engineering or governance value. See [Design doctrine](design-doctrine.md). |
 | Intentional constraint | A designed boundary or source of friction that provides authority, judgment, safety, risk, or similar value. Same document. |
+| Blast radius | The extent of what an action can affect. A limit designed into a contract, not a general measurement system. |
+| Concentration risk | Reuse creates leverage and concentration together; leverage amplifies correctness, error, and compromise. An [open question](open-questions.md). |
+| Semantic drift | The name stays stable while the meaning moves; consumers hold different beliefs about the same capability. See [Operating and evolving](../12-method/operating-and-evolving.md). |
+| Break-glass | Intentional friction inverted in time: action first, judgment recorded after. A path used routinely is not break-glass. See [Break-glass with evidence](../07-patterns/break-glass-with-evidence.md). |
 
 Do not use "platform," "service," "capability," "experience,"
 "realization," "Convergence," and "Converged Engineering"
