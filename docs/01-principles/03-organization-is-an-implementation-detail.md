@@ -46,5 +46,13 @@ rediscovered as tribal routing.
 - Convergence requires reorganization.
 - One enterprise org chart or one platform is required.
 
+## Lineage
+
+That organizational structure becomes embedded in system design is Conway's
+Law (1968), not an observation original to Convergence. This principle accepts
+that relationship and asks a delivery question on top of it: how much
+organizational knowledge should a consumer need to accomplish routine intent?
+See [Prior art](../00-foundations/prior-art.md#conways-law-and-the-inverse-conway-maneuver).
+
 See [Major Principle 1](01-specialization-remains-silos-dont.md) and
 [Design doctrine](../00-foundations/design-doctrine.md).

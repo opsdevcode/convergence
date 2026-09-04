@@ -28,6 +28,35 @@ does not thereby acquire authority over network placement or data
 classification. It owns the composite and the seams. Domain authority
 stays with networking and security.
 
+## Accountability for the whole
+
+When a class of intent depends on several contributing capabilities, the
+end-to-end path from that intent to its outcome can be reasoned about as a
+composite. "The path from intent to outcome" is plain-English shorthand for the
+engineering system scoped to that class of intent and, where capabilities
+compose, for the resulting composite capability. It is not a separate model
+element, and it has no owner distinct from the composite's.
+
+This is what gives the whole an accountable home without any central authority
+over the parts. Whoever owns that composite is accountable for satisfying the
+intent the composite claims to satisfy, for the coherence of the composition,
+and for the seams between contributors — and for nothing beyond that. Composite
+ownership does not acquire domain authority over contributing capabilities,
+ownership of them, authority to redefine their contracts, or authority to
+override a legitimate domain constraint. Its only levers over the composition
+are the honest responses below: narrow what the composite promises, refuse to
+compose, or route an exceptional case to human judgment.
+
+**The whole can be accountable for its composition without owning the parts.**
+
+Two questions this framing raises are organizational and economic rather than
+structural, and both stay open: how an emergent composition that matters at the
+system level acquires stewardship at the right scope, and what legitimates a
+locally-worse, globally-better trade across independently owned domains. These
+are the *system-level stewardship* and *incentive compatibility* entries in
+[Open questions](../00-foundations/open-questions.md); nothing here resolves
+them.
+
 ## Validity
 
 Three constraints hold at every scale, and none of them is optional.

@@ -58,19 +58,41 @@ having it.**
 
 ## Prior art
 
-Convergence builds on ideas that already exist. It does not claim they are
-new. The differentiation is how they are integrated: delivery as a system,
+Convergence does not claim that its component ideas are new. It builds on
+decades of work across DevOps, Site Reliability Engineering, Platform
+Engineering, Team Topologies, continuous delivery, cloud computing,
+infrastructure as code, sociotechnical systems, and related disciplines. It
+also accepts Conway's Law rather than rediscovering the relationship between
+organizational structure and system design.
+
+The differentiation is how these are integrated: delivery as a system,
 capabilities as what the system can do, experience and realization kept
-distinct, specialization preserved.
+distinct, specialization preserved. That synthesis is offered as a working
+lens, not a claim of originality.
 
-Related practices and ideas include DevOps, SRE, Platform Engineering,
-Team Topologies, continuous delivery, infrastructure as code, cloud
-computing, sociotechnical systems, domain-driven design, policy as code,
-and developer experience.
+For what each neighboring body of work established, how Convergence relates to
+it, the comparison table, and sources, see
+[Prior art and intellectual lineage](prior-art.md).
 
-**TODO:** Add researched citations after a literature pass. Do not treat
-this list as complete or as endorsement of any framework as equivalent to
-Convergence.
+## Not to be confused with
+
+"Convergence" and "converged" already carry unrelated meanings. Convergence
+and Converged Engineering as used here are none of the following, and are not
+affiliated with or derived from them:
+
+- **Convergence Engineering** ([Sunnyday Technologies, 2026](https://doi.org/10.5281/zenodo.19863081)):
+  a methodology for commissioning autonomous software, measured by a "time to
+  silence" metric.
+- **Convergent engineering** / convergent systems engineering: a
+  transdisciplinary team-based research approach defined by the U.S. National
+  Academies (2017).
+- **Converged and hyperconverged infrastructure**: data-center product
+  categories combining compute, storage, and network.
+- **IT/OT convergence** and **network convergence**: the merging of
+  information, operational, or communication technologies.
+
+See [Terminology](terminology.md) and
+[Prior art and intellectual lineage](prior-art.md#not-to-be-confused-with).
 
 ## What Convergence is not
 

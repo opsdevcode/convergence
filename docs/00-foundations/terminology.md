@@ -15,7 +15,12 @@ Working vocabulary. Prefer these terms unless an RFC replaces them.
 
 The evolution of software delivery from an organization of engineering
 functions into an integrated engineering system. Working name, not an
-established industry definition. See [Convergence](convergence.md).
+established industry definition. Not the same as the separately published
+"Convergence Engineering" methodology (Sunnyday Technologies), the National
+Academies' "convergent engineering," converged or hyperconverged
+infrastructure, or IT/OT and network convergence. See
+[Prior art](prior-art.md#not-to-be-confused-with) for the disambiguation and
+sources.
 
 ## Converged Engineering
 
