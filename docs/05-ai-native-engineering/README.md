@@ -30,6 +30,13 @@ An agent consumes the [same conceptual set](agents-as-capability-consumers.md)
 of capabilities as everyone else. It does not get a separate graph, a
 separate org, or a lighter authorization story.
 
+Making engineering capabilities consumable by machines is not unique to
+Convergence; it is an active area of platform work, including interfaces such
+as the Model Context Protocol. Convergence's contribution is applying its
+existing capability, authority, and contract model to non-human consumers, and
+the claim above is offered as a thesis. See
+[Prior art](../00-foundations/prior-art.md#ai-era-platform-and-agent-work).
+
 ## This section
 
 | Document | Purpose |

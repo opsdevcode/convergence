@@ -112,6 +112,13 @@ enterprise implementation.
 - Not organizational consolidation or a mandated platform
 - Not measured by catalogs, automation percentage, or ticket volume
 
+Convergence does not claim its component ideas are new. It builds on Conway's
+Law, sociotechnical systems, DevOps, SRE, continuous delivery, infrastructure
+as code, Team Topologies, Platform Engineering, and related work. What each
+established, how Convergence relates to it, and how the name differs from other
+uses of "convergence" is set out in
+[Prior art and intellectual lineage](docs/00-foundations/prior-art.md).
+
 This repository once used "Capability Engineering" as the name of the
 discipline. That work remains as the capability *mechanism*. The phrase also
 has prior uses in systems engineering. See
@@ -147,7 +154,7 @@ is review, not another chapter.
 
 | Group | Section | Contents |
 | --- | --- | --- |
-| Frozen | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology, open questions, how to critique |
+| Frozen | [00 Foundations](docs/00-foundations/README.md) | Definitions, conceptual model, design doctrine, problem, terminology, prior art and lineage, open questions, how to critique |
 | Frozen | [01 Principles](docs/01-principles/README.md) | Six Major Principles |
 | Frozen | [02 Capabilities](docs/02-capabilities/README.md) | Intent, capability, experience, realization, contracts, graph |
 | Applied | [03 Architecture](docs/03-architecture/README.md) | Composition, policy attachment, observation, consumption, graph, federation |

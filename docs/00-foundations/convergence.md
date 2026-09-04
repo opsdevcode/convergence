@@ -58,41 +58,41 @@ having it.**
 
 ## Prior art
 
-Convergence builds on ideas that already exist. It does not claim they are
-new, and it does not treat any of them as equivalent to Convergence. The
-differentiation is how they are integrated: delivery as a system,
+Convergence does not claim that its component ideas are new. It builds on
+decades of work across DevOps, Site Reliability Engineering, Platform
+Engineering, Team Topologies, continuous delivery, cloud computing,
+infrastructure as code, sociotechnical systems, and related disciplines. It
+also accepts Conway's Law rather than rediscovering the relationship between
+organizational structure and system design.
+
+The differentiation is how these are integrated: delivery as a system,
 capabilities as what the system can do, experience and realization kept
-distinct, specialization preserved.
+distinct, specialization preserved. That synthesis is offered as a working
+lens, not a claim of originality.
 
-| Related work | What it contributes | Where Convergence differs |
-| --- | --- | --- |
-| [Conway's Law](https://martinfowler.com/bliki/ConwaysLaw.html) and the Inverse Conway Maneuver | Names the force: system structure mirrors communication structure | Convergence targets the delivery boundary directly, not only re-drawn team lines meant to shape architecture |
-| [Team Topologies](https://teamtopologies.com/) (stream-aligned, platform, enabling, complicated-subsystem) | Reduces handoffs and cognitive load by organizing teams for flow | Restructures teams; Convergence leaves specialties intact and changes how their expertise is exposed and consumed |
-| DevOps and SRE | Lowered the development/operations wall; reliability as engineering | Address one split; Convergence addresses the many specialist splits that remain after it |
-| Platform Engineering, internal developer platforms, "platform as a product" | Self-service consumption of paved paths; a platform defined by how it is consumed | A platform may serve experience or realization; it is not the definition of Convergence, and a portal that routes the same tickets has not converged delivery |
-| Intent-based and intent-driven engineering | Intent as a contract the system compiles into approved primitives | Overlaps with the intent-to-outcome loop; Convergence keeps experience and realization distinct and requires no registry product |
-| "Engineering system" programs (for example Microsoft's One Engineering System) | Treats the engineering system itself as a product | Convergence is vendor-neutral and non-normative; no implementation defines it |
-| AI platform engineering: agents as platform consumers on governed golden paths | Agents consume the same governed paths as humans | Convergence treats agents as consumers that expose the cost of tribal routing; they do not create the need |
-| Sociotechnical systems, domain-driven design, continuous delivery, infrastructure as code, policy as code, developer experience | Foundational practices Convergence assumes | Convergence composes them into a delivery-as-system frame rather than restating any one |
-
-This list is not complete and is not an endorsement of any framework as
-equivalent to Convergence.
+For what each neighboring body of work established, how Convergence relates to
+it, the comparison table, and sources, see
+[Prior art and intellectual lineage](prior-art.md).
 
 ## Not to be confused with
 
 "Convergence" and "converged" already carry unrelated meanings. Convergence
-and Converged Engineering as used here are none of the following:
+and Converged Engineering as used here are none of the following, and are not
+affiliated with or derived from them:
 
-- **Convergence Engineering** ([Sunnyday Technologies, 2026](https://doi.org/10.5281/zenodo.19863081))
-  is a published methodology for commissioning autonomous software, measured
-  by a "time to silence" metric. Unrelated to this work despite the similar
-  name.
-- **Converged and hyperconverged infrastructure** are data-center product
-  categories that combine compute, storage, and network in one system.
-- **IT/OT convergence** and **network convergence** describe the merging of
+- **Convergence Engineering** ([Sunnyday Technologies, 2026](https://doi.org/10.5281/zenodo.19863081)):
+  a methodology for commissioning autonomous software, measured by a "time to
+  silence" metric.
+- **Convergent engineering** / convergent systems engineering: a
+  transdisciplinary team-based research approach defined by the U.S. National
+  Academies (2017).
+- **Converged and hyperconverged infrastructure**: data-center product
+  categories combining compute, storage, and network.
+- **IT/OT convergence** and **network convergence**: the merging of
   information, operational, or communication technologies.
 
-See [Terminology](terminology.md).
+See [Terminology](terminology.md) and
+[Prior art and intellectual lineage](prior-art.md#not-to-be-confused-with).
 
 ## What Convergence is not
 

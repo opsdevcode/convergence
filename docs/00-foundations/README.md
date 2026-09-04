@@ -8,6 +8,7 @@
 | Doctrine | [Design doctrine](design-doctrine.md) | Accidental complexity vs intentional constraint |
 | Why | [The problem](problem.md) | Why specialization became a delivery API |
 | Words | [Terminology](terminology.md) | Canonical vocabulary |
+| Lineage | [Prior art](prior-art.md) | What Convergence builds on, and name disambiguation |
 | Parked | [Open questions](open-questions.md) | Hostile-test topics not solved in v0.1 |
 | Critique | [How to critique this](how-to-critique.md) | Frozen vs applied, what to attack, what would require an RFC |
 
