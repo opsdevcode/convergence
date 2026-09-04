@@ -1,8 +1,9 @@
 # Prior art and intellectual lineage
 
 Convergence does not claim that its component ideas are new. It builds on
-decades of work across DevOps, Site Reliability Engineering, Platform
-Engineering, Team Topologies, continuous delivery, cloud computing,
+decades of work across product practice, DevOps, DORA / Accelerate, Site
+Reliability Engineering, Platform Engineering, Team Topologies, Lean and
+value-stream thinking, continuous delivery, systems engineering,
 infrastructure as code, sociotechnical systems, and related disciplines.
 
 This page makes that lineage explicit. It records what each neighboring body
@@ -11,20 +12,20 @@ the end so a reader can verify each comparison independently.
 
 ## The thesis, stated carefully
 
-Convergence proposes that these developments point toward a broader evolution
-in software delivery: specialized expertise remains, while the organizational
-boundaries containing that expertise increasingly cease to define how delivery
-occurs.
+Convergence proposes a **working thesis**: specialized expertise remains,
+while the organizational boundaries containing that expertise need not
+unnecessarily define how *routine* delivery occurs.
 
-That is a working thesis, not a demonstrated fact and not a claim of
-originality. The word *increasingly* matters: intentional organizational
-boundaries remain valid where they provide engineering, governance, legal,
-regulatory, risk, authority, or human-judgment value. See
+That is a framing for synthesis, not a demonstrated industry evolution and
+not a claim of originality. The word *unnecessarily* matters: intentional
+organizational boundaries remain valid where they provide engineering,
+governance, legal, regulatory, risk, authority, or human-judgment value. See
 [Design doctrine](design-doctrine.md).
 
 Convergence synthesizes and reframes prior work. It does not claim the
-synthesis is unique, and it carries the burden of demonstrating that the
-framing is useful.
+synthesis is unique, that existing disciplines cannot reason across
+boundaries, or that this lens replaces them. It carries the burden of
+demonstrating that the framing is useful.
 
 ## Intellectual lineage
 
@@ -64,12 +65,11 @@ catalyzed by Allspaw and Hammond's "10+ Deploys per Day") challenged the
 organizational separation between building software and running it, emphasizing
 flow, feedback, shared responsibility, automation, and culture.
 
-**Relationship.** DevOps is foundational lineage. One way to understand the
-Convergence thesis is that DevOps demonstrated the value of challenging a major
-organizational boundary in software delivery; Convergence asks whether similar
-reasoning should be applied more broadly to the many specialized boundaries
-involved in modern engineering. This is offered as the Convergence thesis, not
-as an established historical progression, and Convergence is not DevOps renamed.
+**Relationship.** DevOps is foundational lineage. This synthesis asks a
+related question about *other* specialist boundaries in modern engineering
+(security, identity, networking, data, and so on). That is a complementary
+question, not a claim that DevOps is obsolete or that this work is DevOps's
+successor. Convergence is not DevOps renamed.
 
 ### Continuous delivery
 
@@ -79,6 +79,52 @@ pipeline and the practices that make releasing routine and low-risk (2010).
 **Relationship.** Continuous delivery is assumed rather than restated. It is
 one way repeatable delivery paths are realized; Convergence reasons about
 capabilities above any specific pipeline.
+
+### DORA / Accelerate
+
+**Contribution.** The DORA research program (and *Accelerate*) associates
+software delivery performance with capabilities such as loosely coupled
+architecture and teams, independent test and deploy, and low wait/handoff
+and external-approval overhead.
+
+**Relationship.** DORA is empirical neighbor, not a planning or product
+model. Convergence assumes rather than restates those findings: architecture
+and independent delivery dominate many flow problems. This synthesis does
+not claim a different delivery-performance physics.
+
+### Lean and value-stream thinking
+
+**Contribution.** Lean software and value-stream work treats wait, handoffs,
+queues, and local optimization (busy teams, poor end-to-end flow) as first
+class.
+
+**Relationship.** Design doctrine (accidental vs intentional friction;
+optimize the system, not the queue) inherits this stance. Convergence does
+not replace Lean.
+
+### Product operating-model / empowered product-team practice
+
+**Contribution.** Product-management literature associated with empowered
+product teams (including Silicon Valley Product Group's product operating
+model) distinguishes outcomes from feature/project output, and durable teams
+from delivery-as-assigned-work.
+
+**Relationship.** Intent and outcome in this corpus overlap that practice.
+Convergence does not replace it. The synthesis also asks how *specialist*
+domains that are not the product team participate without becoming a
+feature-roadmap supply chain or a lost authority.
+
+### Systems engineering and information hiding
+
+**Contribution.** Systems engineering composes subsystems under interfaces
+and constraints. Parnas (1972) argued that modularization by information
+hiding enables independent development; consumer-driven contracts and
+API-first practice continue that line in software.
+
+**Relationship.** Capability vs realization, contracts, and composition are
+in this lineage. Convergence does not claim to have invented interfaces,
+contracts, or composition. Human-realized capabilities and domain authority
+that is not a callable API remain in scope here.
 
 ### Site Reliability Engineering
 
@@ -182,8 +228,9 @@ Protocol (Anthropic, 2024).
 **Relationship.** Making engineering capabilities consumable by AI agents is
 not unique to Convergence. Convergence's contribution here is to apply its
 existing capability, authority, and contract model to non-human consumers.
-Convergence keeps the position that AI does not create the need for it but
-exposes the cost of not having it — offered as a thesis, not a proof.
+Convergence keeps the position that AI can expose the cost of implicit
+engineering systems — offered as a thesis, not a proof that AI requires or
+validates this model.
 Convergence is not an AI framework. See
 [AI-native engineering](../05-ai-native-engineering/README.md).
 
@@ -195,8 +242,12 @@ The table orients readers; it is not a claim of superiority.
 | --- | --- | --- |
 | Conway's Law / Inverse Conway | Communication structure and system design | Foundational observation Convergence accepts and builds on |
 | Sociotechnical systems | Joint optimization of social and technical systems | Foundational stance toward the engineering system |
-| DevOps | Development/operations flow and collaboration | Foundational lineage |
+| DevOps | Development/operations flow and collaboration | Foundational lineage; not superseded |
 | Continuous delivery | Automated, low-risk release | Assumed realization practice |
+| DORA / Accelerate | Delivery performance, coupling, wait/handoffs | Empirical neighbor; not restated as new physics |
+| Lean / value streams | Flow, queues, local vs system optimization | Inherited in design doctrine |
+| Product operating model | Outcomes, empowered durable teams | Complementary product lens |
+| Systems engineering / information hiding | Interfaces, contracts, composition | Lineage for capability vs realization |
 | SRE | Reliability engineering and operations | Specialized discipline contributing capabilities and constraints |
 | Infrastructure as code | Version-controlled, testable infrastructure | Common realization mechanism |
 | Team Topologies | Team-of-teams design and interaction for fast flow | Highly complementary organizational lens |
@@ -208,13 +259,14 @@ The table orients readers; it is not a claim of superiority.
 ## What Convergence actually claims
 
 Convergence does not propose eliminating engineering specialties, replacing
-Team Topologies, superseding DevOps, or turning every engineering interaction
-into platform self-service.
+Team Topologies, superseding DevOps, DORA, Lean, product practice, or
+systems engineering, or turning every engineering interaction into platform
+self-service.
 
-Its working thesis is that modern software delivery should increasingly be
-designed around the capabilities required to move intent toward outcomes,
-rather than requiring consumers to navigate the organizational structures in
-which the necessary expertise happens to reside.
+Its working thesis is that modern software delivery can be reasoned about
+around the capabilities required to move a class of intent toward outcomes,
+rather than requiring consumers of *routine* intent to navigate the
+organizational structures in which the necessary expertise happens to reside.
 
 Specialization remains. Silos don't. What converges is delivery, not
 expertise.
@@ -277,6 +329,15 @@ it is preferred over secondary summaries.
   Ops Cooperation at Flickr," O'Reilly Velocity.
 - Humble, J., & Farley, D. (2010). *Continuous Delivery: Reliable Software
   Releases through Build, Test, and Deployment Automation.* Addison-Wesley.
+- Forsgren, N., Humble, J., & Kim, G. (2018). *Accelerate.* IT Revolution.
+  DORA research: <https://dora.dev/>.
+- Poppendieck, M., & Poppendieck, T. (2003). *Lean Software Development.*
+  Addison-Wesley.
+- Parnas, D. L. (1972). "On the Criteria To Be Used in Decomposing Systems
+  into Modules." *Communications of the ACM*, 15(12).
+  <https://doi.org/10.1145/361598.361623>.
+- Cagan, M., and Silicon Valley Product Group. Product operating model /
+  empowered product teams. <https://www.svpg.com/>.
 - Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (eds.) (2016). *Site
   Reliability Engineering: How Google Runs Production Systems.* O'Reilly.
   <https://sre.google/books/>. Term originated by Ben Treynor Sloss (2003).

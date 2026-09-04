@@ -7,8 +7,11 @@ tooling.
 **Convergence should not require Convergence infrastructure.**
 **Convergence must not require a specific implementation to satisfy a
 principle.**
-**Convergence is recursively applicable** from a startup to a federated
-enterprise. The same principles do not require the same realization.
+**The same principles can apply** from a startup to a federated
+enterprise. The same principles do not require the same realization, and
+they do not require adopting the full vocabulary. Abstraction cost is
+higher at small scale; sketches below are illustrations, not a mandate
+to implement the whole model.
 
 **Standardize obligations before standardizing realizations** when
 multiple engineering systems must interact.

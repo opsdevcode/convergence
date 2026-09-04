@@ -5,7 +5,9 @@ system so specialized expertise can participate in delivery through
 capabilities without requiring consumers to navigate the organizational
 structures behind them.
 
-This is a proposed model, not an established methodology.
+This is a proposed **synthesis / reasoning model**, not an established
+methodology, not a new discipline, and not a replacement for neighboring
+practice.
 
 **Converged Engineering does not eliminate specialization. It eliminates
 specialization as a delivery boundary.**
@@ -13,16 +15,19 @@ specialization as a delivery boundary.**
 Expertise remains specialized. Ownership remains explicit. Human judgment
 remains essential. What converges is delivery.
 
-## Why it is needed
+## Why this framing exists
 
-If Convergence is the shift (functions as delivery architecture becoming
-less useful), Converged Engineering is a response: keep the specialties;
-change how expertise participates.
+If functions-as-delivery-architecture is becoming less useful, Converged
+Engineering is one response: keep the specialties; change how expertise
+participates.
 
-Without an explicit model, organizations tend to add a platform hop,
-declare "you build it, you run it" without encoding specialist knowledge,
-or hope agents will navigate the org chart. All three leave the product
-assembled through organizational APIs.
+Product, platform, reliability, and organizational models already address
+parts of that. This synthesis is for reasoning **across** those rooms
+when a single neighbor is used as the whole answer—for example adding a
+platform hop, declaring "you build it, you run it" without encoding
+specialist knowledge, or hoping agents will navigate the org chart. Those
+are failure modes this lens names. They are not proof that Platform
+Engineering, Team Topologies, or SRE are insufficient.
 
 ## Unit of optimization
 
@@ -96,11 +101,11 @@ See [Capabilities](../02-capabilities/README.md) and
 
 | Related model | What it addresses | Where Converged Engineering differs |
 | --- | --- | --- |
-| DevOps | The split between writing software and running it | Addresses a wider set of specialist boundaries. DevOps can exist inside a still-siloed delivery chain |
+| DevOps | The split between writing software and running it | Complementary. DevOps remains lineage; this lens also asks how *other* specialist boundaries participate in delivery. DevOps can exist inside a still-siloed chain; that is not a claim DevOps failed. |
 | Team Topologies | Team-of-teams structures and interaction modes for fast flow | Complementary, not competing. Team Topologies designs teams and their interactions; Converged Engineering takes the engineering system as the unit of reasoning and asks how expertise participates in delivery regardless of topology. The two can be used together. See [Prior art](../00-foundations/prior-art.md#team-topologies) |
 | Platform Engineering | Undifferentiated work, through internal products | A platform may participate in [experience](../02-capabilities/experience.md) or [realization](../02-capabilities/realization.md), but is not the definition of Convergence |
 | SRE, infrastructure, product | Reliability, substrate, and product judgment | All remain, as expertise contributing to capabilities rather than as a generic role |
-| AI agents | Consumption of capabilities at machine speed | Agents are possible consumers. They do not create Convergence; they expose the cost of tribal routing |
+| AI agents | Consumption of capabilities at machine speed | Agents are possible consumers. They can expose the cost of tribal routing; they do not create or prove this synthesis |
 
 Automating tickets is not the model. Reducing unnecessary
 [coordination](../02-capabilities/coordination-and-collaboration.md) while

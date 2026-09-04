@@ -4,7 +4,7 @@ Working vocabulary. Prefer these terms unless an RFC replaces them.
 
 | If you mean | Say |
 | --- | --- |
-| The shift from functions-as-delivery to an engineering system | **Convergence** |
+| Treating delivery as an engineering system rather than a function walk | **Convergence** |
 | The proposed design of that system | **Converged Engineering** |
 | What the engineering system can accomplish | **capability** |
 | How it is currently fulfilled | **realization** |
@@ -13,9 +13,9 @@ Working vocabulary. Prefer these terms unless an RFC replaces them.
 
 ## Convergence
 
-The evolution of software delivery from an organization of engineering
-functions into an integrated engineering system. Working name, not an
-established industry definition. Not the same as the separately published
+A working name for treating software delivery as an engineering system
+rather than as a walk of engineering functions. Working name, not an
+established industry movement or definition. Not the same as the separately published
 "Convergence Engineering" methodology (Sunnyday Technologies), the National
 Academies' "convergent engineering," converged or hyperconverged
 infrastructure, or IT/OT and network convergence. See
@@ -27,7 +27,8 @@ sources.
 Designs that engineering system so specialized expertise can participate
 in delivery through capabilities without requiring consumers to navigate
 the organizational structures behind them. A way existing roles can work;
-not a new specialty. See [Converged Engineering](converged-engineering.md).
+not a new discipline or specialty. See
+[Converged Engineering](converged-engineering.md).
 
 ## Intent
 
