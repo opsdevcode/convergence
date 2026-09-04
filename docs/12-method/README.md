@@ -1,9 +1,10 @@
 # Method
 
-The rest of this repository describes what Convergence is. This section
-describes how to do the work.
+This section is **optional applied guidance** for examining a delivery
+flow. It is not the identity of the project, not a required methodology,
+and not a second conceptual core.
 
-Nothing here adds to the conceptual core. Every activity serves an
+Nothing here adds to the frozen reasoning model. Every activity serves an
 existing [Major Principle](../01-principles/README.md) or the
 [design doctrine](../00-foundations/design-doctrine.md), and each
 document says which.

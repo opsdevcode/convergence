@@ -1,11 +1,12 @@
 # Convergence
 
-**Working definition:** Convergence is the evolution of software delivery
-from an organization of engineering functions into an integrated
-engineering system.
+**Working definition:** Convergence is a working name for treating software
+delivery as an engineering system rather than as a walk of engineering
+functions.
 
-This is a proposed name for an observed pressure and a proposed framing,
-not an established industry term and not a new engineering specialty.
+This is a proposed framing and a proposed name, not an established industry
+term, not a historical movement, and not a new engineering discipline or
+specialty.
 
 Convergence is not the convergence of expertise. It is the convergence of
 **delivery**.
@@ -26,9 +27,10 @@ What is under pressure is **specialization as a delivery boundary**: the
 habit of requiring an outcome to traverse tickets, queues, approvals, and
 meetings that mirror the org chart.
 
-The customer still experiences one product. Convergence is the claim that
-the *engineering system* should look more like that product: many kinds of
-expertise, fewer delivery seams.
+The customer still experiences one product. This framing asks whether the
+*engineering system* can look more like that product: many kinds of
+expertise, fewer *accidental* delivery seams. Intentional boundaries remain
+where they carry engineering or governance value.
 
 A threat model is not a capacity plan. An SLO is not a product hypothesis.
 Those kinds of work should contribute to shared capabilities and outcomes
@@ -50,11 +52,14 @@ The same developments support two very different responses.
 | Each queue gets a better interface | Routine intent stops traversing queues |
 | Expertise stays behind its counter | Expertise participates through capabilities |
 
-Convergence is the hypothesis that these forces should collapse **delivery
-boundaries** while leaving **expertise** intact.
+Convergence is the hypothesis that these forces can collapse **accidental
+delivery boundaries** while leaving **expertise** intact. It is not a claim
+that existing disciplines failed, or that this framing is the only
+response.
 
-**AI does not create the need for Convergence. It exposes the cost of not
-having it.**
+AI-assisted and agentic engineering can **expose the cost of implicit
+engineering systems** (tribal routing, org-chart APIs). They do not create
+the need for this synthesis and do not prove it.
 
 ## Prior art
 
@@ -65,10 +70,11 @@ infrastructure as code, sociotechnical systems, and related disciplines. It
 also accepts Conway's Law rather than rediscovering the relationship between
 organizational structure and system design.
 
-The differentiation is how these are integrated: delivery as a system,
-capabilities as what the system can do, experience and realization kept
-distinct, specialization preserved. That synthesis is offered as a working
-lens, not a claim of originality.
+The differentiation is how these are integrated as a **common
+engineering-system lens**, not a claim that nobody had connected them
+before. Delivery as a system, capabilities as what the system can do,
+experience and realization kept distinct, specialization preserved. That
+synthesis is offered as a working lens, not a claim of originality.
 
 For what each neighboring body of work established, how Convergence relates to
 it, the comparison table, and sources, see
@@ -99,8 +105,8 @@ See [Terminology](terminology.md) and
 - Not a merger of job families into one generic engineer.
 - Not a mandate to dissolve SRE, security, or infrastructure groups.
 - Not DevOps renamed. DevOps addressed the development/operations split.
-  Convergence is about the many specialist splits that remain after that
-  wall is lowered.
+  This synthesis is a complementary lens on other specialist boundaries;
+  it does not supersede DevOps.
 - Not Platform Engineering 2.0, an IDP architecture, a service catalog, a
   graph database, an agent framework, or a reorg methodology.
 - Not something you staff by hiring a Convergence team.

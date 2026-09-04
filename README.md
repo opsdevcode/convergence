@@ -6,18 +6,48 @@ One product. Many specialties. One engineering system.
 | --- | --- |
 | Status | v0.1 conceptual core frozen. First versions of applied guidance are in the tree. |
 | Stage | [v0.9 community review](ROADMAP.md). Invite structured critique; do not expand the frozen core. |
-| Kind | Working body of knowledge, not a product or standard |
+| Kind | Working body of knowledge: a **synthesis** of established engineering practices, used as a **cross-domain engineering-system reasoning model**. Not a product, standard, or new engineering discipline. |
 
 > Specialization remains. Silos don't.
 >
 > Convergence is not the convergence of expertise. It is the convergence of delivery.
 
+## What this is
+
+This repository synthesizes ideas that already exist in product, platform,
+reliability, operations, systems, and organizational engineering into a
+**common model** for reasoning about how specialized expertise participates
+in software delivery.
+
+It is a **lens**, not a new specialty. Established disciplines already reason
+well inside their own concerns. This model is for reasoning **across** their
+boundaries—for example where product intent meets specialist expertise, where
+a platform experience meets how work is actually fulfilled, or where
+distributed execution meets domain authority.
+
+Component mechanisms have substantial [prior art](docs/00-foundations/prior-art.md).
+The project does not claim they are original, and it does not replace Product
+Operating Model thinking, Team Topologies, Platform Engineering, DORA, DevOps,
+SRE, Lean, or systems engineering.
+
+## Who it is for
+
+The **full** model is most useful to people who already reason across
+specialties: architects, staff and principal engineers, platform and
+infrastructure leaders, security and reliability leaders, and engineering
+leadership.
+
+Individual practitioners may use **one principle, one distinction, or one
+diagnostic question** without adopting the whole vocabulary. Abstraction has
+a cost; treating this as organizational doctrine for every engineer is not
+the intent.
+
 ## Working definitions
 
 | Term | Working definition |
 | --- | --- |
-| **Convergence** | The evolution of software delivery from an organization of engineering functions into an integrated engineering system. |
-| **Converged Engineering** | Designs that system so specialized expertise can participate in delivery through capabilities without requiring consumers to navigate the organizational structures behind them. |
+| **Convergence** | A working name for treating software delivery as an engineering system rather than as a walk of engineering functions. Not an established industry movement. |
+| **Converged Engineering** | A proposed design of that system: specialized expertise participates through capabilities so consumers of routine intent need not navigate the organizational structures behind them. |
 
 These are working definitions, not established industry definitions.
 
@@ -26,7 +56,7 @@ remains essential. What converges is delivery.
 
 > Converged Engineering does not eliminate specialization. It eliminates specialization as a delivery boundary.
 
-It is not a new specialty, team, or job family.
+It is not a new discipline, specialty, team, or job family.
 **Convergence cannot be delegated to a Convergence function.**
 
 ## The problem
@@ -46,7 +76,8 @@ See [The problem](docs/00-foundations/problem.md).
 
 ## Conceptual model
 
-A conceptual loop, not a mandatory runtime.
+A synthesized reasoning loop, not a claim of novel mechanics and not a
+mandatory runtime.
 
 ```mermaid
 flowchart TB
@@ -103,45 +134,53 @@ enterprise implementation.
 
 ## What this is not
 
-- Not the elimination of SRE, infrastructure, security, platform, or product engineering
+- Not a new engineering discipline or specialty
+- Not a replacement for Product, Platform, SRE, security, infrastructure, or related practice
 - Not "everyone is full stack"
-- Not a rename of DevOps or Platform Engineering
+- Not a rename of DevOps, Platform Engineering, or Team Topologies
+- Not a required methodology, firm-wide operating model, or mandated platform
 - Not an IDP, service catalog, graph database, or agent framework
 - Not vendor-owned; no product defines the model
 - Not a requirement to buy or build "Convergence infrastructure"
-- Not organizational consolidation or a mandated platform
+- Not organizational consolidation
 - Not measured by catalogs, automation percentage, or ticket volume
+- Not an AI-specific model; AI does not require it
 
-Convergence does not claim its component ideas are new. It builds on Conway's
-Law, sociotechnical systems, DevOps, SRE, continuous delivery, infrastructure
-as code, Team Topologies, Platform Engineering, and related work. What each
-established, how Convergence relates to it, and how the name differs from other
-uses of "convergence" is set out in
-[Prior art and intellectual lineage](docs/00-foundations/prior-art.md).
+## Prior art (part of the identity)
 
-This repository once used "Capability Engineering" as the name of the
-discipline. That work remains as the capability *mechanism*. The phrase also
-has prior uses in systems engineering. See
-[Terminology](docs/00-foundations/terminology.md).
+Component ideas come from established traditions. Read
+[Prior art and intellectual lineage](docs/00-foundations/prior-art.md)
+for Conway, sociotechnical systems, DevOps, DORA, SRE, continuous delivery,
+Lean, systems engineering, Team Topologies, Platform Engineering, product
+operating-model thinking, and related work—what each established, how this
+synthesis relates, and how the name differs from other uses of "convergence."
+
+This repository once used "Capability Engineering" as a project name. That
+work remains as the capability *mechanism*. The phrase also has prior uses in
+systems engineering. See [Terminology](docs/00-foundations/terminology.md).
 
 ## Documentation
 
-**Start here.** If you are new to this, read in this order:
+**Start here.** Frozen material is the reasoning model. Applied sections
+(method, operating-model vignettes, maturity, adoption) are **optional
+guidance**. They are not extra principles and not a required methodology.
 
-1. [The problem](docs/00-foundations/problem.md) and
-   [Design doctrine](docs/00-foundations/design-doctrine.md) — why this
-   exists and the reasoning lens it applies.
-2. [Foundations](docs/00-foundations/README.md) and
-   [Terminology](docs/00-foundations/terminology.md) — the definitions the
-   rest of the work depends on.
-3. [The six Major Principles](docs/01-principles/README.md).
-4. [Capabilities](docs/02-capabilities/README.md) — intent, capability,
-   experience, realization, outcome, learning.
-5. [Method](docs/12-method/README.md) — how to actually do the work.
+1. [The problem](docs/00-foundations/problem.md) — the join this lens is
+   for: specialization as a delivery architecture.
+2. [Prior art](docs/00-foundations/prior-art.md) — what is already
+   established, and what this synthesis does not replace.
+3. [Design doctrine](docs/00-foundations/design-doctrine.md) — accidental
+   vs intentional friction.
+4. [Foundations](docs/00-foundations/README.md) and
+   [Terminology](docs/00-foundations/terminology.md) — working definitions.
+5. [The six Major Principles](docs/01-principles/README.md) — you can read
+   one without adopting all six.
+6. [Conceptual model](docs/00-foundations/conceptual-model.md) — intent,
+   capability, experience, realization, outcome, learning.
 
-Architecture, operating model, patterns, anti-patterns, adoption, and
-the conceptual reference architecture are first versions of applied
-design. They are not extra principles. Read them after the path above.
+Then, only if useful: [Capabilities](docs/02-capabilities/README.md) for
+mechanism detail, and [Method](docs/12-method/README.md) as **applied**
+help for examining a flow—not the identity of the project.
 
 If you came to disagree, read
 [How to critique this](docs/00-foundations/how-to-critique.md) after that
@@ -158,14 +197,14 @@ is review, not another chapter.
 | Frozen | [01 Principles](docs/01-principles/README.md) | Six Major Principles |
 | Frozen | [02 Capabilities](docs/02-capabilities/README.md) | Intent, capability, experience, realization, contracts, graph |
 | Applied | [03 Architecture](docs/03-architecture/README.md) | Composition, policy attachment, observation, consumption, graph, federation |
-| Applied | [04 Operating model](docs/04-operating-model/README.md) | What changes per discipline; planning, staffing, funding |
+| Applied | [04 Operating model](docs/04-operating-model/README.md) | Per-discipline vignettes (not a new firm operating model) |
 | Applied | [05 AI-native engineering](docs/05-ai-native-engineering/README.md) | Agents as consumers, agent-facing contracts, authorization |
-| Applied | [06 Maturity](docs/06-maturity-model/README.md) | Characteristics as spectra, deliberately not a score |
+| Applied | [06 Maturity](docs/06-maturity-model/README.md) | Optional spectra, not a program or score |
 | Applied | [07 Patterns](docs/07-patterns/README.md) | Recurring designs, with their costs |
 | Applied | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Recurring failure modes |
 | Applied | [09 Reference architecture](docs/09-reference-architecture/README.md) | Non-normative conceptual reference |
 | Applied | [11 Adoption](docs/11-adoption/README.md) | Startup through brownfield sketches |
-| Applied | [12 Method](docs/12-method/README.md) | How to do the work: trace, evaluate, identify, decide, design, operate |
+| Applied | [12 Method](docs/12-method/README.md) | Optional: how to examine a flow; does not extend the core |
 | Applied | [Diagrams](diagrams/README.md) | Conceptual diagrams |
 | Later | [10 Implementations](docs/10-reference-implementations/README.md) | Placeholder. No implementation defines the model. |
 | Process | [Roadmap](ROADMAP.md) | Snapshots v0.1–v1.0; current stage is v0.9 review |
