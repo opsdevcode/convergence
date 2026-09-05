@@ -1,17 +1,19 @@
 # How to critique this
 
-This repository is a proposed **synthesis / reasoning model**, not a finished
-standard and not a new engineering discipline. Structured disagreement is
-more useful than agreement that restates the text.
+This repository is a proposed **emerging methodology** (not finished, not
+a new engineering discipline) whose **lineage** is a synthesis of
+established practice. Structured disagreement is more useful than
+agreement that restates the text.
 
 Read [The problem](problem.md), [Prior art](prior-art.md),
 [Design doctrine](design-doctrine.md),
 [Terminology](terminology.md), and the
 [six Major Principles](../01-principles/README.md) before arguing from a
 single later page. Applied sections can be wrong without the core being
-wrong, and the reverse is also true. Frozen material is the reasoning
-model. Method, operating-model vignettes, maturity, and adoption are
-application guidance; they do not extend the conceptual core.
+wrong, and the reverse is also true. Frozen material is the thesis,
+principles, and conceptual foundation. Method, operating-model vignettes,
+maturity, and adoption are **emerging application**; they do not extend
+the conceptual core.
 
 ## What is frozen, what is not
 
@@ -80,7 +82,7 @@ that is a critique.
 
 | Move | Why it does not help |
 | --- | --- |
-| "This is just DevOps / Platform Engineering / SRE / Team Topologies" | Those are lineage, not insults. Say which frozen *relationship* (for example capability vs realization, or authority vs execution) is identical to a named neighbor, and which this synthesis still uses. Distinction is attempted in [Converged Engineering](converged-engineering.md) and [Prior art](prior-art.md). Do not treat "existing practice already covers the join" as a useless critique—that is a valid attack on usefulness. |
+| "This is just DevOps / Platform Engineering / SRE / Team Topologies" | Those are lineage, not insults. Say which frozen *relationship* (for example capability vs realization, or authority vs execution) is identical to a named neighbor, and which the model still uses. Distinction is attempted in [Converged Engineering](converged-engineering.md) and [Prior art](prior-art.md). Do not treat "existing practice already covers the join" as a useless critique—that is a valid attack on usefulness. |
 | "You need a platform / graph database / catalog to do this" | The model forbids that as a requirement. Argue that the prohibition is dishonest, with an example where practice cannot proceed without one. |
 | "Add a seventh principle / maturity level / scoring rubric" | Open questions exist so those are not filled in for completeness. |
 | "Name a vendor or product as the reference implementation" | Implementations do not define the model. [Reference implementations](../10-reference-implementations/README.md) stay empty until something can be described without becoming a buy list. |

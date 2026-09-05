@@ -1,12 +1,12 @@
 # Convergence
 
-**Working definition:** Convergence is a working name for treating software
-delivery as an engineering system rather than as a walk of engineering
-functions.
+**Working definition:** Convergence is a working name for an **emerging
+methodology** for designing software delivery as a coherent engineering
+system rather than as a sequence of organizational handoffs.
 
-This is a proposed framing and a proposed name, not an established industry
-term, not a historical movement, and not a new engineering discipline or
-specialty.
+This is a proposed name and a proposed body of work, not an established
+industry term, not a historical movement, not a mature methodology, and
+not a new engineering discipline or specialty.
 
 Convergence is not the convergence of expertise. It is the convergence of
 **delivery**.
@@ -27,7 +27,7 @@ What is under pressure is **specialization as a delivery boundary**: the
 habit of requiring an outcome to traverse tickets, queues, approvals, and
 meetings that mirror the org chart.
 
-The customer still experiences one product. This framing asks whether the
+The customer still experiences one product. This work asks whether the
 *engineering system* can look more like that product: many kinds of
 expertise, fewer *accidental* delivery seams. Intentional boundaries remain
 where they carry engineering or governance value.
@@ -59,7 +59,7 @@ response.
 
 AI-assisted and agentic engineering can **expose the cost of implicit
 engineering systems** (tribal routing, org-chart APIs). They do not create
-the need for this synthesis and do not prove it.
+the need for Convergence and do not prove it.
 
 ## Prior art
 
@@ -70,11 +70,11 @@ infrastructure as code, sociotechnical systems, and related disciplines. It
 also accepts Conway's Law rather than rediscovering the relationship between
 organizational structure and system design.
 
-The differentiation is how these are integrated as a **common
-engineering-system lens**, not a claim that nobody had connected them
-before. Delivery as a system, capabilities as what the system can do,
-experience and realization kept distinct, specialization preserved. That
-synthesis is offered as a working lens, not a claim of originality.
+The work **draws on** those traditions as lineage. It is **developing** an
+integrated way to design the engineering system (capabilities, experience
+and realization kept distinct, specialization preserved). That is not a
+claim of originality of the parts, uniqueness of the whole, or that nobody
+had connected similar ideas before.
 
 For what each neighboring body of work established, how Convergence relates to
 it, the comparison table, and sources, see
@@ -105,8 +105,8 @@ See [Terminology](terminology.md) and
 - Not a merger of job families into one generic engineer.
 - Not a mandate to dissolve SRE, security, or infrastructure groups.
 - Not DevOps renamed. DevOps addressed the development/operations split.
-  This synthesis is a complementary lens on other specialist boundaries;
-  it does not supersede DevOps.
+  Convergence is complementary on other specialist boundaries; it does not
+  supersede DevOps.
 - Not Platform Engineering 2.0, an IDP architecture, a service catalog, a
   graph database, an agent framework, or a reorg methodology.
 - Not something you staff by hiring a Convergence team.
