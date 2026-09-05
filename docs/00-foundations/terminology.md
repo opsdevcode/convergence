@@ -4,7 +4,7 @@ Working vocabulary. Prefer these terms unless an RFC replaces them.
 
 | If you mean | Say |
 | --- | --- |
-| Treating delivery as an engineering system rather than a function walk | **Convergence** |
+| Treating delivery as an engineering system rather than a function walk; emerging methodology (working name) | **Convergence** |
 | The proposed design of that system | **Converged Engineering** |
 | What the engineering system can accomplish | **capability** |
 | How it is currently fulfilled | **realization** |
@@ -13,9 +13,11 @@ Working vocabulary. Prefer these terms unless an RFC replaces them.
 
 ## Convergence
 
-A working name for treating software delivery as an engineering system
-rather than as a walk of engineering functions. Working name, not an
-established industry movement or definition. Not the same as the separately published
+A working name for an **emerging methodology** for designing software
+delivery as a coherent engineering system rather than a sequence of
+organizational handoffs. Working name, not an established industry
+movement, not a mature methodology, and not a new discipline. Not the same
+as the separately published
 "Convergence Engineering" methodology (Sunnyday Technologies), the National
 Academies' "convergent engineering," converged or hyperconverged
 infrastructure, or IT/OT and network convergence. See

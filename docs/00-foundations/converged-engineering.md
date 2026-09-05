@@ -5,9 +5,9 @@ system so specialized expertise can participate in delivery through
 capabilities without requiring consumers to navigate the organizational
 structures behind them.
 
-This is a proposed **synthesis / reasoning model**, not an established
-methodology, not a new discipline, and not a replacement for neighboring
-practice.
+This is the proposed **design** of that system: an **emerging
+methodology**, not a mature or independently validated one, not a new
+discipline, and not a replacement for neighboring practice.
 
 **Converged Engineering does not eliminate specialization. It eliminates
 specialization as a delivery boundary.**
@@ -15,19 +15,23 @@ specialization as a delivery boundary.**
 Expertise remains specialized. Ownership remains explicit. Human judgment
 remains essential. What converges is delivery.
 
-## Why this framing exists
+## Why this exists
 
-If functions-as-delivery-architecture is becoming less useful, Converged
-Engineering is one response: keep the specialties; change how expertise
-participates.
+The problem is not specialization. The problem is when organizational
+boundaries become the delivery interface for **routine** intent.
+
+Converged Engineering is the response this repository is developing: keep
+the specialties, domain authority, human judgment, and accountability;
+change how expertise **participates** so consumers need not assemble the
+org chart.
 
 Product, platform, reliability, and organizational models already address
-parts of that. This synthesis is for reasoning **across** those rooms
-when a single neighbor is used as the whole answer—for example adding a
-platform hop, declaring "you build it, you run it" without encoding
-specialist knowledge, or hoping agents will navigate the org chart. Those
-are failure modes this lens names. They are not proof that Platform
-Engineering, Team Topologies, or SRE are insufficient.
+**parts** of that. Convergence does not treat them as insufficient. It is
+for designing the **engineering system across** those rooms when a single
+neighbor is used as the whole answer—for example adding a platform hop,
+declaring "you build it, you run it" without encoding specialist
+knowledge, or hoping agents will navigate the org chart. Those failure
+modes leave the product assembled through organizational APIs.
 
 ## Unit of optimization
 
@@ -75,8 +79,8 @@ another layer product teams must petition.
 **Convergence cannot be delegated to a Convergence function.**
 
 A Platform Engineer, SRE, infrastructure engineer, product engineer, or
-security engineer can practice Converged Engineering. The model is a way
-of working, not a department.
+security engineer can practice Converged Engineering. It is a way of
+working on the engineering system, not a department.
 
 ## Ownership
 
@@ -105,7 +109,7 @@ See [Capabilities](../02-capabilities/README.md) and
 | Team Topologies | Team-of-teams structures and interaction modes for fast flow | Complementary, not competing. Team Topologies designs teams and their interactions; Converged Engineering takes the engineering system as the unit of reasoning and asks how expertise participates in delivery regardless of topology. The two can be used together. See [Prior art](../00-foundations/prior-art.md#team-topologies) |
 | Platform Engineering | Undifferentiated work, through internal products | A platform may participate in [experience](../02-capabilities/experience.md) or [realization](../02-capabilities/realization.md), but is not the definition of Convergence |
 | SRE, infrastructure, product | Reliability, substrate, and product judgment | All remain, as expertise contributing to capabilities rather than as a generic role |
-| AI agents | Consumption of capabilities at machine speed | Agents are possible consumers. They can expose the cost of tribal routing; they do not create or prove this synthesis |
+| AI agents | Consumption of capabilities at machine speed | Agents are possible consumers. They can expose the cost of tribal routing; they do not create or prove Convergence |
 
 Automating tickets is not the model. Reducing unnecessary
 [coordination](../02-capabilities/coordination-and-collaboration.md) while

@@ -1,8 +1,12 @@
 # Foundations
 
-This repository is a **synthesis** of established engineering practice,
-used as a cross-domain engineering-system reasoning model—not a third
-discipline.
+**Convergence** is an emerging methodology (not mature) for designing
+software delivery as a coherent engineering system rather than a sequence
+of organizational handoffs. It is **not** a third engineering discipline.
+
+**Prior art** is lineage: component ideas are established. **Principles**
+and the **conceptual model** are the frozen foundation. **Method** is
+emerging application.
 
 | Layer | Document | Purpose |
 | --- | --- | --- |
@@ -26,10 +30,11 @@ is not a Major Principle lives in
 **Mechanisms** (capabilities, contracts, graphs, encoding) are ways the
 model can be realized conceptually.
 **Patterns** are repeatable approaches (later).
-**Method** ([12 Method](../12-method/README.md)) is **optional applied
-guidance** for examining a flow. It applies the principles; it does not
-extend them. You do not have to adopt the full vocabulary to use a
-principle or distinction.
+**Method** ([12 Method](../12-method/README.md)) is the **emerging
+practical application**: how to examine a flow. It applies the
+principles; it does not extend them. It is not finished and not a
+transformation program. You do not have to adopt the full vocabulary to
+use a principle or distinction.
 **Implementations** are specific technologies and orgs. Convergence must
 not require a specific implementation to satisfy a principle.
 

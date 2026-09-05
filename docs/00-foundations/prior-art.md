@@ -16,16 +16,20 @@ Convergence proposes a **working thesis**: specialized expertise remains,
 while the organizational boundaries containing that expertise need not
 unnecessarily define how *routine* delivery occurs.
 
-That is a framing for synthesis, not a demonstrated industry evolution and
-not a claim of originality. The word *unnecessarily* matters: intentional
-organizational boundaries remain valid where they provide engineering,
-governance, legal, regulatory, risk, authority, or human-judgment value. See
+That is the thesis of an **emerging methodology**, not a demonstrated
+industry evolution and not a claim of originality of the parts. The word
+*unnecessarily* matters: intentional organizational boundaries remain valid
+where they provide engineering, governance, legal, regulatory, risk,
+authority, or human-judgment value. See
 [Design doctrine](design-doctrine.md).
 
-Convergence synthesizes and reframes prior work. It does not claim the
-synthesis is unique, that existing disciplines cannot reason across
-boundaries, or that this lens replaces them. It carries the burden of
-demonstrating that the framing is useful.
+Convergence **draws on** prior work. It does not claim the components are
+inventions, that existing disciplines cannot reason across boundaries, or
+that this work replaces them. No single named methodology has been
+identified that combines these concerns in substantially the same way. A
+combination of established practices can still reproduce many of the same
+designs. The work carries the burden of demonstrating that the **integrated
+application** is useful.
 
 ## Intellectual lineage
 
@@ -65,7 +69,7 @@ catalyzed by Allspaw and Hammond's "10+ Deploys per Day") challenged the
 organizational separation between building software and running it, emphasizing
 flow, feedback, shared responsibility, automation, and culture.
 
-**Relationship.** DevOps is foundational lineage. This synthesis asks a
+**Relationship.** DevOps is foundational lineage. Convergence asks a
 related question about *other* specialist boundaries in modern engineering
 (security, identity, networking, data, and so on). That is a complementary
 question, not a claim that DevOps is obsolete or that this work is DevOps's
@@ -89,7 +93,7 @@ and external-approval overhead.
 
 **Relationship.** DORA is empirical neighbor, not a planning or product
 model. Convergence assumes rather than restates those findings: architecture
-and independent delivery dominate many flow problems. This synthesis does
+and independent delivery dominate many flow problems. Convergence does
 not claim a different delivery-performance physics.
 
 ### Lean and value-stream thinking
@@ -110,7 +114,7 @@ model) distinguishes outcomes from feature/project output, and durable teams
 from delivery-as-assigned-work.
 
 **Relationship.** Intent and outcome in this corpus overlap that practice.
-Convergence does not replace it. The synthesis also asks how *specialist*
+Convergence does not replace it. Convergence also asks how *specialist*
 domains that are not the product team participate without becoming a
 feature-roadmap supply chain or a lost authority.
 
@@ -254,7 +258,7 @@ The table orients readers; it is not a claim of superiority.
 | Platform Engineering | Internal platforms and developer experience | Common realization mechanism |
 | Intent-Based Engineering | Expressing intent and automating realization | Related intent-oriented implementation approach |
 | One Engineering System | Engineering tools/systems at organizational scale | Neighboring engineering-system-level thinking |
-| Convergence | Intent-to-outcome flow of specialized expertise through capabilities | Proposed synthesis and lens |
+| Convergence | Intent-to-outcome flow of specialized expertise through capabilities | Emerging methodology; lineage is a synthesis of the rows above |
 
 ## What Convergence actually claims
 
@@ -263,10 +267,11 @@ Team Topologies, superseding DevOps, DORA, Lean, product practice, or
 systems engineering, or turning every engineering interaction into platform
 self-service.
 
-Its working thesis is that modern software delivery can be reasoned about
+Its working thesis is that modern software delivery can be **designed**
 around the capabilities required to move a class of intent toward outcomes,
 rather than requiring consumers of *routine* intent to navigate the
 organizational structures in which the necessary expertise happens to reside.
+That is a methodology-in-development, not a proof of uniqueness.
 
 Specialization remains. Silos don't. What converges is delivery, not
 expertise.
@@ -275,7 +280,7 @@ expertise.
 
 "Convergence" and "converged" already carry unrelated meanings across
 engineering and technology. Convergence as defined by this project refers
-specifically to a proposed model of software delivery in which specialized
+specifically to an emerging methodology for software delivery in which specialized
 expertise remains while delivery becomes less dependent on navigating the
 organizational boundaries containing that expertise. This project is not
 affiliated with or derived from the following:
@@ -300,8 +305,9 @@ meaning; the two are not the same.
 
 ## An intellectual-honesty note
 
-Convergence is an early working body of knowledge. Its terminology and model
-remain subject to challenge and refinement. Similar or equivalent ideas may
+Convergence is an **emerging methodology** and an early working body of
+knowledge. Its terminology and model remain subject to challenge and
+refinement. Similar or equivalent ideas may
 exist in bodies of work not represented here. Prior-art omissions should be
 treated as gaps to correct, not as evidence of originality.
 
