@@ -199,7 +199,8 @@ program.
    capability, experience, realization, outcome, learning.
 
 Then [Capabilities](docs/02-capabilities/README.md) for mechanism detail,
-and [Method](docs/12-method/README.md) to examine a flow. You can use one
+and [Method](docs/12-method/README.md) to apply Convergence to one bounded
+class of intent. You can use one
 principle without the whole vocabulary.
 
 If you came to disagree, read
@@ -224,7 +225,7 @@ is review, not another chapter.
 | Applied | [08 Anti-patterns](docs/08-anti-patterns/README.md) | Recurring failure modes |
 | Applied | [09 Reference architecture](docs/09-reference-architecture/README.md) | Non-normative conceptual reference |
 | Applied | [11 Adoption](docs/11-adoption/README.md) | Startup through brownfield sketches |
-| Applied | [12 Method](docs/12-method/README.md) | Emerging application: examine a flow; does not extend the frozen core |
+| Applied | [12 Method](docs/12-method/README.md) | Initial application method: five moves on one class of intent |
 | Applied | [Diagrams](diagrams/README.md) | Conceptual diagrams |
 | Later | [10 Implementations](docs/10-reference-implementations/README.md) | Placeholder. No implementation defines the model. |
 | Process | [Roadmap](ROADMAP.md) | Snapshots v0.1–v1.0; current stage is v0.9 review |

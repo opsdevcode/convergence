@@ -2,6 +2,9 @@
 
 **Serves:** the [design doctrine](../00-foundations/design-doctrine.md).
 
+**Method move:** 3. Diagnose (always-used wait / friction cut). See the
+[initial application method](README.md).
+
 > Convergence removes accidental complexity while preserving intentional
 > constraint.
 
@@ -25,6 +28,12 @@ categories to count.
 Do not turn this into a percentage of waste, a classification database,
 or a scored inventory. The doctrine is a lens. A number derived from it
 would be false precision, and it would immediately become a target.
+
+Waits on the trace may be hypothesized as specialist judgment, intentional
+governance, technical dependency, capacity, missing information,
+organizational routing, accidental process, or unknown. **Those reasons
+are not a waste taxonomy.** A wait can be both a real control and
+accidentally delivered as routing. Unknown is allowed.
 
 ## Slowness is not the test
 

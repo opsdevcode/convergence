@@ -2,6 +2,11 @@
 
 **Serves:** [Major Principle 4](../01-principles/04-encode-what-is-repeatable.md).
 
+**Method move:** 4. Intervene, **conditional** — only when repetition
+suggests settled expertise. Domain experts decide whether knowledge is
+understood enough to encode. See the
+[initial application method](README.md).
+
 > Encode what is repeatable. Collaborate on what is novel.
 
 Repetition is a signal to **examine**, not a verdict that something

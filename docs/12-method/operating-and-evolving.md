@@ -2,6 +2,10 @@
 
 **Serves:** [Major Principle 6](../01-principles/06-close-the-loop.md).
 
+**Method move:** 5. Observe. Pair with the **wrong-success** sentence on
+the [application record](application-record.md). See the
+[initial application method](README.md).
+
 > Learning is evidence capable of changing what the engineering system
 > believes.
 
@@ -9,6 +13,14 @@ An encoded path is not finished. This document covers what happens after
 it is in use, and it is where several topics from
 [open questions](../00-foundations/open-questions.md) become practical
 rather than theoretical.
+
+## Wrong-success
+
+Before treating a local metric as improvement, ask what could look
+like success while the engineering system did not improve: a nicer
+queue, Slack instead of tickets, unsafe automation, a better team SLA
+with a worse path, a platform that absorbed domain authority, a control
+removed because it was slow.
 
 ## What evidence should reach the owner
 

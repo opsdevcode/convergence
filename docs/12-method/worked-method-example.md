@@ -1,8 +1,23 @@
 # Worked example: one full pass
 
-One flow, all six activities, in an organization that is not starting
-from scratch. The point of this document is concreteness, including the
-parts that stay unresolved.
+One bounded class of intent through the
+[initial application method](README.md). **Illustration only** — not
+evidence that the method works, and not a required template.
+
+The numbered sections below are the older six-activity depth (trace →
+operate). They still map:
+
+| Method move | In this example |
+| --- | --- |
+| 1. Scope | Relational storage for a new feature; recurring; a lead owns the result |
+| 2. Trace | Section 1 |
+| 3. Diagnose | Sections 2–3 |
+| 4. Intervene | Sections 4–5 (encode + experience/realization); security review kept |
+| 5. Observe | Section 6 |
+
+The point is concreteness, including what stayed unresolved. The
+[application record](application-record.md) is the artifact a
+practitioner would keep; this page is longer on purpose.
 
 ## Setting
 
@@ -158,5 +173,6 @@ recorded and assigned, not explained away.
 
 Multi-region replication, the manual tuning the encoding does not cover,
 and whether the platform group is the right long-term capability owner.
-Three open items after a successful pass is normal. A pass that resolves
-everything usually means the trace was too shallow.
+Three open items after this illustrated pass is normal. A pass that
+resolves everything usually means the trace was too shallow. Nothing
+here is field validation.
