@@ -4,8 +4,13 @@
 (design the engineering system, not the handoffs) and
 [Major Principle 3](../01-principles/03-organization-is-an-implementation-detail.md).
 
-You cannot evaluate a delivery path you have not written down. Tracing
-produces the raw material for every later step.
+**Method move:** 2. Trace. See the
+[initial application method](README.md).
+
+You cannot diagnose a delivery path you have not written down. Tracing
+produces the raw material for later moves.
+
+Start from a **real or representative instance**, not from an org chart.
 
 ## Choosing the flow
 
@@ -40,6 +45,7 @@ or requires a decision. For each one, record:
 | What expertise it applies | Distinguishes judgment from lookup |
 | What evidence it produces | Some interactions exist to create a record |
 | What it waits on | Separates queue time from work time |
+| Why it waits (hypothesis) | Distinguishes judgment, control, tech, capacity, missing information, routing, accidental process, unknown — categories may overlap |
 | Whether the answer was ever different | Repetition of an identical answer is a signal |
 
 That last field does more work than the rest. An approval that has
@@ -49,7 +55,8 @@ different from an approval that genuinely varies.
 ## The output
 
 A **delivery trace**: an ordered list of interactions with those fields
-filled in. A page of notes or a table is enough. It is not an artifact
+filled in. A page of notes or a table is enough. Copy it into the
+[application record](application-record.md). It is not an artifact
 that needs a tool, a schema, or a review board.
 
 The trace is evidence for a conversation, not a deliverable to be signed.

@@ -3,6 +3,11 @@
 **Serves:** [Major Principle 1](../01-principles/01-specialization-remains-silos-dont.md)
 and the [capability](../02-capabilities/capability.md) mechanism.
 
+**Method move:** 3. Diagnose, **conditional**. Always distinguish what
+the system can accomplish from how it is consumed and how it is
+fulfilled. **Naming** a capability is only required when that name
+changes a decision. See the [initial application method](README.md).
+
 A trace shows an organization walking. Identification asks what that
 organization can already accomplish.
 

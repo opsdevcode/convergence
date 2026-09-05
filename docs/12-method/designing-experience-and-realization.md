@@ -4,6 +4,11 @@
 [Major Principle 5](../01-principles/05-distribute-execution.md), and the
 [design doctrine](../00-foundations/design-doctrine.md).
 
+**Method move:** 4. Intervene. Experience vs realization is an
+**always-used** cut (portal vs queue). Composition and authority detail
+are **conditional**. See the [initial application method](README.md) and
+[Choosing an intervention](choosing-an-intervention.md).
+
 > Remove accidental friction. Design intentional friction.
 
 Once you know the capability and what is worth encoding, two design

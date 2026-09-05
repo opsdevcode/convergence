@@ -3,23 +3,27 @@
 The work of designing the engineering system. This is **not** the
 [conceptual model](core-conceptual-model.md). The conceptual model
 describes how intent becomes outcome. This describes the deliberate work
-of examining and changing that path.
+of examining and changing that path. See the
+[initial application method](../docs/12-method/README.md).
 
 ```mermaid
 flowchart TB
-  Trace["Trace<br/>how the intent reaches outcome today"]:::exp
-  Eval["Evaluate<br/>what value each interaction provides"]:::exp
-  Ident["Identify<br/>what the system can already accomplish"]:::cap
-  Decide["Decide<br/>whether and how to encode"]:::cap
-  Design["Design<br/>experience, realization, constraints"]:::real
-  Operate["Operate<br/>learning, decay, evolution"]:::learn
+  Scope["Scope<br/>class of intent, outcome, entry"]:::intent
+  Trace["Trace<br/>what recent instances actually did"]:::exp
+  Diag["Diagnose<br/>waits, accidental vs intentional"]:::exp
+  Int["Intervene<br/>smallest change, including none"]:::real
+  Obs["Observe<br/>wrong-success, evidence, learning"]:::learn
 
-  Trace --> Eval
-  Eval --> Ident
-  Ident --> Decide
-  Decide --> Design
-  Design --> Operate
-  Operate -.->|better evidence, next pass| Trace
+  Scope --> Trace
+  Trace --> Diag
+  Diag --> Int
+  Int --> Obs
+  Obs -.->|understanding changed| Scope
+  Obs -.-> Trace
+  Obs -.-> Diag
+  Obs -.-> Int
+  Diag -.->|not enough instances| Trace
+  Int -.->|constraint still unclear| Diag
 
   classDef intent fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
   classDef cap fill:#E4EFE7,stroke:#2F6F4E,color:#1B2838
@@ -30,7 +34,8 @@ flowchart TB
   classDef team fill:#F3F4F6,stroke:#6B7280,color:#111827
 ```
 
-The order is a reading order, not a gate sequence. Real work moves
-backward as often as forward.
-
-See [Method](../docs/12-method/README.md).
+The order is a default, not a gate sequence. Observe may return to any
+earlier move when evidence changes understanding. If there is nothing
+useful to change or watch, **stop** — iteration is not mandatory.
+Identify, encode, and design remain as **depth**, not required extra
+stages.

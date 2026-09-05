@@ -30,8 +30,8 @@ is not a Major Principle lives in
 **Mechanisms** (capabilities, contracts, graphs, encoding) are ways the
 model can be realized conceptually.
 **Patterns** are repeatable approaches (later).
-**Method** ([12 Method](../12-method/README.md)) is the **emerging
-practical application**: how to examine a flow. It applies the
+**Method** ([12 Method](../12-method/README.md)) is the **initial
+application method**: five moves on one class of intent. It applies the
 principles; it does not extend them. It is not finished and not a
 transformation program. You do not have to adopt the full vocabulary to
 use a principle or distinction.
