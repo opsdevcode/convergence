@@ -21,9 +21,14 @@ Do not add a second document to look complete.
 
 ## Current trace
 
-Ordered interactions from recent instances (not the org chart). For
-each, as useful: decides / authority / expertise / waits on / same
-answer every time? / why it waits (hypothesis). Unknown is allowed.
+Trace basis (as honest as you can be; unused is allowed): observed
+instance / documented workflow / reconstruction / singular event.
+
+A reconstruction is not an observed instance. Unknown is allowed.
+
+Ordered interactions (not the org chart). For each, as useful: decides /
+authority / expertise / waits on / same answer every time? / why it
+waits (hypothesis). Unknown is allowed.
 
 ## Meaningful waits and dependencies
 

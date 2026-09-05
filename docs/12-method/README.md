@@ -64,9 +64,9 @@ toward an outcome** — not the enterprise, not a platform program, and
 not an org chart.
 
 Choose a scope small enough to finish. A **design goal** (not measured
-evidence) is that a competent practitioner can follow recent instances in
-about **60–120 minutes** before deciding whether deeper investigation is
-warranted:
+evidence) is that a competent practitioner can follow the named path or
+event in about **60–120 minutes** before deciding whether deeper
+investigation is warranted:
 
 - One recurring consumer intent (for example: "eligible relational storage
   for a standard application").
@@ -90,7 +90,7 @@ the only valid way to reason with the corpus.
 | Move | Question | Depth (optional) |
 | --- | --- | --- |
 | **1. Scope** | What class of intent, toward what outcome, and is Convergence even the right tool? | This page |
-| **2. Trace** | What actually happens on recent instances? | [Tracing a flow](tracing-a-flow.md) |
+| **2. Trace** | What actually happens — and on what evidence? | [Tracing a flow](tracing-a-flow.md) |
 | **3. Diagnose** | Why does it wait? What is capability vs experience vs realization? What is accidental vs intentional? | [Evaluating interactions](evaluating-interactions.md), then conditionals below |
 | **4. Intervene** | What is the smallest change that could improve the *system* — including change nothing? | [Choosing an intervention](choosing-an-intervention.md) |
 | **5. Observe** | What would look like success while the system did not improve? What evidence will we watch? | [Operating and evolving](operating-and-evolving.md) |
@@ -111,7 +111,7 @@ flowchart TB
   Obs -.-> Trace
   Obs -.-> Diag
   Obs -.-> Int
-  Diag -.->|not enough instances| Trace
+  Diag -.->|trace still incomplete| Trace
   Int -.->|constraint still unclear| Diag
 ```
 
@@ -127,14 +127,16 @@ capability → experience / realization → outcome → learning).
 **Purpose.** Bound the analysis so it can finish.
 
 **Look at.** Complaints, elapsed time vs work time, recurring consumer
-asks, a recent instance you can name.
+asks, a recent instance or named event you can follow.
 
 **Ask.** What is trying to happen? For whom? What outcome counts? Why
 might this be organizational routing rather than a local engineering
 gap? Who will own the analysis result?
 
-**Evidence.** A one-sentence intent, a one-sentence outcome, two or three
-recent instances, a reason Convergence applies (from the trigger list).
+**Evidence.** A one-sentence intent, a one-sentence outcome, a followable
+path or event (see Trace), a reason Convergence applies (from the trigger
+list). For recurring work, more than one recent instance when practical;
+do not invent extra instances for a singular event.
 
 **Decisions it can change.** Whether to apply the method at all; how
 narrow the class of intent is; whether the problem is local and this
@@ -142,8 +144,8 @@ method should stop.
 
 **Output.** The top of the [application record](application-record.md).
 
-**Continue** when the intent is named and at least one instance can be
-followed. **Stop** when the work is ordinary local engineering, or when
+**Continue** when the intent is named and at least one path or event can
+be followed. **Stop** when the work is ordinary local engineering, or when
 nobody will own the outcome of changing it (you can still trace; you
 cannot intervene honestly).
 
@@ -151,19 +153,27 @@ cannot intervene honestly).
 
 **Purpose.** Follow reality, not the org chart or the wiki.
 
-**Look at.** What three recent instances actually did: tickets, Slack,
-meetings, approvals, tribal lookup, tools, waits.
+**Look at.** What actually happened, on the evidence you have: a specific
+instance, a documented or repeatedly observed workflow, a reconstruction
+you label as such, or one singular event (for example an incident
+timeline). Tickets, Slack, meetings, approvals, tribal lookup, tools,
+waits — when they are in evidence.
 
 **Ask.** What is trying to happen? How is it consumed? How is it
 fulfilled? Where does work wait? Where does specialist judgment enter?
-Where does organizational routing enter?
+Where does organizational routing enter? What kind of evidence is this
+trace?
 
 **Evidence.** Ordered interactions. For each: what it decides, whose
 authority, what expertise, what it waits on, whether the answer ever
-differs. See [Tracing a flow](tracing-a-flow.md).
+differs (when you have repeating cases). See
+[Tracing a flow](tracing-a-flow.md). A reconstruction is not an observed
+instance. Unknown is valid.
 
 **Decisions it can change.** Where the system actually is; which
-"documented process" is fiction; which people are the realization.
+"documented process" is fiction; which people are the realization;
+whether you are looking at an instance, a workflow, or a
+reconstruction.
 
 **Output.** The current-trace section of the application record.
 
@@ -283,7 +293,7 @@ contract; unwind an encoding; leave the deferral in place.
 | When using this method | Conditional | Advanced / skip unless the case forces it |
 | --- | --- | --- |
 | Named class of intent and outcome | Naming a capability (verb-led) | [Federation](../03-architecture/federation.md) |
-| Instance trace (not org chart) | [Encode vs collaborate](deciding-what-to-encode.md) when work repeats | Enterprise graph, catalog, taxonomy |
+| Trace of reality (not org chart); label the evidence basis | [Encode vs collaborate](deciding-what-to-encode.md) when work repeats | Enterprise graph, catalog, taxonomy |
 | Wait / friction *why* | Authority vs execution when work crosses a domain seam | Maturity spectra, reference architecture |
 | Accidental vs intentional | [Composition](designing-experience-and-realization.md#composition-guardrails) when several abilities contribute to one intent | Agent-facing contracts |
 | Experience vs realization cut (catches portal-same-queue) | Organizational independence when "self-service" is the proposed fix | |
@@ -313,7 +323,7 @@ flow.
 A bounded pass is enough when:
 
 - The class of intent is clear.
-- Recent instances can be followed without a large invented gap.
+- The trace can be followed without a large invented gap; unknowns marked.
 - Major waits and dependencies are understood *or honestly marked unknown*.
 - Intentional constraints and domain authority are known well enough
   not to violate them.
@@ -334,7 +344,8 @@ intent and at least one domain participant.
 work. Those times are not validated.
 
 You do not need a Convergence vocabulary quiz. You do need permission
-to follow a real instance, including Slack and hallway steps.
+to follow real evidence, including Slack and hallway steps when those
+are how the work actually moved.
 
 ## Failure modes the method should refuse
 

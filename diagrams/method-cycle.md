@@ -9,7 +9,7 @@ of examining and changing that path. See the
 ```mermaid
 flowchart TB
   Scope["Scope<br/>class of intent, outcome, entry"]:::intent
-  Trace["Trace<br/>what recent instances actually did"]:::exp
+  Trace["Trace<br/>what actually happened, labeled evidence"]:::exp
   Diag["Diagnose<br/>waits, accidental vs intentional"]:::exp
   Int["Intervene<br/>smallest change, including none"]:::real
   Obs["Observe<br/>wrong-success, evidence, learning"]:::learn
@@ -22,7 +22,7 @@ flowchart TB
   Obs -.-> Trace
   Obs -.-> Diag
   Obs -.-> Int
-  Diag -.->|not enough instances| Trace
+  Diag -.->|trace still incomplete| Trace
   Int -.->|constraint still unclear| Diag
 
   classDef intent fill:#E8EEF6,stroke:#3D5A80,color:#1B2838
