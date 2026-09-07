@@ -1,5 +1,9 @@
 # Contributing
 
+Company GitHub process (PR required, squash, no tool-vendor authorship):
+[OpsDevCode CONTRIBUTING](https://github.com/opsdevcode/.github/blob/main/CONTRIBUTING.md).
+Conceptual contribution rules for this methodology stay in this file.
+
 This repository is a body of work, not a product backlog. Contributions
 should improve clarity, correctness, or usefulness of the proposed model.
 They should not attach the work to a vendor, product, or internal platform

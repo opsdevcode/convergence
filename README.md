@@ -7,6 +7,7 @@ One product. Many specialties. One engineering system.
 | Status | v0.1 conceptual core frozen. First versions of applied guidance are in the tree. |
 | Stage | [v0.9 community review](ROADMAP.md). Invite structured critique; do not expand the frozen core. |
 | Kind | **Emerging methodology** (not mature) for designing software delivery as a coherent engineering system rather than a sequence of organizational handoffs. Draws on established practices; not a product, standard, or new engineering discipline. |
+| Company process | [OpsDevCode CONTRIBUTING](https://github.com/opsdevcode/.github/blob/main/CONTRIBUTING.md) (GitHub only; this repo is independently licensed CC BY 4.0) |
 
 > Specialization remains. Silos don't.
 >
