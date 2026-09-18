@@ -73,6 +73,41 @@ what breaks without it.
 8. Do not revive "Capability Engineering" as the name of the overarching
    model unless an RFC does so.
 
+## Research and case material
+
+Research provenance may identify its source. The methodology and
+practitioner-facing case material should remain company-agnostic unless
+organizational identity is itself necessary evidence.
+
+- Keep public sources traceable, and distinguish source facts from
+  interpretation. Public evidence remains the provenance standard for public
+  research unless an exception is separately documented.
+- Remove company, product, vendor, branding, proprietary terms, and
+  irrelevant organizational detail from reusable cases and exercises.
+- Anonymization must preserve engineering facts. Do not fabricate architecture,
+  teams, ownership, motivations, constraints, or causal relationships; explicit
+  unknowns remain unknown.
+- Generalize source-specific terminology only when its meaning is preserved.
+  Keep a fact in research provenance when generalization would materially alter
+  it.
+- Keep retrospective conclusions and remediation separate from material a
+  practitioner sees before analysis is frozen. Retrospective evidence is
+  comparison evidence, not canonical truth or a scoring rubric.
+- Anonymization is not permission to disguise confidential or private employer
+  material as a generic case.
+- Practitioner validation material should also be source-blind where practical
+  when recognizing the source could expose retrospective conclusions. Source
+  blinding must not falsify evidence.
+- Calendar dates and absolute timestamps may be normalized only when substantive
+  relationships, event ordering, and elapsed intervals are preserved, and the
+  transformation is explicitly recorded in provenance.
+- Do not alter durations, engineering events, quantities, causal relationships,
+  constraints, or other substantive evidence merely to make a source harder to
+  identify. If source identity cannot safely be blinded without changing
+  material evidence, preserve the evidence and document that limitation.
+- This source-blinding requirement does not apply retroactively to ordinary
+  prior-art or historical research.
+
 ## Commits
 
 - Write commit messages in plain language describing the change.
