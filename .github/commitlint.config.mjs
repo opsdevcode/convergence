@@ -17,6 +17,7 @@ export default {
         'merge',
         'perf',
         'refactor',
+        'research',
         'revert',
         'style',
         'test',

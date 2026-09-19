@@ -26,6 +26,7 @@ jobs:
             docs
             style
             refactor
+            research
             perf
             test
             build
