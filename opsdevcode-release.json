@@ -1,0 +1,40 @@
+{
+  "schema": "opsdevcode.release/v0",
+  "repository": "opsdevcode/convergence",
+  "profile": "docs",
+  "canonical": "github-release",
+  "engine": "none",
+  "tagPolicy": {
+    "manualTags": false,
+    "retag": false
+  },
+  "prerelease": {
+    "githubMakeLatest": false
+  },
+  "downstream": {
+    "pypi": {
+      "role": "none"
+    },
+    "ghcr": {
+      "role": "none",
+      "latest": false,
+      "visibilityChange": false
+    },
+    "marketplace": {
+      "role": "none"
+    },
+    "openvsx": {
+      "role": "none"
+    },
+    "pages": {
+      "role": "none"
+    }
+  },
+  "artifacts": [
+    "notes"
+  ],
+  "provenance": {
+    "synthesize": false
+  },
+  "notes": "Research snapshot only. No new manual tags."
+}
