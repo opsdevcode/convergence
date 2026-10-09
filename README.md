@@ -230,6 +230,7 @@ is review, not another chapter.
 | Applied | [Diagrams](diagrams/README.md) | Conceptual diagrams |
 | Later | [10 Implementations](docs/10-reference-implementations/README.md) | Placeholder. No implementation defines the model. |
 | Process | [Roadmap](ROADMAP.md) | Snapshots v0.1–v1.0; current stage is v0.9 review |
+| Process | [Research drafts](drafts/research/README.md) | Non-canonical notes; research snapshots `v0.9.0-research.N` do not change the methodology stage |
 | Process | [RFCs](rfcs/README.md) | Required for changes to the frozen core |
 
 ## Contribution

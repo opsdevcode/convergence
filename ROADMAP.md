@@ -111,6 +111,14 @@ on-ramp for that review: frozen vs applied vs parked, discipline-shaped
 questions, and when an RFC is actually required. Marking disputed claims
 waits on external critique, not on another internal freeze pass.
 
+Git tags of the form `v0.9.0-research.N` are **interim research
+snapshots** of this same v0.9 corpus. They record additional research
+drafts and status notes. They are not new methodology versions and do
+not move this roadmap stage. Empirical protocols (for example
+practitioner-validation protocol v1) are identified independently of
+both the methodology stage and the research-snapshot number. See
+[drafts/research/README.md](drafts/research/README.md).
+
 ## v1.0 - Initial Stable Body of Work
 
 A version that organizations can cite without expecting the core
